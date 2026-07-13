@@ -46,6 +46,10 @@ def extract_page(slug, html, global_index):
                               "description", norm(md["content"])))
 
     section, counters, gcount = "top", {}, {}
+    # A page can repeat a heading (contact-us has two "Email"/"Phone Number"
+    # pairs): recurring section slugs get a deterministic -2/-3... suffix so
+    # ids never collide across the repeats.
+    section_uses = {}
     for node in walk(soup):
         en = node_en(node)
         if not norm(en):
@@ -62,12 +66,20 @@ def extract_page(slug, html, global_index):
             continue
         tag = _tag(node)
         if node.kind == "block" and node.el.name in HEADINGS:
-            section = slugify(en)
+            base = slugify(en)
+            section_uses[base] = section_uses.get(base, 0) + 1
+            section = (base if section_uses[base] == 1
+                       else f"{base}-{section_uses[base]}")
             counters = {}
         counters[tag] = counters.get(tag, 0) + 1
         # headings restart the section, so their own id uses the new section
         entries.append(_entry(f"{slug} § {section} § {tag}{counters[tag]}",
                               section, tag, en))
+
+    ids = [e["id"] for e in entries]
+    dupes = {i for i in ids if ids.count(i) > 1}
+    if dupes:
+        raise ValueError(f"duplicate ids in page '{slug}': {sorted(dupes)}")
     return entries, new_global
 
 
@@ -83,6 +95,10 @@ def main():
         Path(f"catalog/{slug}.json").write_text(
             json.dumps(entries, ensure_ascii=False, indent=2))
         print(f"{slug}: {len(entries)} strings")
+    gids = [g["id"] for g in global_entries]
+    gdupes = {i for i in gids if gids.count(i) > 1}
+    if gdupes:
+        raise ValueError(f"duplicate ids in _global: {sorted(gdupes)}")
     Path("catalog/_global.json").write_text(
         json.dumps(global_entries, ensure_ascii=False, indent=2))
     print(f"_global: {len(global_entries)} strings")

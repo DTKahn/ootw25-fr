@@ -296,32 +296,32 @@
     "status": "pending"
   },
   {
-    "id": "contact-us § email § h31",
-    "section": "email",
+    "id": "contact-us § email-2 § h31",
+    "section": "email-2",
     "tag": "h3",
     "en": "<span>\n\t\t\t\t\t\t\tEMAIL\t\t\t\t\t\t</span>",
     "fr": "",
     "status": "pending"
   },
   {
-    "id": "contact-us § email § p1",
-    "section": "email",
+    "id": "contact-us § email-2 § p1",
+    "section": "email-2",
     "tag": "p",
     "en": "mcyu@mcmaster.ca",
     "fr": "",
     "status": "pending"
   },
   {
-    "id": "contact-us § phone-number § h31",
-    "section": "phone-number",
+    "id": "contact-us § phone-number-2 § h31",
+    "section": "phone-number-2",
     "tag": "h3",
     "en": "<span>\n\t\t\t\t\t\t\tPHONE NUMBER\t\t\t\t\t\t</span>",
     "fr": "",
     "status": "pending"
   },
   {
-    "id": "contact-us § phone-number § p1",
-    "section": "phone-number",
+    "id": "contact-us § phone-number-2 § p1",
+    "section": "phone-number-2",
     "tag": "p",
     "en": "905-521-2100 ext. 73790",
     "fr": "",

@@ -162,3 +162,35 @@ def test_extract_page_form_tags_and_ids():
     assert by_id["contact § get-in-touch § placeholder1"]["en"] == "First Name *"
     assert by_id["contact § get-in-touch § button1"]["en"] == "SEND NOW"
     assert by_id["contact § get-in-touch § button2"]["en"] == "Send"
+
+
+REPEATED_HEADING_FIXTURE = """
+<html><head><title>Contact</title></head>
+<body>
+<h3>Email</h3>
+<p>info@canhist.ca</p>
+<h3>Phone Number</h3>
+<p>555-0001</p>
+<h3>Email</h3>
+<p>mcyu@mcmaster.ca</p>
+<h3>Phone Number</h3>
+<p>555-0002</p>
+</body></html>
+"""
+
+
+def test_repeated_headings_get_distinct_sections_and_unique_ids():
+    """contact-us has two Email/Phone Number heading pairs; both used to
+    slugify to the same section, silently assigning the same id (e.g.
+    "contact-us § email § p1") to two different strings. Recurring section
+    slugs must be disambiguated deterministically and all ids unique.
+    """
+    entries, _ = extract_page("contact", REPEATED_HEADING_FIXTURE,
+                              global_index={})
+    ids = [e["id"] for e in entries]
+    assert len(ids) == len(set(ids)), f"duplicate ids: {ids}"
+    by_id = {e["id"]: e for e in entries}
+    assert by_id["contact § email § p1"]["en"] == "info@canhist.ca"
+    assert by_id["contact § phone-number § p1"]["en"] == "555-0001"
+    assert by_id["contact § email-2 § p1"]["en"] == "mcyu@mcmaster.ca"
+    assert by_id["contact § phone-number-2 § p1"]["en"] == "555-0002"
