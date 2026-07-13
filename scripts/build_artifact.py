@@ -65,7 +65,7 @@ def build(catalog_dir="catalog", out_path="review.html"):
         p = Path(catalog_dir) / f"{slug}.json"
         if not p.exists():
             continue
-        entries = json.loads(p.read_text())
+        entries = json.loads(p.read_text(encoding="utf-8"))
         rows = []
         for e in entries:
             rows.append(
@@ -73,13 +73,14 @@ def build(catalog_dir="catalog", out_path="review.html"):
                 "<td class='fr' contenteditable='plaintext-only' data-id='{i}'>{fr}</td>"
                 "<td class='status'>{st}</td></tr>".format(
                     i=html.escape(e["id"]), en=html.escape(e["en"]),
-                    fr=html.escape(e["fr"]), st=e["status"]))
+                    fr=html.escape(e["fr"]), st=html.escape(e["status"])))
         blocks.append(
             f"<details{' open' if slug == '_global' else ''}>"
             f"<summary>{html.escape(slug)} ({len(entries)})</summary>"
             f"<table><tr><th>ID</th><th>English</th><th>Français (modifiable)</th>"
             f"<th></th></tr>{''.join(rows)}</table></details>")
-    Path(out_path).write_text(TEMPLATE.format(tables="".join(blocks)))
+    Path(out_path).write_text(TEMPLATE.format(tables="".join(blocks)),
+                              encoding="utf-8")
     print(f"wrote {out_path}")
 
 

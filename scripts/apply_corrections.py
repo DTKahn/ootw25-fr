@@ -23,14 +23,15 @@ def apply_corrections(catalogs: dict, corrections: dict) -> int:
 def main():
     if len(sys.argv) != 2:
         sys.exit("usage: python -m scripts.apply_corrections corrections.json")
-    corrections = json.loads(Path(sys.argv[1]).read_text())
+    corrections = json.loads(Path(sys.argv[1]).read_text(encoding="utf-8"))
     catalogs = {}
     for f in sorted(Path("catalog").glob("*.json")):
-        catalogs[f.stem] = json.loads(f.read_text())
+        catalogs[f.stem] = json.loads(f.read_text(encoding="utf-8"))
     n = apply_corrections(catalogs, corrections)
     for slug, entries in catalogs.items():
         Path(f"catalog/{slug}.json").write_text(
-            json.dumps(entries, ensure_ascii=False, indent=2))
+            json.dumps(entries, ensure_ascii=False, indent=2),
+            encoding="utf-8")
     print(f"applied {n} corrections across {len(corrections)} submitted")
 
 
