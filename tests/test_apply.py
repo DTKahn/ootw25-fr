@@ -91,3 +91,24 @@ def test_identical_whitelisted_string_passes():
     check_complete([("my-page", entries), ("_global", glob)],
                    identical_ok={"Learn More"})
     assert e["fr"] == "Learn More"
+
+
+def test_whitelisted_entry_in_real_pending_shape_passes():
+    """Real catalogs from extract.py have status="pending" AND fr="". A
+    whitelisted proper noun in that exact shape must pass check_complete:
+    the fr=en auto-fill must not then trip the 'fr filled but
+    status=pending' guard."""
+    entries, glob = _translated()
+    e = next(x for x in entries if x["en"] == "Learn More" and "partners" in x["id"])
+    e["fr"] = ""
+    e["status"] = "pending"  # exactly as extract.py writes it
+    check_complete([("my-page", entries), ("_global", glob)],
+                   identical_ok={"Learn More"})
+    assert e["fr"] == "Learn More"
+
+
+def test_non_whitelisted_pending_with_fr_filled_still_refused():
+    entries, glob = _translated()
+    entries[3]["status"] = "pending"  # fr filled but status left pending
+    with pytest.raises(SystemExit):
+        check_complete([("my-page", entries), ("_global", glob)])

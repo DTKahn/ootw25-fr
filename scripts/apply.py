@@ -32,8 +32,8 @@ def check_complete(catalogs, identical_ok=frozenset()):
             if not e["fr"].strip():
                 if norm(e["en"]) in identical_ok:
                     e["fr"] = e["en"]
-                else:
-                    missing.append(e["id"])
+                    continue  # auto-filled: don't trip the pending guard below
+                missing.append(e["id"])
             if e["status"] == "pending" and e["fr"].strip():
                 missing.append(e["id"] + "  (fr filled but status=pending)")
     if missing:
