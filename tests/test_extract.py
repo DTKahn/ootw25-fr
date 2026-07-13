@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 from scripts.common import walk, node_en, norm
-from scripts.extract import extract_page
+from scripts.extract import extract_page, merge_catalog
 
 FIXTURE = """
 <html><head><title>My Page - OOTW25</title>
@@ -194,3 +194,40 @@ def test_repeated_headings_get_distinct_sections_and_unique_ids():
     assert by_id["contact § phone-number § p1"]["en"] == "555-0001"
     assert by_id["contact § email-2 § p1"]["en"] == "mcyu@mcmaster.ca"
     assert by_id["contact § phone-number-2 § p1"]["en"] == "555-0002"
+
+
+def test_merge_catalog_preserves_translated_fr_when_en_unchanged():
+    """extract.py must never silently wipe translators' work: re-running it
+    (e.g. after a whitespace-only or later re-crawl) should carry forward
+    fr/status from the existing catalog for any entry whose id AND
+    (normalized) en text are unchanged, and only reset fr/status for
+    entries whose en text actually changed.
+    """
+    fresh = [
+        {"id": "p § s § p1", "section": "s", "tag": "p",
+         "en": "Hello world.", "fr": "", "status": "pending"},
+        {"id": "p § s § p2", "section": "s", "tag": "p",
+         "en": "Goodbye world.", "fr": "", "status": "pending"},
+        {"id": "p § s § p3", "section": "s", "tag": "p",
+         "en": "Brand new string.", "fr": "", "status": "pending"},
+    ]
+    old = [
+        {"id": "p § s § p1", "section": "s", "tag": "p",
+         "en": "Hello world.", "fr": "Bonjour le monde.", "status": "translated"},
+        {"id": "p § s § p2", "section": "s", "tag": "p",
+         "en": "Goodbye world (old copy).", "fr": "Au revoir (ancien).",
+         "status": "translated"},
+    ]
+    merged = merge_catalog(fresh, old)
+    by_id = {e["id"]: e for e in merged}
+    # id + en match -> fr/status carried over
+    assert by_id["p § s § p1"]["fr"] == "Bonjour le monde."
+    assert by_id["p § s § p1"]["status"] == "translated"
+    # id matches but en changed -> reset to pending
+    assert by_id["p § s § p2"]["fr"] == ""
+    assert by_id["p § s § p2"]["status"] == "pending"
+    # no old entry at all -> stays pending
+    assert by_id["p § s § p3"]["fr"] == ""
+    assert by_id["p § s § p3"]["status"] == "pending"
+    # merge must not introduce/drop entries
+    assert [e["id"] for e in merged] == [e["id"] for e in fresh]

@@ -11,6 +11,8 @@ def apply_corrections(catalogs: dict, corrections: dict) -> int:
         e = index.get(cid)
         if e is None:
             sys.exit(f"unknown string id: {cid!r}")
+        if not isinstance(fr, str):
+            sys.exit(f"correction for {cid!r} is not a string: {fr!r}")
         if not fr.strip():
             sys.exit(f"empty correction for {cid!r} — refusing")
         if e["fr"] != fr:

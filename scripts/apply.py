@@ -14,12 +14,32 @@ IDENTICAL_OK = {
 }
 
 
+# Known live-site aliases that redirect to a differently-named local page.
+ALIAS_URLS = {
+    "https://ootw25.ca/partners-2": "partners.html",
+    "https://ootw25.ca/contact": "contact-us.html",
+}
+
+
 def build_url_map(pages: dict) -> dict:
     m = {}
     for slug, url in pages.items():
         name = "index.html" if slug == "index" else f"{slug}.html"
         m[url] = name
         m[url.rstrip("/")] = name
+        # site-relative forms (e.g. "/privacy-policy", "/privacy-policy/")
+        # for hrefs authored relative to the site root instead of as full
+        # https://ootw25.ca/... URLs. Only ever hrefs starting with "/", so
+        # this can't collide with in-page anchors like "#".
+        if slug == "index":
+            m["/"] = name
+        else:
+            m[f"/{slug}"] = name
+            m[f"/{slug}/"] = name
+    for url, name in ALIAS_URLS.items():
+        base = url.rstrip("/")
+        m[base] = name
+        m[base + "/"] = name
     return m
 
 

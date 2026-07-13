@@ -29,3 +29,15 @@ def test_unknown_id_fails_loudly():
 def test_empty_correction_rejected():
     with pytest.raises(SystemExit):
         apply_corrections(_cats(), {"my-page § s § p1": "  "})
+
+
+def test_non_string_correction_rejected():
+    """A corrections.json with a non-string value (e.g. a number, list, or
+    null from a malformed export) must be rejected with a clean error
+    instead of crashing on fr.strip()."""
+    with pytest.raises(SystemExit):
+        apply_corrections(_cats(), {"my-page § s § p1": 123})
+    with pytest.raises(SystemExit):
+        apply_corrections(_cats(), {"my-page § s § p1": None})
+    with pytest.raises(SystemExit):
+        apply_corrections(_cats(), {"my-page § s § p1": ["Bonjour"]})

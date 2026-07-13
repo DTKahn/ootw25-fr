@@ -27,6 +27,64 @@ def _translated():
     return entries, glob
 
 
+def test_build_url_map_includes_aliases_and_site_relative_forms():
+    """Mirror link rewriting must also catch: (1) known alias URLs that
+    redirect to a differently-named page on the live site (partners-2 ->
+    partners, contact -> contact-us), with and without trailing slash; and
+    (2) site-relative hrefs (/slug, /slug/) for every page, since some
+    in-page links use relative paths rather than full https://ootw25.ca/...
+    URLs. Bare "#" anchors must never collide with these site-relative
+    entries.
+    """
+    pages = {"index": "https://ootw25.ca/",
+             "partners": "https://ootw25.ca/partners/",
+             "contact-us": "https://ootw25.ca/contact-us/",
+             "privacy-policy": "https://ootw25.ca/privacy-policy/"}
+    m = build_url_map(pages)
+    # alias URLs
+    assert m["https://ootw25.ca/partners-2"] == "partners.html"
+    assert m["https://ootw25.ca/partners-2/"] == "partners.html"
+    assert m["https://ootw25.ca/contact"] == "contact-us.html"
+    assert m["https://ootw25.ca/contact/"] == "contact-us.html"
+    # site-relative forms
+    assert m["/privacy-policy"] == "privacy-policy.html"
+    assert m["/privacy-policy/"] == "privacy-policy.html"
+    assert m["/partners"] == "partners.html"
+    assert m["/partners/"] == "partners.html"
+    assert m["/"] == "index.html"
+    # no accidental entry for bare anchors
+    assert "#" not in m
+
+
+def test_apply_page_rewrites_alias_and_site_relative_links():
+    html = """
+    <html><head><title>T</title></head><body>
+    <ul>
+    <li><a href="https://ootw25.ca/partners-2">Partners</a></li>
+    <li><a href="https://ootw25.ca/contact/">Contact</a></li>
+    <li><a href="/privacy-policy">Privacy</a></li>
+    </ul>
+    </body></html>
+    """
+    entries = [
+        {"id": "t § top § a1", "section": "top", "tag": "a",
+         "en": "Partners", "fr": "Partenaires", "status": "translated"},
+        {"id": "t § top § a2", "section": "top", "tag": "a",
+         "en": "Contact", "fr": "Contact", "status": "translated"},
+        {"id": "t § top § a3", "section": "top", "tag": "a",
+         "en": "Privacy", "fr": "Confidentialité", "status": "translated"},
+    ]
+    url_map = build_url_map({
+        "partners": "https://ootw25.ca/partners/",
+        "contact-us": "https://ootw25.ca/contact-us/",
+        "privacy-policy": "https://ootw25.ca/privacy-policy/",
+    })
+    out = apply_page("t", html, entries, {}, url_map)
+    assert 'href="partners.html"' in out
+    assert 'href="contact-us.html"' in out
+    assert 'href="privacy-policy.html"' in out
+
+
 def test_apply_replaces_text_sets_lang_rewrites_links():
     entries, glob = _translated()
     url_map = build_url_map({"educators": "https://ootw25.ca/educators/"})

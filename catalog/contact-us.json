@@ -44,7 +44,7 @@
     "section": "get-in-touch",
     "tag": "p",
     "en": "<span aria-hidden=\"true\" class=\"srfm-icon\">\n </span>\n<span class=\"srfm-error-content\">There was an error trying to submit your form. Please try again.</span>",
-    "fr": "<span aria-hidden=\"true\" class=\"srfm-icon\">\n </span>\n<span class=\"srfm-error-content\">Une erreur s'est produite lors de l'envoi de votre formulaire. Veuillez réessayer.</span>",
+    "fr": "<span aria-hidden=\"true\" class=\"srfm-icon\">\n </span>\n<span class=\"srfm-error-content\">Une erreur s’est produite lors de l’envoi de votre formulaire. Veuillez réessayer.</span>",
     "status": "translated"
   },
   {
@@ -188,7 +188,7 @@
     "section": "get-in-touch",
     "tag": "label",
     "en": "<span class=\"srfm-span-wrap\">\n\n</span>\n<span class=\"srfm-span-wrap srfm-block-label\">Consent: I agree to the <a href=\"/privacy-policy\" target=\"_blank\">Privacy Policy</a> <span aria-hidden=\"true\" class=\"srfm-required\"> *</span>\n</span>",
-    "fr": "<span class=\"srfm-span-wrap\">\n\n</span>\n<span class=\"srfm-span-wrap srfm-block-label\">Consentement : j'accepte la <a href=\"/privacy-policy\" target=\"_blank\">Politique de confidentialité</a> <span aria-hidden=\"true\" class=\"srfm-required\"> *</span>\n</span>",
+    "fr": "<span class=\"srfm-span-wrap\">\n\n</span>\n<span class=\"srfm-span-wrap srfm-block-label\">Consentement : j’accepte la <a href=\"/privacy-policy\" target=\"_blank\">Politique de confidentialité</a> <span aria-hidden=\"true\" class=\"srfm-required\"> *</span>\n</span>",
     "status": "translated"
   },
   {
@@ -212,7 +212,7 @@
     "section": "get-in-touch",
     "tag": "div",
     "en": "Please verify that you are not a robot.",
-    "fr": "Veuillez confirmer que vous n'êtes pas un robot.",
+    "fr": "Veuillez confirmer que vous n’êtes pas un robot.",
     "status": "translated"
   },
   {
@@ -228,7 +228,7 @@
     "section": "get-in-touch",
     "tag": "p",
     "en": "<span aria-hidden=\"true\" class=\"srfm-icon\">\n </span>\n<span class=\"srfm-error-content\">There was an error trying to submit your form. Please try again.</span>",
-    "fr": "<span aria-hidden=\"true\" class=\"srfm-icon\">\n </span>\n<span class=\"srfm-error-content\">Une erreur s'est produite lors de l'envoi de votre formulaire. Veuillez réessayer.</span>",
+    "fr": "<span aria-hidden=\"true\" class=\"srfm-icon\">\n </span>\n<span class=\"srfm-error-content\">Une erreur s’est produite lors de l’envoi de votre formulaire. Veuillez réessayer.</span>",
     "status": "translated"
   },
   {
@@ -332,7 +332,7 @@
     "section": "follow-us",
     "tag": "h4",
     "en": "Follow Us:",
-    "fr": "Suivez-nous :",
+    "fr": "Suivez-nous :",
     "status": "translated"
   }
 ]

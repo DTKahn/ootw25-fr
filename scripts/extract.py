@@ -83,24 +83,53 @@ def extract_page(slug, html, global_index):
     return entries, new_global
 
 
+def merge_catalog(fresh_entries, old_entries):
+    """fresh_entries: freshly extracted entries (fr="", status="pending").
+    old_entries: entries loaded from the existing catalog file on disk (or
+    [] if there isn't one yet). Returns fresh_entries, mutated in place, so
+    that re-running extract never silently discards translators' work: for
+    any entry whose id AND normalized en both still match an old entry, its
+    fr/status are carried over. An entry whose en text changed (even under
+    the same id) is left as fr=""/status="pending" -- the old translation
+    no longer applies and must be redone.
+    """
+    old_by_id = {e["id"]: e for e in old_entries}
+    for e in fresh_entries:
+        old = old_by_id.get(e["id"])
+        if old is not None and norm(old["en"]) == norm(e["en"]):
+            e["fr"] = old["fr"]
+            e["status"] = old["status"]
+    return fresh_entries
+
+
 def main():
     Path("catalog").mkdir(exist_ok=True)
     global_entries, global_index = [], {}
     for slug in PAGES:
-        html = Path(f"en/{slug}.html").read_text()
+        html = Path(f"en/{slug}.html").read_text(encoding="utf-8")
         entries, new_global = extract_page(slug, html, global_index)
         for g in new_global:
             global_entries.append(g)
             global_index[norm(g["en"])] = g
-        Path(f"catalog/{slug}.json").write_text(
-            json.dumps(entries, ensure_ascii=False, indent=2))
+        cat_path = Path(f"catalog/{slug}.json")
+        if cat_path.exists():
+            old_entries = json.loads(cat_path.read_text(encoding="utf-8"))
+            entries = merge_catalog(entries, old_entries)
+        cat_path.write_text(
+            json.dumps(entries, ensure_ascii=False, indent=2),
+            encoding="utf-8")
         print(f"{slug}: {len(entries)} strings")
     gids = [g["id"] for g in global_entries]
     gdupes = {i for i in gids if gids.count(i) > 1}
     if gdupes:
         raise ValueError(f"duplicate ids in _global: {sorted(gdupes)}")
-    Path("catalog/_global.json").write_text(
-        json.dumps(global_entries, ensure_ascii=False, indent=2))
+    global_path = Path("catalog/_global.json")
+    if global_path.exists():
+        old_global = json.loads(global_path.read_text(encoding="utf-8"))
+        global_entries = merge_catalog(global_entries, old_global)
+    global_path.write_text(
+        json.dumps(global_entries, ensure_ascii=False, indent=2),
+        encoding="utf-8")
     print(f"_global: {len(global_entries)} strings")
 
 
