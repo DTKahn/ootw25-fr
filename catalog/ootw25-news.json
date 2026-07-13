@@ -4,231 +4,231 @@
     "section": "meta",
     "tag": "title",
     "en": "OOTW25 News - OOTW25",
-    "fr": "",
-    "status": "pending"
+    "fr": "Nouvelles OOTW25 - OOTW25",
+    "status": "translated"
   },
   {
     "id": "ootw25-news § meta § description",
     "section": "meta",
     "tag": "description",
     "en": "OOTW25 News Celebrating Canada’s space legacy and inspiring young Canadians to reach for the stars. Official Press Release Out of This World 25 (OOTW25)",
-    "fr": "",
-    "status": "pending"
+    "fr": "Nouvelles OOTW25. Célébrer l'héritage spatial du Canada et inspirer les jeunes Canadiens à viser les étoiles. Communiqué de presse officiel Out of This World 25 (OOTW25)",
+    "status": "translated"
   },
   {
     "id": "ootw25-news § top § img1",
     "section": "top",
     "tag": "img",
     "en": "OOTW logo variations tm february 2026 ootw logo white outline",
-    "fr": "",
-    "status": "pending"
+    "fr": "Variations du logo OOTW MC, février 2026, contour blanc",
+    "status": "translated"
   },
   {
     "id": "ootw25-news § ootw25-news § h11",
     "section": "ootw25-news",
     "tag": "h1",
     "en": "OOTW25 News",
-    "fr": "",
-    "status": "pending"
+    "fr": "Nouvelles OOTW25",
+    "status": "translated"
   },
   {
     "id": "ootw25-news § celebrating-canada-s-space-legacy-and-in § h21",
     "section": "celebrating-canada-s-space-legacy-and-in",
     "tag": "h2",
     "en": "Celebrating Canada’s space legacy and inspiring young Canadians to reach for the stars.",
-    "fr": "",
-    "status": "pending"
+    "fr": "Célébrer l'héritage spatial du Canada et inspirer les jeunes Canadiens à viser les étoiles.",
+    "status": "translated"
   },
   {
     "id": "ootw25-news § official-press-release § h21",
     "section": "official-press-release",
     "tag": "h2",
     "en": "Official Press Release",
-    "fr": "",
-    "status": "pending"
+    "fr": "Communiqué de presse officiel",
+    "status": "translated"
   },
   {
     "id": "ootw25-news § official-press-release § p1",
     "section": "official-press-release",
     "tag": "p",
     "en": "Out of This World 25 (OOTW25)",
-    "fr": "",
-    "status": "pending"
+    "fr": "Out of This World 25 (OOTW25)",
+    "status": "translated"
   },
   {
     "id": "ootw25-news § official-press-release § button1",
     "section": "official-press-release",
     "tag": "button",
     "en": "EXPLORE OOTW25 PRESS RELEASE",
-    "fr": "",
-    "status": "pending"
+    "fr": "Explorez le communiqué de presse d'OOTW25",
+    "status": "translated"
   },
   {
     "id": "ootw25-news § commemorating-col-hadfield-s-spacewalk § h21",
     "section": "commemorating-col-hadfield-s-spacewalk",
     "tag": "h2",
     "en": "Commemorating Col. Hadfield's Spacewalk",
-    "fr": "",
-    "status": "pending"
+    "fr": "Commémoration de la sortie extravéhiculaire du Col Hadfield",
+    "status": "translated"
   },
   {
     "id": "ootw25-news § commemorating-col-hadfield-s-spacewalk § p1",
     "section": "commemorating-col-hadfield-s-spacewalk",
     "tag": "p",
     "en": "Orangeville Citizen",
-    "fr": "",
-    "status": "pending"
+    "fr": "Orangeville Citizen",
+    "status": "translated"
   },
   {
     "id": "ootw25-news § commemorating-col-hadfield-s-spacewalk § button1",
     "section": "commemorating-col-hadfield-s-spacewalk",
     "tag": "button",
     "en": "EXPLORE INITIATIVE",
-    "fr": "",
-    "status": "pending"
+    "fr": "Explorez l'initiative",
+    "status": "translated"
   },
   {
     "id": "ootw25-news § ootw25-neil-orford § h21",
     "section": "ootw25-neil-orford",
     "tag": "h2",
     "en": "OOTW25: Neil Orford",
-    "fr": "",
-    "status": "pending"
+    "fr": "OOTW25 : Neil Orford",
+    "status": "translated"
   },
   {
     "id": "ootw25-news § ootw25-neil-orford § p1",
     "section": "ootw25-neil-orford",
     "tag": "p",
     "en": "To Lead 25th Anniversary of Hadfield’s Spacewalk",
-    "fr": "",
-    "status": "pending"
+    "fr": "Pour diriger le 25e anniversaire de la sortie extravéhiculaire de Hadfield",
+    "status": "translated"
   },
   {
     "id": "ootw25-news § ootw25-neil-orford § button1",
     "section": "ootw25-neil-orford",
     "tag": "button",
     "en": "EXPLORE ARTICLE",
-    "fr": "",
-    "status": "pending"
+    "fr": "Explorez l'article",
+    "status": "translated"
   },
   {
     "id": "ootw25-news § be-part-of-out-of-this-world-25 § h21",
     "section": "be-part-of-out-of-this-world-25",
     "tag": "h2",
     "en": "Be Part of Out of This World 25",
-    "fr": "",
-    "status": "pending"
+    "fr": "Faites partie d'Out of This World 25",
+    "status": "translated"
   },
   {
     "id": "ootw25-news § be-part-of-out-of-this-world-25 § p1",
     "section": "be-part-of-out-of-this-world-25",
     "tag": "p",
     "en": "OOTW25 is more than a commemoration — it’s an invitation to learn, explore, and dream big.",
-    "fr": "",
-    "status": "pending"
+    "fr": "OOTW25 est bien plus qu'une commémoration — c'est une invitation à apprendre, à explorer et à voir grand.",
+    "status": "translated"
   },
   {
     "id": "ootw25-news § be-part-of-out-of-this-world-25 § p2",
     "section": "be-part-of-out-of-this-world-25",
     "tag": "p",
     "en": "Follow the journey. Get involved. Help inspire the next generation to design their destiny — <em><strong>Out Of This World</strong></em>.",
-    "fr": "",
-    "status": "pending"
+    "fr": "Suivez le parcours. Impliquez-vous. Aidez à inspirer la prochaine génération à concevoir sa destinée — <em><strong>Out Of This World</strong></em>.",
+    "status": "translated"
   },
   {
     "id": "ootw25-news § be-part-of-out-of-this-world-25 § button1",
     "section": "be-part-of-out-of-this-world-25",
     "tag": "button",
     "en": "LEARN MORE ABOUT OOTW25",
-    "fr": "",
-    "status": "pending"
+    "fr": "En savoir plus sur OOTW25",
+    "status": "translated"
   },
   {
     "id": "ootw25-news § be-part-of-out-of-this-world-25 § img1",
     "section": "be-part-of-out-of-this-world-25",
     "tag": "img",
     "en": "Chis Hadfield",
-    "fr": "",
-    "status": "pending"
+    "fr": "Chris Hadfield",
+    "status": "translated"
   },
   {
     "id": "ootw25-news § be-part-of-out-of-this-world-25 § img2",
     "section": "be-part-of-out-of-this-world-25",
     "tag": "img",
     "en": "chris hadfield during the first space walk",
-    "fr": "",
-    "status": "pending"
+    "fr": "chris hadfield pendant la première sortie extravéhiculaire",
+    "status": "translated"
   },
   {
     "id": "ootw25-news § be-part-of-out-of-this-world-25 § img3",
     "section": "be-part-of-out-of-this-world-25",
     "tag": "img",
     "en": "Canadian Space Agency astronaut Jeremy Hansen",
-    "fr": "",
-    "status": "pending"
+    "fr": "Jeremy Hansen, astronaute de l’Agence spatiale canadienne",
+    "status": "translated"
   },
   {
     "id": "ootw25-news § be-part-of-out-of-this-world-25 § p3",
     "section": "be-part-of-out-of-this-world-25",
     "tag": "p",
     "en": "<strong>Sources &amp; Image Credits</strong>",
-    "fr": "",
-    "status": "pending"
+    "fr": "<strong>Sources et crédits photographiques</strong>",
+    "status": "translated"
   },
   {
     "id": "ootw25-news § be-part-of-out-of-this-world-25 § p4",
     "section": "be-part-of-out-of-this-world-25",
     "tag": "p",
     "en": "<em>This page includes information from Canadian Space Agency resources. Many images are courtesy of the </em><a href=\"https://www.asc-csa.gc.ca/eng/\" rel=\"noopener\" target=\"_blank\"><em>Canadian Space Agency (CSA)</em></a><em> and are used with permission. Other visuals are licensed stock photography or approved website assets. Image credits are provided here collectively as part of the page design. </em>",
-    "fr": "",
-    "status": "pending"
+    "fr": "<em>Cette page comprend des renseignements provenant de ressources de l’Agence spatiale canadienne. De nombreuses images sont fournies avec l’aimable autorisation de l’</em><a href=\"https://www.asc-csa.gc.ca/eng/\" rel=\"noopener\" target=\"_blank\"><em>Agence spatiale canadienne (ASC)</em></a><em> et sont utilisées avec permission. D’autres visuels proviennent de photographies libres de droits sous licence ou d’éléments approuvés du site Web. Les crédits photographiques sont fournis ici collectivement dans le cadre de la conception de la page. </em>",
+    "status": "translated"
   },
   {
     "id": "ootw25-news § be-part-of-out-of-this-world-25 § p5",
     "section": "be-part-of-out-of-this-world-25",
     "tag": "p",
     "en": "<strong>MCYU</strong>",
-    "fr": "",
-    "status": "pending"
+    "fr": "<strong>MCYU</strong>",
+    "status": "translated"
   },
   {
     "id": "ootw25-news § be-part-of-out-of-this-world-25 § p6",
     "section": "be-part-of-out-of-this-world-25",
     "tag": "p",
     "en": "<a href=\"mailto:mcyu@mcmaster.ca\">mcyu@mcmaster.ca</a>",
-    "fr": "",
-    "status": "pending"
+    "fr": "<a href=\"mailto:mcyu@mcmaster.ca\">mcyu@mcmaster.ca</a>",
+    "status": "translated"
   },
   {
     "id": "ootw25-news § be-part-of-out-of-this-world-25 § p7",
     "section": "be-part-of-out-of-this-world-25",
     "tag": "p",
     "en": "<a data-tccl=\"ux2.FOOTER.footer4.Layout.Default.Link.Default.51716.click,click\" data-typography=\"LinkAlpha\" data-ux=\"Link\" href=\"tel:+19055212100,,73790\" rel=\"\">905-521-2100 ext. 73790</a>",
-    "fr": "",
-    "status": "pending"
+    "fr": "<a data-tccl=\"ux2.FOOTER.footer4.Layout.Default.Link.Default.51716.click,click\" data-typography=\"LinkAlpha\" data-ux=\"Link\" href=\"tel:+19055212100,,73790\" rel=\"\">905-521-2100 ext. 73790</a>",
+    "status": "translated"
   },
   {
     "id": "ootw25-news § be-part-of-out-of-this-world-25 § p8",
     "section": "be-part-of-out-of-this-world-25",
     "tag": "p",
     "en": "<strong>CanHist.ca</strong>",
-    "fr": "",
-    "status": "pending"
+    "fr": "<strong>CanHist.ca</strong>",
+    "status": "translated"
   },
   {
     "id": "ootw25-news § be-part-of-out-of-this-world-25 § p9",
     "section": "be-part-of-out-of-this-world-25",
     "tag": "p",
     "en": "<a href=\"mailto:info@canhist.ca\">info@canhist.ca</a>",
-    "fr": "",
-    "status": "pending"
+    "fr": "<a href=\"mailto:info@canhist.ca\">info@canhist.ca</a>",
+    "status": "translated"
   },
   {
     "id": "ootw25-news § be-part-of-out-of-this-world-25 § p10",
     "section": "be-part-of-out-of-this-world-25",
     "tag": "p",
     "en": "<a data-tccl=\"ux2.FOOTER.footer4.Layout.Default.Link.Default.51716.click,click\" data-typography=\"LinkAlpha\" data-ux=\"Link\" href=\"tel:+15192170402\" rel=\"\">519-217-0402</a>",
-    "fr": "",
-    "status": "pending"
+    "fr": "<a data-tccl=\"ux2.FOOTER.footer4.Layout.Default.Link.Default.51716.click,click\" data-typography=\"LinkAlpha\" data-ux=\"Link\" href=\"tel:+15192170402\" rel=\"\">519-217-0402</a>",
+    "status": "translated"
   }
 ]

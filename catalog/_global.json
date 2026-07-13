@@ -4,191 +4,191 @@
     "section": "chrome",
     "tag": "img",
     "en": "OOTW logo TM",
-    "fr": "",
-    "status": "pending"
+    "fr": "Logo OOTW MC",
+    "status": "translated"
   },
   {
     "id": "global § chrome § a1",
     "section": "chrome",
     "tag": "a",
     "en": "HOME",
-    "fr": "",
-    "status": "pending"
+    "fr": "ACCUEIL",
+    "status": "translated"
   },
   {
     "id": "global § chrome § a2",
     "section": "chrome",
     "tag": "a",
     "en": "EXPLORE",
-    "fr": "",
-    "status": "pending"
+    "fr": "EXPLORER",
+    "status": "translated"
   },
   {
     "id": "global § chrome § a3",
     "section": "chrome",
     "tag": "a",
     "en": "Canada in Space StoryMaps",
-    "fr": "",
-    "status": "pending"
+    "fr": "StoryMaps sur le Canada dans l’espace",
+    "status": "translated"
   },
   {
     "id": "global § chrome § a4",
     "section": "chrome",
     "tag": "a",
     "en": "Canadian Space History",
-    "fr": "",
-    "status": "pending"
+    "fr": "Histoire spatiale canadienne",
+    "status": "translated"
   },
   {
     "id": "global § chrome § a5",
     "section": "chrome",
     "tag": "a",
     "en": "Artemis II Mission",
-    "fr": "",
-    "status": "pending"
+    "fr": "Mission Artemis II",
+    "status": "translated"
   },
   {
     "id": "global § chrome § a6",
     "section": "chrome",
     "tag": "a",
     "en": "Microhistories",
-    "fr": "",
-    "status": "pending"
+    "fr": "Microhistoires",
+    "status": "translated"
   },
   {
     "id": "global § chrome § a7",
     "section": "chrome",
     "tag": "a",
     "en": "Space Blog",
-    "fr": "",
-    "status": "pending"
+    "fr": "Blogue spatial",
+    "status": "translated"
   },
   {
     "id": "global § chrome § a8",
     "section": "chrome",
     "tag": "a",
     "en": "LEARNING HUB",
-    "fr": "",
-    "status": "pending"
+    "fr": "CARREFOUR D'APPRENTISSAGE",
+    "status": "translated"
   },
   {
     "id": "global § chrome § a9",
     "section": "chrome",
     "tag": "a",
     "en": "Students &amp; Families",
-    "fr": "",
-    "status": "pending"
+    "fr": "Élèves et familles",
+    "status": "translated"
   },
   {
     "id": "global § chrome § a10",
     "section": "chrome",
     "tag": "a",
     "en": "Educators",
-    "fr": "",
-    "status": "pending"
+    "fr": "Éducateurs",
+    "status": "translated"
   },
   {
     "id": "global § chrome § a11",
     "section": "chrome",
     "tag": "a",
     "en": "NEWS",
-    "fr": "",
-    "status": "pending"
+    "fr": "NOUVELLES",
+    "status": "translated"
   },
   {
     "id": "global § chrome § a12",
     "section": "chrome",
     "tag": "a",
     "en": "OOTW25 News",
-    "fr": "",
-    "status": "pending"
+    "fr": "Nouvelles OOTW25",
+    "status": "translated"
   },
   {
     "id": "global § chrome § a13",
     "section": "chrome",
     "tag": "a",
     "en": "ABOUT",
-    "fr": "",
-    "status": "pending"
+    "fr": "À PROPOS",
+    "status": "translated"
   },
   {
     "id": "global § chrome § a14",
     "section": "chrome",
     "tag": "a",
     "en": "Who Are We?",
-    "fr": "",
-    "status": "pending"
+    "fr": "Qui sommes-nous?",
+    "status": "translated"
   },
   {
     "id": "global § chrome § a15",
     "section": "chrome",
     "tag": "a",
     "en": "Partners",
-    "fr": "",
-    "status": "pending"
+    "fr": "Partenaires",
+    "status": "translated"
   },
   {
     "id": "global § chrome § a16",
     "section": "chrome",
     "tag": "a",
     "en": "Contact Us",
-    "fr": "",
-    "status": "pending"
+    "fr": "Contactez-nous",
+    "status": "translated"
   },
   {
     "id": "global § chrome § p1",
     "section": "chrome",
     "tag": "p",
     "en": "Delivered by:",
-    "fr": "",
-    "status": "pending"
+    "fr": "Réalisé par :",
+    "status": "translated"
   },
   {
     "id": "global § chrome § img2",
     "section": "chrome",
     "tag": "img",
     "en": "MCYU, McMaster Children & Youth University logo",
-    "fr": "",
-    "status": "pending"
+    "fr": "Logo de MCYU, McMaster Children & Youth University",
+    "status": "translated"
   },
   {
     "id": "global § chrome § img3",
     "section": "chrome",
     "tag": "img",
     "en": "CanHist logo",
-    "fr": "",
-    "status": "pending"
+    "fr": "Logo de CanHist",
+    "status": "translated"
   },
   {
     "id": "global § chrome § img4",
     "section": "chrome",
     "tag": "img",
     "en": "Financé par le gouvernement du Canada. 3li enfr wordmark c",
-    "fr": "",
-    "status": "pending"
+    "fr": "Financé par le gouvernement du Canada. 3li enfr wordmark c",
+    "status": "translated"
   },
   {
     "id": "global § chrome § img5",
     "section": "chrome",
     "tag": "img",
     "en": "National Research Council Canada",
-    "fr": "",
-    "status": "pending"
+    "fr": "Conseil national de recherches Canada",
+    "status": "translated"
   },
   {
     "id": "global § chrome § a17",
     "section": "chrome",
     "tag": "a",
     "en": "Privacy Policy",
-    "fr": "",
-    "status": "pending"
+    "fr": "Politique de confidentialité",
+    "status": "translated"
   },
   {
     "id": "global § chrome § p2",
     "section": "chrome",
     "tag": "p",
     "en": "© 2026 OOTW25 — Built by MCYU",
-    "fr": "",
-    "status": "pending"
+    "fr": "© 2026 OOTW25 — Réalisé par MCYU",
+    "status": "translated"
   }
 ]

@@ -4,575 +4,575 @@
     "section": "meta",
     "tag": "title",
     "en": "Microhistories - OOTW25",
-    "fr": "",
-    "status": "pending"
+    "fr": "Microhistoires - OOTW25",
+    "status": "translated"
   },
   {
     "id": "microhistories § meta § description",
     "section": "meta",
     "tag": "description",
     "en": "Microhistories Small stories that help reveal the bigger story of Canada in space. The Stories Behind the Milestones Out of This World 25 uses Microhistories",
-    "fr": "",
-    "status": "pending"
+    "fr": "Microhistoires De petites histoires qui aident à révéler la grande histoire du Canada dans l'espace. Les histoires derrière les jalons Out of This World 25 utilise les Microhistoires",
+    "status": "translated"
   },
   {
     "id": "microhistories § top § img1",
     "section": "top",
     "tag": "img",
     "en": "OOTW logo variations tm february 2026 ootw logo white outline",
-    "fr": "",
-    "status": "pending"
+    "fr": "Variations du logo OOTW MC, février 2026, contour blanc",
+    "status": "translated"
   },
   {
     "id": "microhistories § microhistories § h11",
     "section": "microhistories",
     "tag": "h1",
     "en": "Microhistories",
-    "fr": "",
-    "status": "pending"
+    "fr": "Microhistoires",
+    "status": "translated"
   },
   {
     "id": "microhistories § microhistories § img1",
     "section": "microhistories",
     "tag": "img",
     "en": "Chris Hadfield during STS-100 spacewalk 2a",
-    "fr": "",
-    "status": "pending"
+    "fr": "Chris Hadfield pendant la sortie extravéhiculaire de STS-100 2a",
+    "status": "translated"
   },
   {
     "id": "microhistories § microhistories § img2",
     "section": "microhistories",
     "tag": "img",
     "en": "ISS, Dextre, and Canadarm2",
-    "fr": "",
-    "status": "pending"
+    "fr": "SSI, Dextre et Canadarm2",
+    "status": "translated"
   },
   {
     "id": "microhistories § microhistories § img3",
     "section": "microhistories",
     "tag": "img",
     "en": "Astronaut Chris Hadfield onboard Endeavour",
-    "fr": "",
-    "status": "pending"
+    "fr": "L'astronaute Chris Hadfield à bord d'Endeavour",
+    "status": "translated"
   },
   {
     "id": "microhistories § small-stories-that-help-reveal-the-bigge § h21",
     "section": "small-stories-that-help-reveal-the-bigge",
     "tag": "h2",
     "en": "Small stories that help reveal the bigger story of Canada in space.",
-    "fr": "",
-    "status": "pending"
+    "fr": "De petites histoires qui aident à révéler la grande histoire du Canada dans l'espace.",
+    "status": "translated"
   },
   {
     "id": "microhistories § the-stories-behind-the-milestones § h21",
     "section": "the-stories-behind-the-milestones",
     "tag": "h2",
     "en": "The Stories Behind the Milestones",
-    "fr": "",
-    "status": "pending"
+    "fr": "Les histoires derrière les jalons",
+    "status": "translated"
   },
   {
     "id": "microhistories § the-stories-behind-the-milestones § p1",
     "section": "the-stories-behind-the-milestones",
     "tag": "p",
     "en": "Out of This World 25 uses <strong class=\"x-el x-el-span c1-22 c1-23 c1-b c1-dl c1-3m c1-51 c1-dm\">Microhistories</strong> to explore the people, moments, technologies, and ideas that shaped Canada’s journey in space.",
-    "fr": "",
-    "status": "pending"
+    "fr": "Out of This World 25 utilise les <strong class=\"x-el x-el-span c1-22 c1-23 c1-b c1-dl c1-3m c1-51 c1-dm\">Microhistoires</strong> pour explorer les personnes, les moments, les technologies et les idées qui ont façonné le parcours du Canada dans l'espace.",
+    "status": "translated"
   },
   {
     "id": "microhistories § the-stories-behind-the-milestones § p2",
     "section": "the-stories-behind-the-milestones",
     "tag": "p",
     "en": "These stories go beyond the headlines. They help reveal how major achievements — from <strong class=\"x-el x-el-span c1-22 c1-23 c1-b c1-dl c1-3m c1-51 c1-dm\">Chris Hadfield’s 2001 mission</strong> to <strong class=\"x-el x-el-span c1-22 c1-23 c1-b c1-dl c1-3m c1-51 c1-dm\">Jeremy Hansen’s Artemis II journey around the Moon</strong>  — are shaped through collaboration, innovation, preparation, and imagination.",
-    "fr": "",
-    "status": "pending"
+    "fr": "Ces histoires vont au-delà des grands titres. Elles aident à révéler comment les grandes réalisations — de <strong class=\"x-el x-el-span c1-22 c1-23 c1-b c1-dl c1-3m c1-51 c1-dm\">la mission de Chris Hadfield en 2001</strong> au <strong class=\"x-el x-el-span c1-22 c1-23 c1-b c1-dl c1-3m c1-51 c1-dm\">voyage de Jeremy Hansen autour de la Lune avec Artemis II</strong>  — se façonnent par la collaboration, l'innovation, la préparation et l'imagination.",
+    "status": "translated"
   },
   {
     "id": "microhistories § the-stories-behind-the-milestones § p3",
     "section": "the-stories-behind-the-milestones",
     "tag": "p",
     "en": "As OOTW25 grows, Microhistories will become part of the project’s original storytelling core, helping students, families, educators, and partners engage more deeply with Canada’s past and future in space.",
-    "fr": "",
-    "status": "pending"
+    "fr": "À mesure qu'OOTW25 grandit, les Microhistoires deviendront un élément central de la narration originale du projet, aidant les élèves, les familles, les éducateurs et les partenaires à s'engager plus profondément avec le passé et l'avenir du Canada dans l'espace.",
+    "status": "translated"
   },
   {
     "id": "microhistories § history-is-often-shaped-by-the-details-w § h21",
     "section": "history-is-often-shaped-by-the-details-w",
     "tag": "h2",
     "en": "History is often shaped by the details we almost miss.",
-    "fr": "",
-    "status": "pending"
+    "fr": "L'histoire est souvent façonnée par les détails que nous manquons presque.",
+    "status": "translated"
   },
   {
     "id": "microhistories § what-are-microhistories § h21",
     "section": "what-are-microhistories",
     "tag": "h2",
     "en": "What Are Microhistories?",
-    "fr": "",
-    "status": "pending"
+    "fr": "Que sont les microhistoires?",
+    "status": "translated"
   },
   {
     "id": "microhistories § what-are-microhistories § p1",
     "section": "what-are-microhistories",
     "tag": "p",
     "en": "Microhistories are short, focused stories that spotlight the details behind larger events.",
-    "fr": "",
-    "status": "pending"
+    "fr": "Les microhistoires sont de courtes histoires ciblées qui mettent en lumière les détails derrière les grands événements.",
+    "status": "translated"
   },
   {
     "id": "microhistories § what-are-microhistories § p2",
     "section": "what-are-microhistories",
     "tag": "p",
     "en": "Instead of telling the whole history of a mission at once, they explore one moment, one person, one technology, or one question at a time.",
-    "fr": "",
-    "status": "pending"
+    "fr": "Plutôt que de raconter toute l'histoire d'une mission d'un coup, elles explorent un moment, une personne, une technologie ou une question à la fois.",
+    "status": "translated"
   },
   {
     "id": "microhistories § what-are-microhistories § p3",
     "section": "what-are-microhistories",
     "tag": "p",
     "en": "Through this approach, OOTW25 can help visitors discover the hidden stories behind:",
-    "fr": "",
-    "status": "pending"
+    "fr": "Grâce à cette approche, OOTW25 peut aider les visiteurs à découvrir les histoires cachées derrière :",
+    "status": "translated"
   },
   {
     "id": "microhistories § what-are-microhistories § li1",
     "section": "what-are-microhistories",
     "tag": "li",
     "en": "Chris Hadfield and <strong>STS-100</strong>",
-    "fr": "",
-    "status": "pending"
+    "fr": "Chris Hadfield et <strong>STS-100</strong>",
+    "status": "translated"
   },
   {
     "id": "microhistories § what-are-microhistories § li2",
     "section": "what-are-microhistories",
     "tag": "li",
     "en": "Canadarm2 and Canadian robotics",
-    "fr": "",
-    "status": "pending"
+    "fr": "Canadarm2 et la robotique canadienne",
+    "status": "translated"
   },
   {
     "id": "microhistories § what-are-microhistories § li3",
     "section": "what-are-microhistories",
     "tag": "li",
     "en": "the International Space Station",
-    "fr": "",
-    "status": "pending"
+    "fr": "la Station spatiale internationale",
+    "status": "translated"
   },
   {
     "id": "microhistories § what-are-microhistories § li4",
     "section": "what-are-microhistories",
     "tag": "li",
     "en": "science communication and public learning",
-    "fr": "",
-    "status": "pending"
+    "fr": "la communication scientifique et l'apprentissage public",
+    "status": "translated"
   },
   {
     "id": "microhistories § what-are-microhistories § li5",
     "section": "what-are-microhistories",
     "tag": "li",
     "en": "Jeremy Hansen and <strong>Artemis II</strong>",
-    "fr": "",
-    "status": "pending"
+    "fr": "Jeremy Hansen et <strong>Artemis II</strong>",
+    "status": "translated"
   },
   {
     "id": "microhistories § what-are-microhistories § button1",
     "section": "what-are-microhistories",
     "tag": "button",
     "en": "EXPLORE CANADIAN SPACE HISTORY",
-    "fr": "",
-    "status": "pending"
+    "fr": "EXPLOREZ L’HISTOIRE SPATIALE CANADIENNE",
+    "status": "translated"
   },
   {
     "id": "microhistories § sometimes-the-smallest-details-tell-the- § h21",
     "section": "sometimes-the-smallest-details-tell-the-",
     "tag": "h2",
     "en": "Sometimes the smallest details tell the most memorable stories.",
-    "fr": "",
-    "status": "pending"
+    "fr": "Parfois, les plus petits détails racontent les histoires les plus mémorables.",
+    "status": "translated"
   },
   {
     "id": "microhistories § original-storytelling-through-ootw25 § h21",
     "section": "original-storytelling-through-ootw25",
     "tag": "h2",
     "en": "Original Storytelling Through OOTW25",
-    "fr": "",
-    "status": "pending"
+    "fr": "Récits originaux à travers OOTW25",
+    "status": "translated"
   },
   {
     "id": "microhistories § original-storytelling-through-ootw25 § p1",
     "section": "original-storytelling-through-ootw25",
     "tag": "p",
     "en": "Microhistories will help make Out of This World 25 more than a commemoration.",
-    "fr": "",
-    "status": "pending"
+    "fr": "Les Microhistoires aideront à faire d'Out of This World 25 plus qu'une simple commémoration.",
+    "status": "translated"
   },
   {
     "id": "microhistories § original-storytelling-through-ootw25 § p2",
     "section": "original-storytelling-through-ootw25",
     "tag": "p",
     "en": "They will create space for new storytelling that connects history, science, geography, technology, and public engagement in accessible and meaningful ways.",
-    "fr": "",
-    "status": "pending"
+    "fr": "Elles créeront un espace pour de nouveaux récits qui relient l'histoire, la science, la géographie, la technologie et la mobilisation du public de façon accessible et significative.",
+    "status": "translated"
   },
   {
     "id": "microhistories § original-storytelling-through-ootw25 § p3",
     "section": "original-storytelling-through-ootw25",
     "tag": "p",
     "en": "Developed as part of the wider OOTW25 project, these stories will help audiences explore not only what happened, but why it mattered — and how one moment in space can shape the future of learning and discovery.",
-    "fr": "",
-    "status": "pending"
+    "fr": "Développées dans le cadre du projet plus vaste OOTW25, ces histoires aideront le public à explorer non seulement ce qui s'est passé, mais aussi pourquoi cela importait — et comment un moment dans l'espace peut façonner l'avenir de l'apprentissage et de la découverte.",
+    "status": "translated"
   },
   {
     "id": "microhistories § original-storytelling-through-ootw25 § button1",
     "section": "original-storytelling-through-ootw25",
     "tag": "button",
     "en": "EXPLORE OOTW25 STORYMAPS",
-    "fr": "",
-    "status": "pending"
+    "fr": "EXPLOREZ LES STORYMAPS D’OOTW25",
+    "status": "translated"
   },
   {
     "id": "microhistories § every-mission-includes-people-decisions- § h21",
     "section": "every-mission-includes-people-decisions-",
     "tag": "h2",
     "en": "Every mission includes people, decisions, and discoveries worth looking at more closely.",
-    "fr": "",
-    "status": "pending"
+    "fr": "Chaque mission comprend des personnes, des décisions et des découvertes qui méritent d'être examinées de plus près.",
+    "status": "translated"
   },
   {
     "id": "microhistories § future-story-themes § h21",
     "section": "future-story-themes",
     "tag": "h2",
     "en": "Future Story Themes",
-    "fr": "",
-    "status": "pending"
+    "fr": "Thèmes d'histoires à venir",
+    "status": "translated"
   },
   {
     "id": "microhistories § future-story-themes § p1",
     "section": "future-story-themes",
     "tag": "p",
     "en": "As the project develops, Microhistories may explore themes such as:",
-    "fr": "",
-    "status": "pending"
+    "fr": "À mesure que le projet se développe, les Microhistoires pourraient explorer des thèmes tels que :",
+    "status": "translated"
   },
   {
     "id": "microhistories § future-story-themes § li1",
     "section": "future-story-themes",
     "tag": "li",
     "en": "the story behind <strong>Canada’s first walk in space</strong>",
-    "fr": "",
-    "status": "pending"
+    "fr": "l'histoire derrière <strong>la première sortie extravéhiculaire du Canada</strong>",
+    "status": "translated"
   },
   {
     "id": "microhistories § future-story-themes § li2",
     "section": "future-story-themes",
     "tag": "li",
     "en": "the installation and legacy of <strong>Canadarm2</strong>",
-    "fr": "",
-    "status": "pending"
+    "fr": "l'installation et l'héritage du <strong>Canadarm2</strong>",
+    "status": "translated"
   },
   {
     "id": "microhistories § future-story-themes § li3",
     "section": "future-story-themes",
     "tag": "li",
     "en": "how science communication helps shape public understanding",
-    "fr": "",
-    "status": "pending"
+    "fr": "comment la communication scientifique contribue à façonner la compréhension du public",
+    "status": "translated"
   },
   {
     "id": "microhistories § future-story-themes § li4",
     "section": "future-story-themes",
     "tag": "li",
     "en": "Canada’s path from <strong>STS-100</strong> to <strong>Artemis II</strong>",
-    "fr": "",
-    "status": "pending"
+    "fr": "le parcours du Canada de <strong>STS-100</strong> à <strong>Artemis II</strong>",
+    "status": "translated"
   },
   {
     "id": "microhistories § future-story-themes § li5",
     "section": "future-story-themes",
     "tag": "li",
     "en": "the people, teamwork, and preparation behind major missions",
-    "fr": "",
-    "status": "pending"
+    "fr": "les personnes, le travail d'équipe et la préparation derrière les grandes missions",
+    "status": "translated"
   },
   {
     "id": "microhistories § future-story-themes § p2",
     "section": "future-story-themes",
     "tag": "p",
     "en": "These stories will help audiences see how history is built not only from milestones, but from the details and decisions that make those milestones possible.",
-    "fr": "",
-    "status": "pending"
+    "fr": "Ces histoires aideront le public à voir comment l'histoire se construit non seulement à partir de jalons, mais aussi à partir des détails et des décisions qui rendent ces jalons possibles.",
+    "status": "translated"
   },
   {
     "id": "microhistories § new-stories-are-still-being-developed-an § h21",
     "section": "new-stories-are-still-being-developed-an",
     "tag": "h2",
     "en": "New stories are still being developed — and more are still to come.",
-    "fr": "",
-    "status": "pending"
+    "fr": "De nouvelles histoires sont encore en cours de développement — et il y en a d'autres à venir.",
+    "status": "translated"
   },
   {
     "id": "microhistories § coming-soon § h21",
     "section": "coming-soon",
     "tag": "h2",
     "en": "Coming Soon",
-    "fr": "",
-    "status": "pending"
+    "fr": "À venir",
+    "status": "translated"
   },
   {
     "id": "microhistories § coming-soon § p1",
     "section": "coming-soon",
     "tag": "p",
     "en": "Microhistories are currently being developed as part of the <strong>Out of This World 25</strong> project.",
-    "fr": "",
-    "status": "pending"
+    "fr": "Les Microhistoires sont actuellement en cours de développement dans le cadre du projet <strong>Out of This World 25</strong>.",
+    "status": "translated"
   },
   {
     "id": "microhistories § coming-soon § p2",
     "section": "coming-soon",
     "tag": "p",
     "en": "As new stories are released, this page will grow into a space for original features, short reflections, and deeper explorations of Canada’s story in space.",
-    "fr": "",
-    "status": "pending"
+    "fr": "À mesure que de nouvelles histoires seront publiées, cette page deviendra un espace pour des dossiers originaux, de courtes réflexions et des explorations approfondies de l'histoire du Canada dans l'espace.",
+    "status": "translated"
   },
   {
     "id": "microhistories § coming-soon § button1",
     "section": "coming-soon",
     "tag": "button",
     "en": "BACK TO HOME FOR OVERVIEW",
-    "fr": "",
-    "status": "pending"
+    "fr": "Retournez à l'accueil pour un aperçu général",
+    "status": "translated"
   },
   {
     "id": "microhistories § explore-the-wider-project-while-new-stor § h21",
     "section": "explore-the-wider-project-while-new-stor",
     "tag": "h2",
     "en": "Explore the wider project while new stories are being prepared.",
-    "fr": "",
-    "status": "pending"
+    "fr": "Explorez l'ensemble du projet pendant que de nouvelles histoires sont en préparation.",
+    "status": "translated"
   },
   {
     "id": "microhistories § explore-more-about-ootw25 § h21",
     "section": "explore-more-about-ootw25",
     "tag": "h2",
     "en": "Explore More About OOTW25",
-    "fr": "",
-    "status": "pending"
+    "fr": "En savoir plus sur OOTW25",
+    "status": "translated"
   },
   {
     "id": "microhistories § space-history § h21",
     "section": "space-history",
     "tag": "h2",
     "en": "Space History",
-    "fr": "",
-    "status": "pending"
+    "fr": "Histoire spatiale",
+    "status": "translated"
   },
   {
     "id": "microhistories § space-history § p1",
     "section": "space-history",
     "tag": "p",
     "en": "Explore Canada’s journey in space",
-    "fr": "",
-    "status": "pending"
+    "fr": "Explorez le parcours du Canada dans l’espace",
+    "status": "translated"
   },
   {
     "id": "microhistories § space-history § button1",
     "section": "space-history",
     "tag": "button",
     "en": "EXPLORE SPACE HISTORY",
-    "fr": "",
-    "status": "pending"
+    "fr": "EXPLOREZ L’HISTOIRE SPATIALE",
+    "status": "translated"
   },
   {
     "id": "microhistories § artemis-ii § h21",
     "section": "artemis-ii",
     "tag": "h2",
     "en": "Artemis II",
-    "fr": "",
-    "status": "pending"
+    "fr": "Artemis II",
+    "status": "translated"
   },
   {
     "id": "microhistories § artemis-ii § p1",
     "section": "artemis-ii",
     "tag": "p",
     "en": "Follow Canada’s next mission to the moon",
-    "fr": "",
-    "status": "pending"
+    "fr": "Suivez la prochaine mission du Canada vers la Lune",
+    "status": "translated"
   },
   {
     "id": "microhistories § artemis-ii § button1",
     "section": "artemis-ii",
     "tag": "button",
     "en": "EXPLORE ARTEMIS II",
-    "fr": "",
-    "status": "pending"
+    "fr": "EXPLOREZ ARTEMIS II",
+    "status": "translated"
   },
   {
     "id": "microhistories § storymaps § h21",
     "section": "storymaps",
     "tag": "h2",
     "en": "StoryMaps",
-    "fr": "",
-    "status": "pending"
+    "fr": "StoryMaps",
+    "status": "translated"
   },
   {
     "id": "microhistories § storymaps § p1",
     "section": "storymaps",
     "tag": "p",
     "en": "Explore Canada’s story through maps",
-    "fr": "",
-    "status": "pending"
+    "fr": "Explorez l’histoire du Canada à travers des cartes",
+    "status": "translated"
   },
   {
     "id": "microhistories § storymaps § button1",
     "section": "storymaps",
     "tag": "button",
     "en": "EXPLORE STORYMAPS",
-    "fr": "",
-    "status": "pending"
+    "fr": "EXPLOREZ LES STORYMAPS",
+    "status": "translated"
   },
   {
     "id": "microhistories § students-amp-families § h21",
     "section": "students-amp-families",
     "tag": "h2",
     "en": "Students &amp; Families",
-    "fr": "",
-    "status": "pending"
+    "fr": "Élèves et familles",
+    "status": "translated"
   },
   {
     "id": "microhistories § students-amp-families § p1",
     "section": "students-amp-families",
     "tag": "p",
     "en": "Discover games, stories and activities",
-    "fr": "",
-    "status": "pending"
+    "fr": "Découvrez des jeux, des histoires et des activités",
+    "status": "translated"
   },
   {
     "id": "microhistories § students-amp-families § button1",
     "section": "students-amp-families",
     "tag": "button",
     "en": "EXPLORE STUDENTS &amp; FAMILIES",
-    "fr": "",
-    "status": "pending"
+    "fr": "EXPLOREZ ÉLÈVES ET FAMILLES",
+    "status": "translated"
   },
   {
     "id": "microhistories § educators § h21",
     "section": "educators",
     "tag": "h2",
     "en": "Educators",
-    "fr": "",
-    "status": "pending"
+    "fr": "Éducateurs",
+    "status": "translated"
   },
   {
     "id": "microhistories § educators § p1",
     "section": "educators",
     "tag": "p",
     "en": "Bring Canada’s story in space into class",
-    "fr": "",
-    "status": "pending"
+    "fr": "Apportez l’histoire spatiale du Canada en classe",
+    "status": "translated"
   },
   {
     "id": "microhistories § educators § button1",
     "section": "educators",
     "tag": "button",
     "en": "EXPLORE EDUCATORS",
-    "fr": "",
-    "status": "pending"
+    "fr": "EXPLOREZ ÉDUCATEURS",
+    "status": "translated"
   },
   {
     "id": "microhistories § partners § h21",
     "section": "partners",
     "tag": "h2",
     "en": "<a href=\"https://ootw25.ca/microhistories\">Partners</a>",
-    "fr": "",
-    "status": "pending"
+    "fr": "<a href=\"https://ootw25.ca/microhistories\">Partenaires</a>",
+    "status": "translated"
   },
   {
     "id": "microhistories § partners § p1",
     "section": "partners",
     "tag": "p",
     "en": "Meet the organizations behind OOTW25",
-    "fr": "",
-    "status": "pending"
+    "fr": "Découvrez les organisations derrière OOTW25",
+    "status": "translated"
   },
   {
     "id": "microhistories § partners § button1",
     "section": "partners",
     "tag": "button",
     "en": "EXPLORE PARTNERS",
-    "fr": "",
-    "status": "pending"
+    "fr": "EXPLOREZ PARTENAIRES",
+    "status": "translated"
   },
   {
     "id": "microhistories § small-stories-can-open-the-door-to-bigge § h21",
     "section": "small-stories-can-open-the-door-to-bigge",
     "tag": "h2",
     "en": "Small stories can open the door to bigger questions, deeper understanding, and new discoveries.\nThrough Microhistories, Out of This World 25 will explore the people, moments, and ideas that shaped Canada’s journey in space.\nThese stories connect the past to the future — one detail at a time.",
-    "fr": "",
-    "status": "pending"
+    "fr": "De petites histoires peuvent ouvrir la porte à de plus grandes questions, à une compréhension plus profonde et à de nouvelles découvertes.\nGrâce aux Microhistoires, Out of This World 25 explorera les personnes, les moments et les idées qui ont façonné le parcours du Canada dans l'espace.\nCes histoires relient le passé à l'avenir — un détail à la fois.",
+    "status": "translated"
   },
   {
     "id": "microhistories § small-stories-can-open-the-door-to-bigge § p1",
     "section": "small-stories-can-open-the-door-to-bigge",
     "tag": "p",
     "en": "<strong>Sources &amp; Image Credits</strong>",
-    "fr": "",
-    "status": "pending"
+    "fr": "<strong>Sources et crédits photographiques</strong>",
+    "status": "translated"
   },
   {
     "id": "microhistories § small-stories-can-open-the-door-to-bigge § p2",
     "section": "small-stories-can-open-the-door-to-bigge",
     "tag": "p",
     "en": "<em>This page includes information from Canadian Space Agency resources. Many images are courtesy of the </em><a href=\"https://www.asc-csa.gc.ca/eng/\" rel=\"noopener\" target=\"_blank\"><em>Canadian Space Agency (CSA)</em></a><em> and are used with permission. Other visuals are licensed stock photography or approved website assets. Image credits are provided here collectively as part of the page design. </em>",
-    "fr": "",
-    "status": "pending"
+    "fr": "<em>Cette page comprend des renseignements provenant de ressources de l’Agence spatiale canadienne. De nombreuses images sont fournies avec l’aimable autorisation de l’</em><a href=\"https://www.asc-csa.gc.ca/eng/\" rel=\"noopener\" target=\"_blank\"><em>Agence spatiale canadienne (ASC)</em></a><em> et sont utilisées avec permission. D’autres visuels proviennent de photographies libres de droits sous licence ou d’éléments approuvés du site Web. Les crédits photographiques sont fournis ici collectivement dans le cadre de la conception de la page. </em>",
+    "status": "translated"
   },
   {
     "id": "microhistories § small-stories-can-open-the-door-to-bigge § p3",
     "section": "small-stories-can-open-the-door-to-bigge",
     "tag": "p",
     "en": "<strong>MCYU</strong>",
-    "fr": "",
-    "status": "pending"
+    "fr": "<strong>MCYU</strong>",
+    "status": "translated"
   },
   {
     "id": "microhistories § small-stories-can-open-the-door-to-bigge § p4",
     "section": "small-stories-can-open-the-door-to-bigge",
     "tag": "p",
     "en": "<a href=\"mailto:mcyu@mcmaster.ca\">mcyu@mcmaster.ca</a>",
-    "fr": "",
-    "status": "pending"
+    "fr": "<a href=\"mailto:mcyu@mcmaster.ca\">mcyu@mcmaster.ca</a>",
+    "status": "translated"
   },
   {
     "id": "microhistories § small-stories-can-open-the-door-to-bigge § p5",
     "section": "small-stories-can-open-the-door-to-bigge",
     "tag": "p",
     "en": "<a data-tccl=\"ux2.FOOTER.footer4.Layout.Default.Link.Default.51716.click,click\" data-typography=\"LinkAlpha\" data-ux=\"Link\" href=\"tel:+19055212100,,73790\" rel=\"\">905-521-2100 ext. 73790</a>",
-    "fr": "",
-    "status": "pending"
+    "fr": "<a data-tccl=\"ux2.FOOTER.footer4.Layout.Default.Link.Default.51716.click,click\" data-typography=\"LinkAlpha\" data-ux=\"Link\" href=\"tel:+19055212100,,73790\" rel=\"\">905-521-2100 ext. 73790</a>",
+    "status": "translated"
   },
   {
     "id": "microhistories § small-stories-can-open-the-door-to-bigge § p6",
     "section": "small-stories-can-open-the-door-to-bigge",
     "tag": "p",
     "en": "<strong>CanHist.ca</strong>",
-    "fr": "",
-    "status": "pending"
+    "fr": "<strong>CanHist.ca</strong>",
+    "status": "translated"
   },
   {
     "id": "microhistories § small-stories-can-open-the-door-to-bigge § p7",
     "section": "small-stories-can-open-the-door-to-bigge",
     "tag": "p",
     "en": "<a href=\"mailto:info@canhist.ca\">info@canhist.ca</a>",
-    "fr": "",
-    "status": "pending"
+    "fr": "<a href=\"mailto:info@canhist.ca\">info@canhist.ca</a>",
+    "status": "translated"
   },
   {
     "id": "microhistories § small-stories-can-open-the-door-to-bigge § p8",
     "section": "small-stories-can-open-the-door-to-bigge",
     "tag": "p",
     "en": "<a data-tccl=\"ux2.FOOTER.footer4.Layout.Default.Link.Default.51716.click,click\" data-typography=\"LinkAlpha\" data-ux=\"Link\" href=\"tel:+15192170402\" rel=\"\">519-217-0402</a>",
-    "fr": "",
-    "status": "pending"
+    "fr": "<a data-tccl=\"ux2.FOOTER.footer4.Layout.Default.Link.Default.51716.click,click\" data-typography=\"LinkAlpha\" data-ux=\"Link\" href=\"tel:+15192170402\" rel=\"\">519-217-0402</a>",
+    "status": "translated"
   }
 ]

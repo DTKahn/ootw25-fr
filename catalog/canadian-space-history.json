@@ -4,423 +4,423 @@
     "section": "meta",
     "tag": "title",
     "en": "Canadian Space History - OOTW25",
-    "fr": "",
-    "status": "pending"
+    "fr": "Histoire spatiale canadienne - OOTW25",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § meta § description",
     "section": "meta",
     "tag": "description",
     "en": "Canadian Space History Discover the people, missions, and innovations that shaped Canada’s journey in space. Defining Moments in Canadian Space History",
-    "fr": "",
-    "status": "pending"
+    "fr": "Histoire spatiale canadienne Découvrez les personnes, les missions et les innovations qui ont façonné le parcours du Canada dans l'espace. Moments déterminants de l'histoire spatiale canadienne",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § top § img1",
     "section": "top",
     "tag": "img",
     "en": "OOTW logo variations tm february 2026 ootw logo white outline",
-    "fr": "",
-    "status": "pending"
+    "fr": "Variations du logo OOTW MC, février 2026, contour blanc",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § canadian-space-history § h11",
     "section": "canadian-space-history",
     "tag": "h1",
     "en": "Canadian Space History",
-    "fr": "",
-    "status": "pending"
+    "fr": "Histoire spatiale canadienne",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § canadian-space-history § img1",
     "section": "canadian-space-history",
     "tag": "img",
     "en": "ISS and Earth",
-    "fr": "",
-    "status": "pending"
+    "fr": "SSI et la Terre",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § canadian-space-history § img2",
     "section": "canadian-space-history",
     "tag": "img",
     "en": "chris hadfield during the first space walk",
-    "fr": "",
-    "status": "pending"
+    "fr": "chris hadfield pendant la première sortie extravéhiculaire",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § canadian-space-history § img3",
     "section": "canadian-space-history",
     "tag": "img",
     "en": "Chis Hadfield",
-    "fr": "",
-    "status": "pending"
+    "fr": "Chris Hadfield",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § discover-the-people-missions-and-innovat § h21",
     "section": "discover-the-people-missions-and-innovat",
     "tag": "h2",
     "en": "Discover the people, missions, and innovations that shaped Canada’s journey in space.",
-    "fr": "",
-    "status": "pending"
+    "fr": "Découvrez les personnes, les missions et les innovations qui ont façonné le parcours du Canada dans l'espace.",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § defining-moments-in-canadian-space-histo § h21",
     "section": "defining-moments-in-canadian-space-histo",
     "tag": "h2",
     "en": "Defining Moments in Canadian Space History",
-    "fr": "",
-    "status": "pending"
+    "fr": "Moments déterminants de l'histoire spatiale canadienne",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § defining-moments-in-canadian-space-histo § p1",
     "section": "defining-moments-in-canadian-space-histo",
     "tag": "p",
     "en": "Canada’s journey in space is shaped by remarkable milestones — moments when innovation, teamwork, and curiosity pushed the boundaries of exploration.",
-    "fr": "",
-    "status": "pending"
+    "fr": "Le parcours du Canada dans l'espace est façonné par des jalons remarquables — des moments où l'innovation, le travail d'équipe et la curiosité ont repoussé les limites de l'exploration.",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § defining-moments-in-canadian-space-histo § p2",
     "section": "defining-moments-in-canadian-space-histo",
     "tag": "p",
     "en": "Through <strong>Out of This World 25</strong>, CanHist.ca is partnering with <a href=\"https://www.esri.ca/en-ca/home\" rel=\"noopener\" target=\"_blank\"><strong>ESRI Canada</strong></a> and <a href=\"https://mcyu.mcmaster.ca/\" rel=\"noopener\" target=\"_blank\"><strong>McMaster Children and Youth University (MCYU)</strong></a> to develop interactive <strong>StoryMaps</strong> that bring these defining moments to life.",
-    "fr": "",
-    "status": "pending"
+    "fr": "Grâce à <strong>Out of This World 25</strong>, CanHist.ca s'associe à <a href=\"https://www.esri.ca/en-ca/home\" rel=\"noopener\" target=\"_blank\"><strong>Esri Canada</strong></a> et à <a href=\"https://mcyu.mcmaster.ca/\" rel=\"noopener\" target=\"_blank\"><strong>McMaster Children and Youth University (MCYU)</strong></a> pour développer des <strong>StoryMaps</strong> interactives qui donnent vie à ces moments déterminants.",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § defining-moments-in-canadian-space-histo § p3",
     "section": "defining-moments-in-canadian-space-histo",
     "tag": "p",
     "en": "Using maps, images, and multimedia storytelling, these digital experiences invite visitors to explore the people, missions, and discoveries that have shaped Canada’s role in space.",
-    "fr": "",
-    "status": "pending"
+    "fr": "À l'aide de cartes, d'images et de récits multimédias, ces expériences numériques invitent les visiteurs à découvrir les personnes, les missions et les découvertes qui ont façonné le rôle du Canada dans l'espace.",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § defining-moments-in-canadian-space-histo § button1",
     "section": "defining-moments-in-canadian-space-histo",
     "tag": "button",
     "en": "EXPLORE THE STORYMAPS",
-    "fr": "",
-    "status": "pending"
+    "fr": "Explorez les StoryMaps",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § defining-moments-in-canadian-space-histo § p4",
     "section": "defining-moments-in-canadian-space-histo",
     "tag": "p",
     "en": "<strong>Interactive StoryMaps are being developed with ESRI Canada and MCYU as part of OOTW25.</strong>",
-    "fr": "",
-    "status": "pending"
+    "fr": "<strong>Des StoryMaps interactives sont en cours de développement avec Esri Canada et MCYU dans le cadre d'OOTW25.</strong>",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § one-mission-in-2001-would-redefine-canad § h21",
     "section": "one-mission-in-2001-would-redefine-canad",
     "tag": "h2",
     "en": "One mission in 2001 would redefine Canada’s place in space exploration.",
-    "fr": "",
-    "status": "pending"
+    "fr": "Une mission en 2001 allait redéfinir la place du Canada dans l'exploration spatiale.",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § chris-hadfield-and-mission-sts-100 § h21",
     "section": "chris-hadfield-and-mission-sts-100",
     "tag": "h2",
     "en": "Chris Hadfield and Mission STS-100",
-    "fr": "",
-    "status": "pending"
+    "fr": "Chris Hadfield et la mission STS-100",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § chris-hadfield-and-mission-sts-100 § p1",
     "section": "chris-hadfield-and-mission-sts-100",
     "tag": "p",
     "en": "On April 22, 2001, Canadian astronaut <strong>Chris Hadfield</strong> stepped outside the Space Shuttle <em>Endeavour</em> during <strong>Mission STS-100</strong>, becoming the first Canadian to <strong>walk in space</strong>.",
-    "fr": "",
-    "status": "pending"
+    "fr": "Le 22 avril 2001, l'astronaute canadien <strong>Chris Hadfield</strong> est sorti de la navette spatiale <em>Endeavour</em> pendant la <strong>mission STS-100</strong>, devenant le premier Canadien à <strong>effectuer une sortie extravéhiculaire</strong>.",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § chris-hadfield-and-mission-sts-100 § p2",
     "section": "chris-hadfield-and-mission-sts-100",
     "tag": "p",
     "en": "During the mission, Hadfield helped install <strong>Canadarm2</strong> on the International Space Station — a vital piece of Canadian technology that continues to support astronauts and scientific research in orbit today.",
-    "fr": "",
-    "status": "pending"
+    "fr": "Pendant la mission, Hadfield a contribué à l'installation du <strong>Canadarm2</strong> sur la Station spatiale internationale — une technologie canadienne essentielle qui continue aujourd'hui d'appuyer les astronautes et la recherche scientifique en orbite.",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § chris-hadfield-and-mission-sts-100 § p3",
     "section": "chris-hadfield-and-mission-sts-100",
     "tag": "p",
     "en": "This historic achievement marked a defining moment in Canada’s role in human spaceflight and inspired a new generation of Canadians to imagine their own futures in science, engineering, and exploration.",
-    "fr": "",
-    "status": "pending"
+    "fr": "Cette réalisation historique a marqué un moment déterminant dans le rôle du Canada au sein des vols spatiaux habités et a inspiré une nouvelle génération de Canadiens à envisager leur propre avenir en science, en génie et en exploration.",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § chris-hadfield-and-mission-sts-100 § button1",
     "section": "chris-hadfield-and-mission-sts-100",
     "tag": "button",
     "en": "EXPLORE STS-100",
-    "fr": "",
-    "status": "pending"
+    "fr": "Explorez STS-100",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § in-space-exploration-technology-and-team § h21",
     "section": "in-space-exploration-technology-and-team",
     "tag": "h2",
     "en": "In space exploration, technology and teamwork make the impossible possible.",
-    "fr": "",
-    "status": "pending"
+    "fr": "Dans l'exploration spatiale, la technologie et le travail d'équipe rendent l'impossible possible.",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § canadarm2-and-canadian-innovation § h21",
     "section": "canadarm2-and-canadian-innovation",
     "tag": "h2",
     "en": "Canadarm2 and Canadian Innovation",
-    "fr": "",
-    "status": "pending"
+    "fr": "Canadarm2 et l'innovation canadienne",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § canadarm2-and-canadian-innovation § p1",
     "section": "canadarm2-and-canadian-innovation",
     "tag": "p",
     "en": "Canada is internationally recognized for its leadership in <strong>space robotics</strong>.",
-    "fr": "",
-    "status": "pending"
+    "fr": "Le Canada est reconnu à l'échelle internationale pour son leadership en <strong>robotique spatiale</strong>.",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § canadarm2-and-canadian-innovation § p2",
     "section": "canadarm2-and-canadian-innovation",
     "tag": "p",
     "en": "Installed during <strong>Mission STS-100</strong>, <strong>Canadarm2</strong> plays a crucial role aboard the International Space Station. The robotic arm helps astronauts move equipment, capture visiting spacecraft, and perform complex maintenance tasks in orbit.",
-    "fr": "",
-    "status": "pending"
+    "fr": "Installé pendant la <strong>mission STS-100</strong>, le <strong>Canadarm2</strong> joue un rôle crucial à bord de la Station spatiale internationale. Le bras robotique aide les astronautes à déplacer de l'équipement, à capturer les vaisseaux spatiaux en visite et à effectuer des tâches d'entretien complexes en orbite.",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § canadarm2-and-canadian-innovation § p3",
     "section": "canadarm2-and-canadian-innovation",
     "tag": "p",
     "en": "Along with other Canadian technologies such as <strong>Dextre</strong>, Canadarm2 demonstrates how Canadian engineering and innovation continue to support international space missions.",
-    "fr": "",
-    "status": "pending"
+    "fr": "Avec d'autres technologies canadiennes comme <strong>Dextre</strong>, le Canadarm2 démontre comment le génie et l'innovation canadiens continuent d'appuyer les missions spatiales internationales.",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § canadarm2-and-canadian-innovation § button1",
     "section": "canadarm2-and-canadian-innovation",
     "tag": "button",
     "en": "DISCOVER CANADARM2",
-    "fr": "",
-    "status": "pending"
+    "fr": "Découvrez Canadarm2",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § from-robotics-to-research-canada-s-innov § h21",
     "section": "from-robotics-to-research-canada-s-innov",
     "tag": "h2",
     "en": "From robotics to research, Canada’s innovations help keep the International Space Station running.",
-    "fr": "",
-    "status": "pending"
+    "fr": "De la robotique à la recherche, les innovations canadiennes contribuent au bon fonctionnement de la Station spatiale internationale.",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § canada-and-the-international-space-stati § h21",
     "section": "canada-and-the-international-space-stati",
     "tag": "h2",
     "en": "Canada and the International Space Station",
-    "fr": "",
-    "status": "pending"
+    "fr": "Le Canada et la Station spatiale internationale",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § canada-and-the-international-space-stati § p1",
     "section": "canada-and-the-international-space-stati",
     "tag": "p",
     "en": "The <strong>International Space Station (ISS)</strong> is one of the most ambitious international collaborations in the history of science.",
-    "fr": "",
-    "status": "pending"
+    "fr": "La <strong>Station spatiale internationale (SSI)</strong> est l'une des collaborations internationales les plus ambitieuses de l'histoire des sciences.",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § canada-and-the-international-space-stati § p2",
     "section": "canada-and-the-international-space-stati",
     "tag": "p",
     "en": "Canada’s contributions — particularly in robotics — have played a key role in assembling, maintaining, and operating the station. Canadian astronauts have also helped conduct scientific experiments that expand our understanding of life in space.",
-    "fr": "",
-    "status": "pending"
+    "fr": "Les contributions du Canada — notamment en robotique — ont joué un rôle clé dans l'assemblage, l'entretien et l'exploitation de la station. Les astronautes canadiens ont également contribué à mener des expériences scientifiques qui approfondissent notre compréhension de la vie dans l'espace.",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § canada-and-the-international-space-stati § p3",
     "section": "canada-and-the-international-space-stati",
     "tag": "p",
     "en": "Through its partnership in the ISS program, Canada continues to contribute to global discovery and technological innovation.",
-    "fr": "",
-    "status": "pending"
+    "fr": "Grâce à son partenariat dans le programme de la SSI, le Canada continue de contribuer à la découverte mondiale et à l'innovation technologique.",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § canada-and-the-international-space-stati § button1",
     "section": "canada-and-the-international-space-stati",
     "tag": "button",
     "en": "EXPLORE THE ISS",
-    "fr": "",
-    "status": "pending"
+    "fr": "EXPLOREZ LA SSI",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § exploration-begins-with-curiosity-and-cu § h21",
     "section": "exploration-begins-with-curiosity-and-cu",
     "tag": "h2",
     "en": "Exploration begins with curiosity — and curiosity begins with learning.",
-    "fr": "",
-    "status": "pending"
+    "fr": "L'exploration commence par la curiosité — et la curiosité commence par l'apprentissage.",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § explore-the-canadian-space-agency § h21",
     "section": "explore-the-canadian-space-agency",
     "tag": "h2",
     "en": "Explore the Canadian Space Agency",
-    "fr": "",
-    "status": "pending"
+    "fr": "Explorez l'Agence spatiale canadienne",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § explore-the-canadian-space-agency § p1",
     "section": "explore-the-canadian-space-agency",
     "tag": "p",
     "en": "Behind every space mission are teams of engineers, scientists, and astronauts working together to push the boundaries of discovery.",
-    "fr": "",
-    "status": "pending"
+    "fr": "Derrière chaque mission spatiale se trouvent des équipes d'ingénieurs, de scientifiques et d'astronautes qui travaillent ensemble pour repousser les limites de la découverte.",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § explore-the-canadian-space-agency § p2",
     "section": "explore-the-canadian-space-agency",
     "tag": "p",
     "en": "The <strong>Canadian Space Agency (CSA)</strong> leads Canada’s efforts in space science, astronaut training, and technological development. Its facilities support research, mission planning, and the preparation of future space explorers.",
-    "fr": "",
-    "status": "pending"
+    "fr": "L'<strong>Agence spatiale canadienne (ASC)</strong> dirige les efforts du Canada en science spatiale, en formation des astronautes et en développement technologique. Ses installations appuient la recherche, la planification des missions et la préparation des futurs explorateurs de l'espace.",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § explore-the-canadian-space-agency § p3",
     "section": "explore-the-canadian-space-agency",
     "tag": "p",
     "en": "Take a closer look at the place where many of Canada’s space missions begin.",
-    "fr": "",
-    "status": "pending"
+    "fr": "Découvrez de plus près l'endroit où débutent de nombreuses missions spatiales canadiennes.",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § explore-the-canadian-space-agency § button1",
     "section": "explore-the-canadian-space-agency",
     "tag": "button",
     "en": "TAKE THE VIRTUAL TOUR",
-    "fr": "",
-    "status": "pending"
+    "fr": "Faites la visite virtuelle",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § canada-s-story-in-space-continues-to-ins § h21",
     "section": "canada-s-story-in-space-continues-to-ins",
     "tag": "h2",
     "en": "Canada’s story in space continues to inspire the explorers of tomorrow.",
-    "fr": "",
-    "status": "pending"
+    "fr": "L'histoire du Canada dans l'espace continue d'inspirer les explorateurs de demain.",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § a-new-chapter-in-canada-s-story-in-space § h21",
     "section": "a-new-chapter-in-canada-s-story-in-space",
     "tag": "h2",
     "en": "A New Chapter in Canada’s Story in Space",
-    "fr": "",
-    "status": "pending"
+    "fr": "Un nouveau chapitre dans l'histoire du Canada dans l'espace",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § a-new-chapter-in-canada-s-story-in-space § p1",
     "section": "a-new-chapter-in-canada-s-story-in-space",
     "tag": "p",
     "en": "Canada’s journey in space is far from over.",
-    "fr": "",
-    "status": "pending"
+    "fr": "Le parcours du Canada dans l'espace est loin d'être terminé.",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § a-new-chapter-in-canada-s-story-in-space § p2",
     "section": "a-new-chapter-in-canada-s-story-in-space",
     "tag": "p",
     "en": "The achievements of astronauts like <strong>Chris Hadfield</strong>, together with Canada’s leadership in space robotics and international collaboration, have helped shape a remarkable national story of discovery.",
-    "fr": "",
-    "status": "pending"
+    "fr": "Les réalisations d'astronautes comme <strong>Chris Hadfield</strong>, combinées au leadership du Canada en robotique spatiale et à sa collaboration internationale, ont contribué à façonner une remarquable histoire nationale de découverte.",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § a-new-chapter-in-canada-s-story-in-space § p3",
     "section": "a-new-chapter-in-canada-s-story-in-space",
     "tag": "p",
     "en": "In April 2026, Canadian astronaut <strong>Jeremy Hansen</strong> journeyed around the Moon aboard <strong>Artemis II</strong>, marking a new milestone in that story and reminding Canadians — especially young learners — that exploration continues to open new possibilities for the future.",
-    "fr": "",
-    "status": "pending"
+    "fr": "En avril 2026, l'astronaute canadien <strong>Jeremy Hansen</strong> a voyagé autour de la Lune à bord d'<strong>Artemis II</strong>, marquant un nouveau jalon dans cette histoire et rappelant aux Canadiens — en particulier aux jeunes apprenants — que l'exploration continue d'ouvrir de nouvelles possibilités pour l'avenir.",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § a-new-chapter-in-canada-s-story-in-space § button1",
     "section": "a-new-chapter-in-canada-s-story-in-space",
     "tag": "button",
     "en": "EXPLORE THE ARTEMIS II MISSION",
-    "fr": "",
-    "status": "pending"
+    "fr": "Explorez la mission Artemis II",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § canada-s-story-in-space-continues-and-th § h21",
     "section": "canada-s-story-in-space-continues-and-th",
     "tag": "h2",
     "en": "Canada’s story in space continues — and the next chapter is already taking shape.",
-    "fr": "",
-    "status": "pending"
+    "fr": "L'histoire du Canada dans l'espace se poursuit — et le prochain chapitre prend déjà forme.",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § canada-s-story-in-space-continues-and-th § p1",
     "section": "canada-s-story-in-space-continues-and-th",
     "tag": "p",
     "en": "<strong>Sources &amp; Image Credits</strong>",
-    "fr": "",
-    "status": "pending"
+    "fr": "<strong>Sources et crédits photographiques</strong>",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § canada-s-story-in-space-continues-and-th § p2",
     "section": "canada-s-story-in-space-continues-and-th",
     "tag": "p",
     "en": "<em>This page includes information from Canadian Space Agency resources. Many images are courtesy of the </em><a href=\"https://www.asc-csa.gc.ca/eng/\" rel=\"noopener\" target=\"_blank\"><em>Canadian Space Agency (CSA)</em></a><em> and are used with permission. Other visuals are licensed stock photography or approved website assets. Image credits are provided here collectively as part of the page design. </em>",
-    "fr": "",
-    "status": "pending"
+    "fr": "<em>Cette page comprend des renseignements provenant de ressources de l’Agence spatiale canadienne. De nombreuses images sont fournies avec l’aimable autorisation de l’</em><a href=\"https://www.asc-csa.gc.ca/eng/\" rel=\"noopener\" target=\"_blank\"><em>Agence spatiale canadienne (ASC)</em></a><em> et sont utilisées avec permission. D’autres visuels proviennent de photographies libres de droits sous licence ou d’éléments approuvés du site Web. Les crédits photographiques sont fournis ici collectivement dans le cadre de la conception de la page. </em>",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § canada-s-story-in-space-continues-and-th § p3",
     "section": "canada-s-story-in-space-continues-and-th",
     "tag": "p",
     "en": "<strong>MCYU</strong>",
-    "fr": "",
-    "status": "pending"
+    "fr": "<strong>MCYU</strong>",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § canada-s-story-in-space-continues-and-th § p4",
     "section": "canada-s-story-in-space-continues-and-th",
     "tag": "p",
     "en": "<a href=\"mailto:mcyu@mcmaster.ca\">mcyu@mcmaster.ca</a>",
-    "fr": "",
-    "status": "pending"
+    "fr": "<a href=\"mailto:mcyu@mcmaster.ca\">mcyu@mcmaster.ca</a>",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § canada-s-story-in-space-continues-and-th § p5",
     "section": "canada-s-story-in-space-continues-and-th",
     "tag": "p",
     "en": "<a data-tccl=\"ux2.FOOTER.footer4.Layout.Default.Link.Default.51716.click,click\" data-typography=\"LinkAlpha\" data-ux=\"Link\" href=\"tel:+19055212100,,73790\" rel=\"\">905-521-2100 ext. 73790</a>",
-    "fr": "",
-    "status": "pending"
+    "fr": "<a data-tccl=\"ux2.FOOTER.footer4.Layout.Default.Link.Default.51716.click,click\" data-typography=\"LinkAlpha\" data-ux=\"Link\" href=\"tel:+19055212100,,73790\" rel=\"\">905-521-2100 ext. 73790</a>",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § canada-s-story-in-space-continues-and-th § p6",
     "section": "canada-s-story-in-space-continues-and-th",
     "tag": "p",
     "en": "<strong>CanHist.ca</strong>",
-    "fr": "",
-    "status": "pending"
+    "fr": "<strong>CanHist.ca</strong>",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § canada-s-story-in-space-continues-and-th § p7",
     "section": "canada-s-story-in-space-continues-and-th",
     "tag": "p",
     "en": "<a href=\"mailto:info@canhist.ca\">info@canhist.ca</a>",
-    "fr": "",
-    "status": "pending"
+    "fr": "<a href=\"mailto:info@canhist.ca\">info@canhist.ca</a>",
+    "status": "translated"
   },
   {
     "id": "canadian-space-history § canada-s-story-in-space-continues-and-th § p8",
     "section": "canada-s-story-in-space-continues-and-th",
     "tag": "p",
     "en": "<a data-tccl=\"ux2.FOOTER.footer4.Layout.Default.Link.Default.51716.click,click\" data-typography=\"LinkAlpha\" data-ux=\"Link\" href=\"tel:+15192170402\" rel=\"\">519-217-0402</a>",
-    "fr": "",
-    "status": "pending"
+    "fr": "<a data-tccl=\"ux2.FOOTER.footer4.Layout.Default.Link.Default.51716.click,click\" data-typography=\"LinkAlpha\" data-ux=\"Link\" href=\"tel:+15192170402\" rel=\"\">519-217-0402</a>",
+    "status": "translated"
   }
 ]
