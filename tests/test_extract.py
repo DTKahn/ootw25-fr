@@ -96,3 +96,69 @@ def test_walk_captures_dropdown_menu_label_and_submenu_items():
     texts = [norm(node_en(n)) for n in nodes]
     assert texts[:3] == ["ABOUT", "Who Are We", "Partners"]
     assert all(n.is_global for n in nodes[:3])
+
+
+FORM_FIXTURE = """
+<html><head><title>Contact</title></head>
+<body>
+<h2>Get in Touch</h2>
+<form class="srfm-form">
+<input name="form-id" type="hidden" value="2395">
+<input type="text" placeholder="First Name *">
+<div class="srfm-error-wrap">
+  <div class="srfm-error-message" data-error-msg="This field is required.">This field is required.</div>
+</div>
+<textarea placeholder="Message"></textarea>
+<label class="srfm-cbx" for="x"><span class="srfm-block-label">Consent: I agree to the <a href="/privacy-policy">Privacy Policy</a></span></label>
+<div class="srfm-validation-error" style="display: none;">Please verify that you are not a robot.</div>
+<button class="srfm-submit-button"><div class="srfm-submit-wrap">SEND NOW<div class="srfm-loader"></div></div></button>
+<input type="submit" value="Send">
+</form>
+</body></html>
+"""
+
+
+def test_walk_captures_form_ui_text():
+    """SureForms contact-form pattern: placeholders and submit-input values
+    are attribute-based strings (kind "attr" with the attribute recorded so
+    apply.py can write them back); labels, error/validation message divs and
+    the submit <button> text are block nodes. Hidden-input values (form-id
+    plumbing) must never be captured.
+    """
+    soup = BeautifulSoup(FORM_FIXTURE, "lxml")
+    nodes = walk(soup)
+    texts = [norm(node_en(n)) for n in nodes]
+    assert texts == [
+        "Get in Touch",
+        "First Name *",                              # input placeholder
+        "This field is required.",                   # data-error-msg attr
+        "This field is required.",                   # error div text
+        "Message",                                   # textarea placeholder
+        '<span class="srfm-block-label">Consent: I agree to the'
+        ' <a href="/privacy-policy">Privacy Policy</a></span>',  # label
+        "Please verify that you are not a robot.",   # validation div text
+        "SEND NOW",                                  # <button> text
+        "Send",                                      # input[type=submit] value
+    ]
+    kinds = [n.kind for n in nodes]
+    assert kinds == ["block", "attr", "attr", "block", "attr",
+                     "block", "block", "block", "attr"]
+    attrs = [n.attr for n in nodes]
+    assert attrs == [None, "placeholder", "data-error-msg", None,
+                     "placeholder", None, None, None, "value"]
+    assert "2395" not in " ".join(texts)
+
+
+def test_extract_page_form_tags_and_ids():
+    entries, _ = extract_page("contact", FORM_FIXTURE, global_index={})
+    ids = [e["id"] for e in entries]
+    assert "contact § get-in-touch § placeholder1" in ids
+    assert "contact § get-in-touch § placeholder2" in ids
+    assert "contact § get-in-touch § label1" in ids
+    assert "contact § get-in-touch § button1" in ids   # <button> text
+    assert "contact § get-in-touch § button2" in ids   # input[type=submit]
+    assert "contact § get-in-touch § error-msg1" in ids
+    by_id = {e["id"]: e for e in entries}
+    assert by_id["contact § get-in-touch § placeholder1"]["en"] == "First Name *"
+    assert by_id["contact § get-in-touch § button1"]["en"] == "SEND NOW"
+    assert by_id["contact § get-in-touch § button2"]["en"] == "Send"

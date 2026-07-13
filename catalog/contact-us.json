@@ -48,6 +48,182 @@
     "status": "pending"
   },
   {
+    "id": "contact-us § get-in-touch § placeholder1",
+    "section": "get-in-touch",
+    "tag": "placeholder",
+    "en": "First Name *",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "contact-us § get-in-touch § error-msg1",
+    "section": "get-in-touch",
+    "tag": "error-msg",
+    "en": "This field is required.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "contact-us § get-in-touch § unique-msg1",
+    "section": "get-in-touch",
+    "tag": "unique-msg",
+    "en": "Value needs to be unique.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "contact-us § get-in-touch § div1",
+    "section": "get-in-touch",
+    "tag": "div",
+    "en": "This field is required.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "contact-us § get-in-touch § placeholder2",
+    "section": "get-in-touch",
+    "tag": "placeholder",
+    "en": "Last Name *",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "contact-us § get-in-touch § error-msg2",
+    "section": "get-in-touch",
+    "tag": "error-msg",
+    "en": "This field is required.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "contact-us § get-in-touch § unique-msg2",
+    "section": "get-in-touch",
+    "tag": "unique-msg",
+    "en": "Value needs to be unique.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "contact-us § get-in-touch § div2",
+    "section": "get-in-touch",
+    "tag": "div",
+    "en": "This field is required.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "contact-us § get-in-touch § placeholder3",
+    "section": "get-in-touch",
+    "tag": "placeholder",
+    "en": "Phone Number *",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "contact-us § get-in-touch § error-msg3",
+    "section": "get-in-touch",
+    "tag": "error-msg",
+    "en": "This field is required.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "contact-us § get-in-touch § unique-msg3",
+    "section": "get-in-touch",
+    "tag": "unique-msg",
+    "en": "Value needs to be unique.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "contact-us § get-in-touch § div3",
+    "section": "get-in-touch",
+    "tag": "div",
+    "en": "This field is required.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "contact-us § get-in-touch § placeholder4",
+    "section": "get-in-touch",
+    "tag": "placeholder",
+    "en": "Email *",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "contact-us § get-in-touch § error-msg4",
+    "section": "get-in-touch",
+    "tag": "error-msg",
+    "en": "This field is required.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "contact-us § get-in-touch § unique-msg4",
+    "section": "get-in-touch",
+    "tag": "unique-msg",
+    "en": "Value needs to be unique.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "contact-us § get-in-touch § div4",
+    "section": "get-in-touch",
+    "tag": "div",
+    "en": "This field is required.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "contact-us § get-in-touch § placeholder5",
+    "section": "get-in-touch",
+    "tag": "placeholder",
+    "en": "Message",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "contact-us § get-in-touch § label1",
+    "section": "get-in-touch",
+    "tag": "label",
+    "en": "<span class=\"srfm-span-wrap\">\n\n</span>\n<span class=\"srfm-span-wrap srfm-block-label\">Consent: I agree to the <a href=\"/privacy-policy\" target=\"_blank\">Privacy Policy</a> <span aria-hidden=\"true\" class=\"srfm-required\"> *</span>\n</span>",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "contact-us § get-in-touch § error-msg5",
+    "section": "get-in-touch",
+    "tag": "error-msg",
+    "en": "This field is required.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "contact-us § get-in-touch § div5",
+    "section": "get-in-touch",
+    "tag": "div",
+    "en": "This field is required.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "contact-us § get-in-touch § div6",
+    "section": "get-in-touch",
+    "tag": "div",
+    "en": "Please verify that you are not a robot.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "contact-us § get-in-touch § button1",
+    "section": "get-in-touch",
+    "tag": "button",
+    "en": "SEND NOW",
+    "fr": "",
+    "status": "pending"
+  },
+  {
     "id": "contact-us § get-in-touch § p2",
     "section": "get-in-touch",
     "tag": "p",

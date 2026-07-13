@@ -13,6 +13,23 @@ def _entry(id_, section, tag, en):
             "fr": "", "status": "pending"}
 
 
+_ATTR_TAGS = {"placeholder": "placeholder", "value": "button",
+              "data-error-msg": "error-msg", "data-unique-msg": "unique-msg"}
+
+
+def _tag(node):
+    if node.kind == "img":
+        return "img"
+    if node.kind == "attr":
+        return _ATTR_TAGS.get(node.attr, node.attr)
+    el = node.el
+    if el.name == "span":  # elementor-button-text unit
+        return "button"
+    if el.name == "button" or any(a.name == "button" for a in el.parents):
+        return "button"  # submit <button> text (possibly a wrapper div unit)
+    return el.name
+
+
 def extract_page(slug, html, global_index):
     """Returns (page_entries, new_global_entries). global_index maps
     norm(en) -> existing global entry, and is NOT mutated."""
@@ -37,15 +54,13 @@ def extract_page(slug, html, global_index):
             key = norm(en)
             if key in seen_global:
                 continue
-            tag = ("button" if node.kind == "block" and node.el.name == "span"
-                   else "img" if node.kind == "img" else node.el.name)
+            tag = _tag(node)
             gcount[tag] = gcount.get(tag, 0) + 1
             g = _entry(f"global § chrome § {tag}{gcount[tag]}", "chrome", tag, en)
             new_global.append(g)
             seen_global[key] = g
             continue
-        tag = ("button" if node.kind == "block" and node.el.name == "span"
-               else "img" if node.kind == "img" else node.el.name)
+        tag = _tag(node)
         if node.kind == "block" and node.el.name in HEADINGS:
             section = slugify(en)
             counters = {}
