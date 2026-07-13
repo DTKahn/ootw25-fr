@@ -1,0 +1,162 @@
+[
+  {
+    "id": "contact-us § meta § title",
+    "section": "meta",
+    "tag": "title",
+    "en": "Contact Us - OOTW25",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "contact-us § meta § description",
+    "section": "meta",
+    "tag": "description",
+    "en": "Contact Us Get In Touch CanHist EMAIL info@canhist.ca PHONE NUMBER 519-217-0402 McMaster Children & Youth University (MCYU) ADDRESS Health Sciences Centre",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "contact-us § top § img1",
+    "section": "top",
+    "tag": "img",
+    "en": "OOTW logo variations tm february 2026 ootw logo white outline",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "contact-us § contact-us § h11",
+    "section": "contact-us",
+    "tag": "h1",
+    "en": "Contact Us",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "contact-us § get-in-touch § h21",
+    "section": "get-in-touch",
+    "tag": "h2",
+    "en": "Get In Touch",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "contact-us § get-in-touch § p1",
+    "section": "get-in-touch",
+    "tag": "p",
+    "en": "<span aria-hidden=\"true\" class=\"srfm-icon\">\n </span>\n<span class=\"srfm-error-content\">There was an error trying to submit your form. Please try again.</span>",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "contact-us § get-in-touch § p2",
+    "section": "get-in-touch",
+    "tag": "p",
+    "en": "<span aria-hidden=\"true\" class=\"srfm-icon\">\n </span>\n<span class=\"srfm-error-content\">There was an error trying to submit your form. Please try again.</span>",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "contact-us § canhist § h21",
+    "section": "canhist",
+    "tag": "h2",
+    "en": "CanHist",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "contact-us § email § h31",
+    "section": "email",
+    "tag": "h3",
+    "en": "<span>\n\t\t\t\t\t\t\tEMAIL\t\t\t\t\t\t</span>",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "contact-us § email § p1",
+    "section": "email",
+    "tag": "p",
+    "en": "info@canhist.ca",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "contact-us § phone-number § h31",
+    "section": "phone-number",
+    "tag": "h3",
+    "en": "<span>\n\t\t\t\t\t\t\tPHONE NUMBER\t\t\t\t\t\t</span>",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "contact-us § phone-number § p1",
+    "section": "phone-number",
+    "tag": "p",
+    "en": "519-217-0402",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "contact-us § mcmaster-children-amp-youth-university-m § h21",
+    "section": "mcmaster-children-amp-youth-university-m",
+    "tag": "h2",
+    "en": "McMaster Children &amp; Youth University (MCYU)",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "contact-us § address § h31",
+    "section": "address",
+    "tag": "h3",
+    "en": "<span>\n\t\t\t\t\t\t\tADDRESS\t\t\t\t\t\t</span>",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "contact-us § address § p1",
+    "section": "address",
+    "tag": "p",
+    "en": "Health Sciences Centre (HSC-3N11C-J)\nMcMaster University\n1280 Main Street West,\nHamilton, Ontario, L8S 4K1\nCanada",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "contact-us § email § h31",
+    "section": "email",
+    "tag": "h3",
+    "en": "<span>\n\t\t\t\t\t\t\tEMAIL\t\t\t\t\t\t</span>",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "contact-us § email § p1",
+    "section": "email",
+    "tag": "p",
+    "en": "mcyu@mcmaster.ca",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "contact-us § phone-number § h31",
+    "section": "phone-number",
+    "tag": "h3",
+    "en": "<span>\n\t\t\t\t\t\t\tPHONE NUMBER\t\t\t\t\t\t</span>",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "contact-us § phone-number § p1",
+    "section": "phone-number",
+    "tag": "p",
+    "en": "905-521-2100 ext. 73790",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "contact-us § follow-us § h41",
+    "section": "follow-us",
+    "tag": "h4",
+    "en": "Follow Us:",
+    "fr": "",
+    "status": "pending"
+  }
+]

@@ -1,0 +1,842 @@
+[
+  {
+    "id": "students-and-families § meta § title",
+    "section": "meta",
+    "tag": "title",
+    "en": "Students & Families - OOTW25",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § meta § description",
+    "section": "meta",
+    "tag": "description",
+    "en": "Students & Families Discover the excitement of space exploration and how Canadians are helping explore the universe. Space exploration begins with curiosity.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § top § img1",
+    "section": "top",
+    "tag": "img",
+    "en": "OOTW logo variations tm february 2026 ootw logo white outline",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § students-amp-families § h21",
+    "section": "students-amp-families",
+    "tag": "h2",
+    "en": "Students &amp; Families",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § students-amp-families § img1",
+    "section": "students-amp-families",
+    "tag": "img",
+    "en": "Astronaut Chris Hadfield onboard Endeavour",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § students-amp-families § img2",
+    "section": "students-amp-families",
+    "tag": "img",
+    "en": "Spacewalking with Canadarm2",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § students-amp-families § img3",
+    "section": "students-amp-families",
+    "tag": "img",
+    "en": "David Saint Jacques first NBL training",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § discover-the-excitement-of-space-explora § h21",
+    "section": "discover-the-excitement-of-space-explora",
+    "tag": "h2",
+    "en": "Discover the excitement of space exploration and how Canadians are helping explore the universe.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § space-exploration-begins-with-curiosity § h21",
+    "section": "space-exploration-begins-with-curiosity",
+    "tag": "h2",
+    "en": "Space exploration begins with curiosity.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § space-exploration-begins-with-curiosity § p1",
+    "section": "space-exploration-begins-with-curiosity",
+    "tag": "p",
+    "en": "Through <strong>Out of This World 25</strong>, students and families can explore Canada’s remarkable journey in space — from <strong>Chris Hadfield walking in space during Mission STS-100</strong> to <strong>Jeremy Hansen’s historic Artemis II mission around the Moon</strong>.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § space-exploration-begins-with-curiosity § p2",
+    "section": "space-exploration-begins-with-curiosity",
+    "tag": "p",
+    "en": "Discover how astronauts live and work in orbit, how Canadian robotics help build and operate the International Space Station, and how curiosity and imagination continue to shape new chapters in Canada’s story in space.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § space-exploration-begins-with-curiosity § p3",
+    "section": "space-exploration-begins-with-curiosity",
+    "tag": "p",
+    "en": "<strong>What would you discover if you could explore space?</strong>",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § space-exploration-begins-with-curiosity § p4",
+    "section": "space-exploration-begins-with-curiosity",
+    "tag": "p",
+    "en": "Many of the learning activities featured here are part of the <strong>Out of This World 25 partnership with </strong><a href=\"https://mcyu.mcmaster.ca/\" rel=\"noopener\" target=\"_blank\"><strong>McMaster Children and Youth University (MCYU)</strong></a>, helping inspire young Canadians to explore science, technology, and discovery.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § every-astronaut-begins-as-a-curious-lear § h21",
+    "section": "every-astronaut-begins-as-a-curious-lear",
+    "tag": "h2",
+    "en": "Every astronaut begins as a curious learner. Your journey into space starts the same way.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § choose-a-mission-and-start-exploring-can § h21",
+    "section": "choose-a-mission-and-start-exploring-can",
+    "tag": "h2",
+    "en": "Choose a mission and start exploring Canada’s story in space.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § become-an-astronaut § h21",
+    "section": "become-an-astronaut",
+    "tag": "h2",
+    "en": "Become an Astronaut",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § become-an-astronaut § p1",
+    "section": "become-an-astronaut",
+    "tag": "p",
+    "en": "Train like a real astronaut",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § become-an-astronaut § button1",
+    "section": "become-an-astronaut",
+    "tag": "button",
+    "en": "EXPLORE BECOMING AN ASTRONAUT",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § space-games § h21",
+    "section": "space-games",
+    "tag": "h2",
+    "en": "Space Games",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § space-games § p1",
+    "section": "space-games",
+    "tag": "p",
+    "en": "Test your knowledge on space",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § space-games § button1",
+    "section": "space-games",
+    "tag": "button",
+    "en": "EXPLORE SPACE GAMES",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § space-experiments § h21",
+    "section": "space-experiments",
+    "tag": "h2",
+    "en": "Space Experiments",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § space-experiments § p1",
+    "section": "space-experiments",
+    "tag": "p",
+    "en": "Try science activities at home",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § space-experiments § button1",
+    "section": "space-experiments",
+    "tag": "button",
+    "en": "EXPLORE SPACE EXPERIMENTS",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § canadarm2-robot § h21",
+    "section": "canadarm2-robot",
+    "tag": "h2",
+    "en": "Canadarm2 Robot",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § canadarm2-robot § p1",
+    "section": "canadarm2-robot",
+    "tag": "p",
+    "en": "See how Canada’s famous space robot works",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § canadarm2-robot § button1",
+    "section": "canadarm2-robot",
+    "tag": "button",
+    "en": "EXPLORE CANADARM2",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § life-in-space § h21",
+    "section": "life-in-space",
+    "tag": "h2",
+    "en": "Life in Space",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § life-in-space § p1",
+    "section": "life-in-space",
+    "tag": "p",
+    "en": "See how astronauts live in orbit",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § life-in-space § button1",
+    "section": "life-in-space",
+    "tag": "button",
+    "en": "EXPLORE LIFE IN SPACE",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § explore-space-storymaps § h21",
+    "section": "explore-space-storymaps",
+    "tag": "h2",
+    "en": "Explore Space StoryMaps",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § explore-space-storymaps § p1",
+    "section": "explore-space-storymaps",
+    "tag": "p",
+    "en": "Explore Canada’s space story through maps",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § explore-space-storymaps § button1",
+    "section": "explore-space-storymaps",
+    "tag": "button",
+    "en": "EXPLORE SPACE STORYMAPS",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § what-happens-when-everyday-things-behave § h21",
+    "section": "what-happens-when-everyday-things-behave",
+    "tag": "h2",
+    "en": "What happens when everyday things behave differently in space? Astronaut Chris Hadfield shows how microgravity changes the way water behaves.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § water-in-space-with-astronaut-chris-hadf § h21",
+    "section": "water-in-space-with-astronaut-chris-hadf",
+    "tag": "h2",
+    "en": "Water in Space with Astronaut Chris Hadfield",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § water-in-space-with-astronaut-chris-hadf § p1",
+    "section": "water-in-space-with-astronaut-chris-hadf",
+    "tag": "p",
+    "en": "Life aboard the <strong>International Space Station</strong> can turn ordinary things into fascinating science experiments.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § water-in-space-with-astronaut-chris-hadf § p2",
+    "section": "water-in-space-with-astronaut-chris-hadf",
+    "tag": "p",
+    "en": "In microgravity, liquids behave very differently than they do on Earth. In this demonstration, Canadian astronaut <strong>Chris Hadfield</strong> shows how water forms floating spheres instead of falling downward.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § water-in-space-with-astronaut-chris-hadf § p3",
+    "section": "water-in-space-with-astronaut-chris-hadf",
+    "tag": "p",
+    "en": "Experiments like this help scientists understand how liquids behave in space — knowledge that is important for everything from <strong>spacecraft systems to future missions beyond Earth</strong>.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § explore-experiment-discover § h21",
+    "section": "explore-experiment-discover",
+    "tag": "h2",
+    "en": "Explore. Experiment. Discover.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § explore-experiment-discover § p1",
+    "section": "explore-experiment-discover",
+    "tag": "p",
+    "en": "<strong>What would it be like to train like an astronaut?</strong>",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § explore-experiment-discover § p2",
+    "section": "explore-experiment-discover",
+    "tag": "p",
+    "en": "The <strong>Canadian Space Agency</strong> offers exciting activities, games, and challenges designed especially for young explorers.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § explore-experiment-discover § p3",
+    "section": "explore-experiment-discover",
+    "tag": "p",
+    "en": "Learn how astronauts train, explore amazing space technologies, and discover how scientists study the universe.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § explore-experiment-discover § p4",
+    "section": "explore-experiment-discover",
+    "tag": "p",
+    "en": "Whether you’re dreaming of becoming an astronaut or simply curious about the stars, there is always something new to explore.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § explore-experiment-discover § button1",
+    "section": "explore-experiment-discover",
+    "tag": "button",
+    "en": "EXPLORE SPACE ACTIVITIES",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § mission-challenge § h21",
+    "section": "mission-challenge",
+    "tag": "h2",
+    "en": "Mission Challenge",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § mission-challenge § p1",
+    "section": "mission-challenge",
+    "tag": "p",
+    "en": "<strong>Can you answer these space questions?</strong>",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § mission-challenge § li1",
+    "section": "mission-challenge",
+    "tag": "li",
+    "en": "How fast does the ISS travel around Earth?",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § mission-challenge § li2",
+    "section": "mission-challenge",
+    "tag": "li",
+    "en": "What does Canadarm2 do on the space station?",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § mission-challenge § li3",
+    "section": "mission-challenge",
+    "tag": "li",
+    "en": "How does water behave in microgravity?",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § mission-challenge § p2",
+    "section": "mission-challenge",
+    "tag": "p",
+    "en": "Explore the page and see if you can find the answers.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § life-in-orbit-is-very-different-from-lif § h21",
+    "section": "life-in-orbit-is-very-different-from-lif",
+    "tag": "h2",
+    "en": "Life in orbit is very different from life on Earth.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § life-in-orbit § h21",
+    "section": "life-in-orbit",
+    "tag": "h2",
+    "en": "Life in Orbit",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § life-in-orbit § p1",
+    "section": "life-in-orbit",
+    "tag": "p",
+    "en": "<strong>How do astronauts eat, sleep, and float in space? </strong>",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § life-in-orbit § p2",
+    "section": "life-in-orbit",
+    "tag": "p",
+    "en": "Astronauts aboard the <strong>International Space Station (ISS)</strong> live and work hundreds of kilometres above Earth.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § life-in-orbit § p3",
+    "section": "life-in-orbit",
+    "tag": "p",
+    "en": "In microgravity, everyday tasks become extraordinary experiences. Astronauts float instead of walk, conduct scientific experiments, maintain complex technology, and work closely with international teams on Earth.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § life-in-orbit § p4",
+    "section": "life-in-orbit",
+    "tag": "p",
+    "en": "Canadian astronauts — along with Canadian technology such as <strong>Canadarm2</strong> — play an important role aboard the ISS, helping operate the station and supporting research that helps scientists better understand space and our own planet.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § space-facts § h21",
+    "section": "space-facts",
+    "tag": "h2",
+    "en": "Space Facts",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § space-facts § li1",
+    "section": "space-facts",
+    "tag": "li",
+    "en": "The International Space Station travels <strong>28,000 km per hour</strong>",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § space-facts § li2",
+    "section": "space-facts",
+    "tag": "li",
+    "en": "Astronauts see <strong>16 sunrises every day</strong>",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § space-facts § li3",
+    "section": "space-facts",
+    "tag": "li",
+    "en": "Canadarm2 can move objects <strong>the size of school buses</strong>",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § space-facts § button1",
+    "section": "space-facts",
+    "tag": "button",
+    "en": "EXPLORE THE INTERNATIONAL SPACE STATION",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § canada-s-robotics-have-become-essential- § h21",
+    "section": "canada-s-robotics-have-become-essential-",
+    "tag": "h2",
+    "en": "Canada’s robotics have become essential tools in space exploration.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § meet-canadarm2 § h21",
+    "section": "meet-canadarm2",
+    "tag": "h2",
+    "en": "Meet Canadarm2",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § meet-canadarm2 § p1",
+    "section": "meet-canadarm2",
+    "tag": "p",
+    "en": "<strong>How does a giant robot work in space? </strong>",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § meet-canadarm2 § p2",
+    "section": "meet-canadarm2",
+    "tag": "p",
+    "en": "One of Canada’s most important contributions to space exploration is <strong>Canadarm2</strong>, the advanced robotic arm aboard the International Space Station.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § meet-canadarm2 § p3",
+    "section": "meet-canadarm2",
+    "tag": "p",
+    "en": "Developed by Canadian engineers, Canadarm2 helps astronauts move equipment, capture visiting spacecraft, and support space missions in orbit.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § meet-canadarm2 § p4",
+    "section": "meet-canadarm2",
+    "tag": "p",
+    "en": "Watch how this remarkable Canadian technology helps astronauts operate and maintain the International Space Station",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § behind-every-astronaut-is-a-team-of-expl § h21",
+    "section": "behind-every-astronaut-is-a-team-of-expl",
+    "tag": "h2",
+    "en": "Behind every astronaut is a team of explorers on Earth.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § where-could-curiosity-take-you § h21",
+    "section": "where-could-curiosity-take-you",
+    "tag": "h2",
+    "en": "Where Could Curiosity Take You?",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § where-could-curiosity-take-you § p1",
+    "section": "where-could-curiosity-take-you",
+    "tag": "p",
+    "en": "Canada’s journey in space continues with <strong>Artemis II</strong>, which carried Canadian astronaut <strong>Jeremy Hansen</strong> around the Moon and marked a historic milestone for Canada in space.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § where-could-curiosity-take-you § p2",
+    "section": "where-could-curiosity-take-you",
+    "tag": "p",
+    "en": "The discoveries of tomorrow will come from the students of today.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § where-could-curiosity-take-you § p3",
+    "section": "where-could-curiosity-take-you",
+    "tag": "p",
+    "en": "Space exploration needs scientists, engineers, artists, programmers, and creative thinkers — people who are curious about the universe and eager to explore new ideas.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § design-your-destiny-challenge § h21",
+    "section": "design-your-destiny-challenge",
+    "tag": "h2",
+    "en": "Design Your Destiny Challenge",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § design-your-destiny-challenge § p1",
+    "section": "design-your-destiny-challenge",
+    "tag": "p",
+    "en": "<strong class=\"x-el x-el-span c1-22 c1-23 c1-b c1-dl c1-3m c1-51 c1-dm\">If you were part of a future space mission, what role would you choose?</strong>",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § design-your-destiny-challenge § p2",
+    "section": "design-your-destiny-challenge",
+    "tag": "p",
+    "en": "Would you be the astronaut, the engineer, the scientist, the storyteller, or the designer helping shape the mission?",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § design-your-destiny-challenge § button1",
+    "section": "design-your-destiny-challenge",
+    "tag": "button",
+    "en": "LEARN ABOUT ARTEMIS II",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § discover-more-stories-missions-and-ideas § h21",
+    "section": "discover-more-stories-missions-and-ideas",
+    "tag": "h2",
+    "en": "Discover more stories, missions, and ideas from Canada’s journey in space.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § explore-more-space-adventures § h21",
+    "section": "explore-more-space-adventures",
+    "tag": "h2",
+    "en": "Explore More Space Adventures",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § meet-chris-hadfield § h21",
+    "section": "meet-chris-hadfield",
+    "tag": "h2",
+    "en": "Meet Chris Hadfield",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § meet-chris-hadfield § p1",
+    "section": "meet-chris-hadfield",
+    "tag": "p",
+    "en": "Meet the first Canadian to walk in space",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § meet-chris-hadfield § button1",
+    "section": "meet-chris-hadfield",
+    "tag": "button",
+    "en": "EXPLORE CHRIS HADFIELD",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § tour-the-csa § h21",
+    "section": "tour-the-csa",
+    "tag": "h2",
+    "en": "Tour the CSA",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § tour-the-csa § p1",
+    "section": "tour-the-csa",
+    "tag": "p",
+    "en": "Explore Canada’s Space headquarters",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § tour-the-csa § button1",
+    "section": "tour-the-csa",
+    "tag": "button",
+    "en": "EXPLORE THE CSA",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § space-robotics § h21",
+    "section": "space-robotics",
+    "tag": "h2",
+    "en": "Space Robotics",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § space-robotics § p1",
+    "section": "space-robotics",
+    "tag": "p",
+    "en": "Discover Canada’s famous space robots",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § space-robotics § button1",
+    "section": "space-robotics",
+    "tag": "button",
+    "en": "EXPLORE SPACE ROBOTICS",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § explore-the-iss § h21",
+    "section": "explore-the-iss",
+    "tag": "h2",
+    "en": "Explore the ISS",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § explore-the-iss § p1",
+    "section": "explore-the-iss",
+    "tag": "p",
+    "en": "Explore the orbiting space lab",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § explore-the-iss § button1",
+    "section": "explore-the-iss",
+    "tag": "button",
+    "en": "EXPLORE THE ISS",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § microhistories § h21",
+    "section": "microhistories",
+    "tag": "h2",
+    "en": "Microhistories",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § microhistories § p1",
+    "section": "microhistories",
+    "tag": "p",
+    "en": "Discover the hidden stories behind space missions",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § microhistories § button1",
+    "section": "microhistories",
+    "tag": "button",
+    "en": "EXPLORE MICROHISTORIES",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § design-your-destiny § h21",
+    "section": "design-your-destiny",
+    "tag": "h2",
+    "en": "Design your destiny",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § design-your-destiny § p1",
+    "section": "design-your-destiny",
+    "tag": "p",
+    "en": "Imagine your future in space exploration",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § design-your-destiny § button1",
+    "section": "design-your-destiny",
+    "tag": "button",
+    "en": "EXPLORE YOUR DESTINY",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § the-next-generation-of-explorers-is-alre § h21",
+    "section": "the-next-generation-of-explorers-is-alre",
+    "tag": "h2",
+    "en": "The next generation of explorers is already looking up at the stars.\nThrough Out of This World 25, students and families across Canada can discover the people, technologies, and ideas shaping our journey in space.\nThe future of exploration may begin with your curiosity.",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § the-next-generation-of-explorers-is-alre § p1",
+    "section": "the-next-generation-of-explorers-is-alre",
+    "tag": "p",
+    "en": "<strong>Sources &amp; Image Credits</strong>",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § the-next-generation-of-explorers-is-alre § p2",
+    "section": "the-next-generation-of-explorers-is-alre",
+    "tag": "p",
+    "en": "<em>This page includes information from Canadian Space Agency resources. Many images are courtesy of the </em><a href=\"https://www.asc-csa.gc.ca/eng/\" rel=\"noopener\" target=\"_blank\"><em>Canadian Space Agency (CSA)</em></a><em> and are used with permission. Other visuals are licensed stock photography or approved website assets. Image credits are provided here collectively as part of the page design. </em>",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § the-next-generation-of-explorers-is-alre § p3",
+    "section": "the-next-generation-of-explorers-is-alre",
+    "tag": "p",
+    "en": "<strong>MCYU</strong>",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § the-next-generation-of-explorers-is-alre § p4",
+    "section": "the-next-generation-of-explorers-is-alre",
+    "tag": "p",
+    "en": "<a href=\"mailto:mcyu@mcmaster.ca\">mcyu@mcmaster.ca</a>",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § the-next-generation-of-explorers-is-alre § p5",
+    "section": "the-next-generation-of-explorers-is-alre",
+    "tag": "p",
+    "en": "<a data-tccl=\"ux2.FOOTER.footer4.Layout.Default.Link.Default.51716.click,click\" data-typography=\"LinkAlpha\" data-ux=\"Link\" href=\"tel:+19055212100,,73790\" rel=\"\">905-521-2100 ext. 73790</a>",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § the-next-generation-of-explorers-is-alre § p6",
+    "section": "the-next-generation-of-explorers-is-alre",
+    "tag": "p",
+    "en": "<strong>CanHist.ca</strong>",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § the-next-generation-of-explorers-is-alre § p7",
+    "section": "the-next-generation-of-explorers-is-alre",
+    "tag": "p",
+    "en": "<a href=\"mailto:info@canhist.ca\">info@canhist.ca</a>",
+    "fr": "",
+    "status": "pending"
+  },
+  {
+    "id": "students-and-families § the-next-generation-of-explorers-is-alre § p8",
+    "section": "the-next-generation-of-explorers-is-alre",
+    "tag": "p",
+    "en": "<a data-tccl=\"ux2.FOOTER.footer4.Layout.Default.Link.Default.51716.click,click\" data-typography=\"LinkAlpha\" data-ux=\"Link\" href=\"tel:+15192170402\" rel=\"\">519-217-0402</a>",
+    "fr": "",
+    "status": "pending"
+  }
+]
