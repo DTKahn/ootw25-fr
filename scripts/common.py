@@ -88,8 +88,19 @@ def walk(soup) -> list:
     """All translatable nodes in document order. Shared by extract and apply."""
     out = []
     body = soup.body or soup
+    # <a> descendants of a composite block (e.g. a slider <li> mixing an
+    # <img> with a caption link) that must still be emitted as their own
+    # block-kind node. Populated when the composite block itself is visited
+    # (its <img> sibling(s) come immediately after it in document order and
+    # must be emitted first via the ordinary img branch below), then
+    # consumed on the <a>'s own turn through this same loop so the caption
+    # node lands in the correct document-order position, after its img.
+    pending_caption_links = set()
     for el in body.find_all(True):
         if any(a.name in SKIP_ANCESTORS for a in el.parents):
+            continue
+        if el.name == "a" and el in pending_caption_links:
+            out.append(Node(el, "block", _is_global(el)))
             continue
         # attribute-based strings (placeholders, submit values, form message
         # attributes) are independent of any block/img node the same element
@@ -123,6 +134,19 @@ def walk(soup) -> list:
                 continue
             # skip blocks that live inside a button span (the span is the unit)
             if any(_is_button_text(a) for a in el.parents):
+                continue
+            # composite block (e.g. slider <li>) mixing an <img> with other
+            # content: never emit the block itself -- its img descendant(s)
+            # are already emitted below by the img branch (avoiding
+            # duplicated alt text and apply.py clobbering the real img node
+            # when the block's fr blob gets written back). Any caption
+            # <a> descendant with visible text is emitted as its own
+            # block-kind node instead, so caption text still gets a
+            # translation unit.
+            if el.find("img") is not None:
+                for a in el.find_all("a"):
+                    if norm(a.get_text()):
+                        pending_caption_links.add(a)
                 continue
             if not norm(el.get_text()):
                 continue

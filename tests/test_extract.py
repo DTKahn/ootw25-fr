@@ -196,6 +196,56 @@ def test_repeated_headings_get_distinct_sections_and_unique_ids():
     assert by_id["contact § phone-number-2 § p1"]["en"] == "555-0002"
 
 
+SLIDER_FIXTURE = """
+<html><head><title>Slider Page</title></head>
+<body>
+<h2>Gallery</h2>
+<ul class="ms-slider">
+  <li class="slide-1 ms-image"><img src="a.jpg" alt="A plain slide with no caption."></li>
+  <li class="slide-2 ms-image">
+    <img src="b.jpg" alt="Chris Hadfield prior to launch.">
+    <div class="caption-wrap"><div class="caption"><div style="text-align:center;">
+      <strong><a class="ms-custom-button" href="https://example.com/chris">Listen to Chris Hadfield</a></strong>
+    </div></div></div>
+  </li>
+  <li>A normal list item.</li>
+</ul>
+</body></html>
+"""
+
+
+def test_walk_decomposes_composite_slider_block_with_img_and_caption():
+    """A slider <li> whose inner HTML mixes an <img> (whose alt is also
+    captured separately) with a caption <strong><a>...</a></strong> used to
+    be emitted whole, duplicating the img alt and leaving apply.py to
+    destroy the real img node when the li's fr blob is written back (el.clear()
+    detaches it). The composite <li> itself must never be emitted; its img
+    is emitted once (by the existing img branch) and its caption link text
+    is emitted as its own block node. A sibling <li> with no img is
+    untouched, and a plain <li> with no caption is silently skipped (as
+    before, since it carries no visible text).
+    """
+    soup = BeautifulSoup(SLIDER_FIXTURE, "lxml")
+    nodes = walk(soup)
+    texts = [norm(node_en(n)) for n in nodes]
+    assert not any("<img" in t for t in texts)
+    assert "Chris Hadfield prior to launch." in texts  # img alt, emitted once
+    assert texts.count("Chris Hadfield prior to launch.") == 1
+    assert "Listen to Chris Hadfield" in texts  # caption link, its own node
+    assert "A normal list item." in texts  # untouched sibling <li>
+    # order: heading, both img alts (document order), caption link text,
+    # normal li
+    assert texts == [
+        "Gallery",
+        "A plain slide with no caption.",
+        "Chris Hadfield prior to launch.",
+        "Listen to Chris Hadfield",
+        "A normal list item.",
+    ]
+    kinds = [n.kind for n in nodes]
+    assert kinds == ["block", "img", "img", "block", "block"]
+
+
 def test_merge_catalog_preserves_translated_fr_when_en_unchanged():
     """extract.py must never silently wipe translators' work: re-running it
     (e.g. after a whitespace-only or later re-crawl) should carry forward
