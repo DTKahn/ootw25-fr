@@ -42,7 +42,7 @@ TEMPLATE = """<title>OOTW25 — Révision de la traduction française</title>
             vertical-align: top; text-align: left;
             overflow-wrap: break-word; }}
   td.id {{ font-family: ui-monospace, monospace; font-size: .78em; opacity: .7;
-           overflow: hidden; text-overflow: ellipsis; }}
+           overflow: hidden; word-break: break-all; }}
   td.fr {{ white-space: pre-wrap; }}
   td.fr[contenteditable]:focus {{ outline: 2px solid #4a90d9; }}
   td.fr.dirty {{ background: #fde68a55; }}
