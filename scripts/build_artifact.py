@@ -34,6 +34,7 @@ TEMPLATE = """<title>OOTW25 — Révision de la traduction française</title>
   td.fr {{ min-width: 280px; white-space: pre-wrap; }}
   td.fr[contenteditable]:focus {{ outline: 2px solid #4a90d9; }}
   td.fr.dirty {{ background: #fde68a55; }}
+  td.live-fr {{ min-width: 280px; white-space: pre-wrap; opacity: .7; }}
   .badge {{ display: inline-block; font-size: .85em; padding: .1rem .4rem;
             border-radius: 4px; background: #4a90d922; cursor: help;
             white-space: nowrap; }}
@@ -53,10 +54,14 @@ TEMPLATE = """<title>OOTW25 — Révision de la traduction française</title>
 comportent une mise en forme (gras, liens, etc.) sont marquées d'un badge
 « ⚑ mise en forme » : la mise en forme d'origine est automatiquement
 réappliquée après l'application des corrections, vous n'avez donc pas à vous
-en préoccuper — modifiez simplement le texte. Modifiez le texte français
-directement dans les cellules; les cellules modifiées sont surlignées.
-Cliquez « Exporter les corrections », puis collez le résultat dans la
-conversation Claude Code.</p>
+en préoccuper — modifiez simplement le texte. La colonne « Français actuel
+(site) », lorsqu'elle est présente, affiche à titre de référence uniquement
+la traduction française actuellement en ligne sur le site; elle n'est pas
+modifiable et n'a aucune influence sur la traduction proposée. Modifiez le
+texte français directement dans les cellules de la colonne « Français
+(modifiable) »; les cellules modifiées sont surlignées. Cliquez « Exporter
+les corrections », puis collez le résultat dans la conversation Claude
+Code.</p>
 <div id="tables">{tables}</div>
 <script>
   const dirty = {{}};
@@ -80,8 +85,12 @@ conversation Claude Code.</p>
 </script>"""
 
 
-def build(catalog_dir="catalog", out_path="review.html"):
+def build(catalog_dir="catalog", out_path="review.html", live_fr_path="live-fr.json"):
     order = ["_global"] + list(PAGES)
+    live_fr_file = Path(live_fr_path)
+    live_fr = (json.loads(live_fr_file.read_text(encoding="utf-8"))
+               if live_fr_file.exists() else None)
+    live_fr_th = ("<th>Français actuel (site)</th>" if live_fr is not None else "")
     blocks = []
     for slug in order:
         p = Path(catalog_dir) / f"{slug}.json"
@@ -102,17 +111,28 @@ def build(catalog_dir="catalog", out_path="review.html"):
                 "en forme (gras, lien, etc.) qui sera automatiquement "
                 "réappliquée après l'application de la correction.\">"
                 "⚑ mise en forme</span>" if has_markup else "")
+            # Read-only reference column: the CURRENT live-site French
+            # string for this id, if we have one (live-fr.json is generated
+            # by scripts/extract_live_fr.py from a snapshot of
+            # https://ootw25.ca/fr/ -- it never feeds back into the
+            # catalog, it's display-only). Empty cell when there's no key.
+            live_fr_td = ""
+            if live_fr is not None:
+                live_fr_td = ("<td class='live-fr'>{v}</td>"
+                               .format(v=strip_tags(live_fr.get(e["id"], ""))))
             rows.append(
-                "<tr><td class='id' title='{i}'>{i}</td><td>{en}</td>"
+                "<tr><td class='id' title='{i}'>{i}</td><td>{en}</td>{live}"
                 "<td class='fr' contenteditable='plaintext-only' data-id='{i}'>{fr}</td>"
                 "<td class='status'>{st}{badge}</td></tr>".format(
                     i=html.escape(e["id"]), en=strip_tags(e["en"]),
+                    live=live_fr_td,
                     fr=strip_tags(e["fr"]), st=html.escape(e["status"]),
                     badge=badge))
         blocks.append(
             f"<details{' open' if slug == '_global' else ''}>"
             f"<summary>{html.escape(slug)} ({len(entries)})</summary>"
-            f"<table><tr><th>ID</th><th>English</th><th>Français (modifiable)</th>"
+            f"<table><tr><th>ID</th><th>English</th>{live_fr_th}"
+            f"<th>Français (modifiable)</th>"
             f"<th></th></tr>{''.join(rows)}</table></details>")
     Path(out_path).write_text(TEMPLATE.format(tables="".join(blocks)),
                               encoding="utf-8")
