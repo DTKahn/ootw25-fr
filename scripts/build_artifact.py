@@ -14,7 +14,10 @@ def plain(s: str) -> str:
     whitespace runs collapsed. Used both for display and for comparing the
     proposed translation against the live-site one."""
     no_tags = _TAG_RE.sub("", s)
-    return _WS_RE.sub(" ", no_tags).strip()
+    # Catalog strings carry source-HTML entities (&amp;, &#8217;…): decode
+    # them so cells show real characters; strip_tags() re-escapes exactly
+    # once for safe insertion.
+    return _WS_RE.sub(" ", html.unescape(no_tags)).strip()
 
 
 def strip_tags(s: str) -> str:
@@ -24,21 +27,26 @@ def strip_tags(s: str) -> str:
 
 TEMPLATE = """<title>OOTW25 — Révision de la traduction française</title>
 <style>
-  body {{ font: 15px/1.5 system-ui, sans-serif; margin: 0 auto; max-width: 1100px;
+  body {{ font: 15px/1.5 system-ui, sans-serif; margin: 0 auto; max-width: 1500px;
          padding: 1rem; }}
   h1 {{ font-size: 1.3rem; }}
-  details {{ margin: .6rem 0; border: 1px solid #8884; border-radius: 8px; }}
+  details {{ margin: .6rem 0; border: 1px solid #8884; border-radius: 8px;
+             overflow-x: auto; }}
   summary {{ padding: .5rem .8rem; cursor: pointer; font-weight: 600; }}
-  table {{ width: 100%; border-collapse: collapse; font-size: .92em; }}
+  table {{ width: 100%; border-collapse: collapse; font-size: .92em;
+           table-layout: fixed; min-width: 760px; }}
+  col.c-id {{ width: 15%; }}  col.c-en {{ width: 27%; }}
+  col.c-live {{ width: 27%; }} col.c-fr {{ width: 27%; }}
+  col.c-st {{ width: 4%; min-width: 90px; }}
   th, td {{ border-top: 1px solid #8883; padding: .45rem .6rem;
-            vertical-align: top; text-align: left; }}
+            vertical-align: top; text-align: left;
+            overflow-wrap: break-word; }}
   td.id {{ font-family: ui-monospace, monospace; font-size: .78em; opacity: .7;
-           white-space: nowrap; max-width: 220px; overflow: hidden;
-           text-overflow: ellipsis; }}
-  td.fr {{ min-width: 280px; white-space: pre-wrap; }}
+           overflow: hidden; text-overflow: ellipsis; }}
+  td.fr {{ white-space: pre-wrap; }}
   td.fr[contenteditable]:focus {{ outline: 2px solid #4a90d9; }}
   td.fr.dirty {{ background: #fde68a55; }}
-  td.live-fr {{ min-width: 280px; white-space: pre-wrap; opacity: .7; }}
+  td.live-fr {{ white-space: pre-wrap; opacity: .7; }}
   tr.differs {{ background: #fef9c380; }}
   tr.differs td.id {{ border-left: 4px double #8886; }}
   .diff-mark {{ display: inline-block; font-size: .85em; padding: .1rem .4rem;
@@ -105,6 +113,16 @@ def build(catalog_dir="catalog", out_path="review.html", live_fr_path="live-fr.j
     live_fr = (json.loads(live_fr_file.read_text(encoding="utf-8"))
                if live_fr_file.exists() else None)
     live_fr_th = ("<th>Français actuel (site)</th>" if live_fr is not None else "")
+    # Fixed-layout column widths (colgroup) so long strings wrap inside
+    # their cells instead of blowing the table out of its card.
+    if live_fr is not None:
+        colgroup = ("<colgroup><col class='c-id'><col class='c-en'>"
+                    "<col class='c-live'><col class='c-fr'>"
+                    "<col class='c-st'></colgroup>")
+    else:
+        colgroup = ("<colgroup><col class='c-id'><col class='c-en'>"
+                    "<col class='c-fr' style='width:40%'>"
+                    "<col class='c-st'></colgroup>")
     blocks = []
     for slug in order:
         p = Path(catalog_dir) / f"{slug}.json"
@@ -156,7 +174,7 @@ def build(catalog_dir="catalog", out_path="review.html", live_fr_path="live-fr.j
         blocks.append(
             f"<details{' open' if slug == '_global' else ''}>"
             f"<summary>{html.escape(slug)} ({len(entries)})</summary>"
-            f"<table><tr><th>ID</th><th>English</th>{live_fr_th}"
+            f"<table>{colgroup}<tr><th>ID</th><th>English</th>{live_fr_th}"
             f"<th>Français (modifiable)</th>"
             f"<th></th></tr>{''.join(rows)}</table></details>")
     Path(out_path).write_text(TEMPLATE.format(tables="".join(blocks)),
