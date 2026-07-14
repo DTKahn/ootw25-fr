@@ -47,13 +47,13 @@ TEMPLATE = """<title>OOTW25 — Révision de la traduction française</title>
   td.fr[contenteditable]:focus {{ outline: 2px solid #4a90d9; }}
   td.fr.dirty {{ background: #fde68a55; }}
   td.live-fr {{ white-space: pre-wrap; opacity: .7; }}
-  tr.differs {{ background: #fef9c380; }}
+  tr.differs {{ background: #dbeafe66; }}
   tr.differs td.id {{ border-left: 4px double #8886; }}
   .diff-mark {{ display: inline-block; font-size: .85em; padding: .1rem .4rem;
-                border-radius: 4px; background: #fde68a66; cursor: help;
+                border-radius: 4px; background: #bfdbfe88; cursor: help;
                 font-weight: 600; }}
-  @media (prefers-color-scheme: dark) {{ tr.differs {{ background: #713f1233; }}
-    .diff-mark {{ background: #b4530944; }} }}
+  @media (prefers-color-scheme: dark) {{ tr.differs {{ background: #1e3a5f55; }}
+    .diff-mark {{ background: #1d4ed855; }} }}
   .badge {{ display: inline-block; font-size: .85em; padding: .1rem .4rem;
             border-radius: 4px; background: #4a90d922; cursor: help; }}
   .bar {{ position: sticky; top: 0; padding: .6rem 0; backdrop-filter: blur(6px);
@@ -77,7 +77,7 @@ en préoccuper — modifiez simplement le texte. La colonne « Français actuel
 la traduction française actuellement en ligne sur le site; elle n'est pas
 modifiable et n'a aucune influence sur la traduction proposée. Les lignes où
 la traduction proposée diffère de la traduction actuelle du site sont
-surlignées en jaune et marquées « ≠ à revoir » (avec une double bordure à
+surlignées en bleu et marquées « ≠ à revoir » (avec une double bordure à
 gauche de la ligne). Modifiez le
 texte français directement dans les cellules de la colonne « Français
 (modifiable) »; les cellules modifiées sont surlignées. Cliquez « Exporter
