@@ -14,10 +14,35 @@ def _cats():
 
 def test_applies_and_marks_corrected():
     cats = _cats()
-    n = apply_corrections(cats, {"my-page § s § p1": "Bonjour à tous"})
+    n, needs_refit = apply_corrections(cats, {"my-page § s § p1": "Bonjour à tous"})
     assert n == 1
+    assert needs_refit == []
     assert cats["my-page"][0]["fr"] == "Bonjour à tous"
     assert cats["my-page"][0]["status"] == "corrected"
+    assert cats["my-page"][1]["status"] == "translated"
+
+
+def test_tagged_entry_correction_skipped_and_reported():
+    """A correction targeting an entry whose `en` carries markup must not
+    overwrite the tagged `fr` with plain text; it should be reported back
+    to the caller instead of applied, while a plain-text sibling correction
+    in the same batch still goes through."""
+    cats = {"my-page": [
+        {"id": "my-page § s § plain", "section": "s", "tag": "p",
+         "en": "Hello", "fr": "Bonjour", "status": "translated"},
+        {"id": "my-page § s § tagged", "section": "s", "tag": "p",
+         "en": "Hello <strong>world</strong>",
+         "fr": "Bonjour <strong>monde</strong>", "status": "translated"},
+    ]}
+    n, needs_refit = apply_corrections(cats, {
+        "my-page § s § plain": "Bonjour à tous",
+        "my-page § s § tagged": "Bonjour tout le monde",
+    })
+    assert n == 1
+    assert needs_refit == ["my-page § s § tagged"]
+    assert cats["my-page"][0]["fr"] == "Bonjour à tous"
+    assert cats["my-page"][0]["status"] == "corrected"
+    assert cats["my-page"][1]["fr"] == "Bonjour <strong>monde</strong>"
     assert cats["my-page"][1]["status"] == "translated"
 
 

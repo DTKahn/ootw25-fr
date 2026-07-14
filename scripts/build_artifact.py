@@ -1,8 +1,22 @@
 import html
 import json
+import re
 from pathlib import Path
 
 from scripts.pages import PAGES
+
+_TAG_RE = re.compile(r"<[^>]+>")
+_WS_RE = re.compile(r"\s+")
+
+
+def strip_tags(s: str) -> str:
+    """Plain-text rendering of a (possibly markup-bearing) string: strip all
+    HTML tags, collapse whitespace runs to a single space, and HTML-escape
+    the result so it is safe to insert into a table cell as text. Guillemets
+    and accented characters pass through untouched."""
+    no_tags = _TAG_RE.sub("", s)
+    collapsed = _WS_RE.sub(" ", no_tags).strip()
+    return html.escape(collapsed)
 
 TEMPLATE = """<title>OOTW25 — Révision de la traduction française</title>
 <style>
@@ -17,10 +31,12 @@ TEMPLATE = """<title>OOTW25 — Révision de la traduction française</title>
   td.id {{ font-family: ui-monospace, monospace; font-size: .78em; opacity: .7;
            white-space: nowrap; max-width: 220px; overflow: hidden;
            text-overflow: ellipsis; }}
-  td.fr {{ min-width: 280px; }}
+  td.fr {{ min-width: 280px; white-space: pre-wrap; }}
   td.fr[contenteditable]:focus {{ outline: 2px solid #4a90d9; }}
   td.fr.dirty {{ background: #fde68a55; }}
-  td a {{ color: inherit; }}
+  .badge {{ display: inline-block; font-size: .85em; padding: .1rem .4rem;
+            border-radius: 4px; background: #4a90d922; cursor: help;
+            white-space: nowrap; }}
   .bar {{ position: sticky; top: 0; padding: .6rem 0; backdrop-filter: blur(6px);
           display: flex; gap: .8rem; align-items: center; }}
   button {{ padding: .45rem .9rem; border-radius: 6px; border: 1px solid #8886;
@@ -33,41 +49,28 @@ TEMPLATE = """<title>OOTW25 — Révision de la traduction française</title>
   <button id="export">Exporter les corrections</button>
   <span class="status" id="count">0 modification</span>
 </div>
-<p>Modifiez le texte français directement dans les cellules. Le gras, l'italique
-et les liens sont affichés avec leur mise en forme (et non comme balises brutes)
-dans les colonnes anglaise et française; conservez cette mise en forme lorsque
-vous modifiez une cellule (ne supprimez pas les balises, seulement le texte).
-Les cellules modifiées sont surlignées. Les liens ne sont pas cliquables
-directement dans le tableau : un clic sur un lien de la colonne anglaise
-l'ouvre dans un nouvel onglet (pour consulter la page source) sans quitter la
-revue; un clic sur un lien de la colonne française est simplement ignoré,
-pour ne pas interrompre l'édition. Cliquez « Exporter les corrections », puis
-collez le résultat dans la conversation Claude Code.</p>
+<p>Les cellules affichent le texte seul, sans balises. Les chaînes qui
+comportent une mise en forme (gras, liens, etc.) sont marquées d'un badge
+« ⚑ mise en forme » : la mise en forme d'origine est automatiquement
+réappliquée après l'application des corrections, vous n'avez donc pas à vous
+en préoccuper — modifiez simplement le texte. Modifiez le texte français
+directement dans les cellules; les cellules modifiées sont surlignées.
+Cliquez « Exporter les corrections », puis collez le résultat dans la
+conversation Claude Code.</p>
 <div id="tables">{tables}</div>
 <script>
   const dirty = {{}};
   document.querySelectorAll("td.fr").forEach(td => {{
-    td.dataset.orig = td.innerHTML;
+    td.dataset.orig = td.textContent;
     td.addEventListener("input", () => {{
-      const changed = td.innerHTML !== td.dataset.orig;
+      const changed = td.textContent !== td.dataset.orig;
       td.classList.toggle("dirty", changed);
-      if (changed) dirty[td.dataset.id] = td.innerHTML;
+      if (changed) dirty[td.dataset.id] = td.textContent;
       else delete dirty[td.dataset.id];
       const n = Object.keys(dirty).length;
       document.getElementById("count").textContent =
         n + " modification" + (n > 1 ? "s" : "");
     }});
-    // Prevent links inside editable French cells from navigating away and
-    // interrupting an edit; clicking one should just place the caret.
-    td.addEventListener("click", e => {{
-      if (e.target.closest("a")) e.preventDefault();
-    }});
-  }});
-  // English-side links: open in a new tab instead of hijacking the review
-  // page, so a reviewer can check the live source without losing their place.
-  document.querySelectorAll("td:not(.fr):not(.id):not(.status) a").forEach(a => {{
-    a.target = "_blank";
-    a.rel = "noopener";
   }});
   document.getElementById("export").addEventListener("click", async () => {{
     const out = JSON.stringify(dirty, null, 1);
@@ -87,17 +90,25 @@ def build(catalog_dir="catalog", out_path="review.html"):
         entries = json.loads(p.read_text(encoding="utf-8"))
         rows = []
         for e in entries:
-            # en/fr are inserted as rendered HTML (not escaped): these are
-            # trusted pipeline strings that may carry <strong>/<em>/<a>
-            # inline formatting, which should render as formatting in the
-            # review table rather than show up as literal tag text. Only
-            # id/status (never translatable markup) stay escaped.
+            # en/fr are rendered as plain text: tags are stripped and the
+            # result is html-escaped, so site markup (including inline
+            # style="color:..." spans) never leaks into the review table.
+            # Entries whose English source carries markup get a badge
+            # instead, since their formatting is reapplied automatically
+            # after corrections are applied (see apply_corrections.py).
+            has_markup = "<" in e["en"]
+            badge = (
+                " <span class='badge' title=\"Cette chaîne comporte une mise "
+                "en forme (gras, lien, etc.) qui sera automatiquement "
+                "réappliquée après l'application de la correction.\">"
+                "⚑ mise en forme</span>" if has_markup else "")
             rows.append(
                 "<tr><td class='id' title='{i}'>{i}</td><td>{en}</td>"
-                "<td class='fr' contenteditable='true' data-id='{i}'>{fr}</td>"
-                "<td class='status'>{st}</td></tr>".format(
-                    i=html.escape(e["id"]), en=e["en"],
-                    fr=e["fr"], st=html.escape(e["status"])))
+                "<td class='fr' contenteditable='plaintext-only' data-id='{i}'>{fr}</td>"
+                "<td class='status'>{st}{badge}</td></tr>".format(
+                    i=html.escape(e["id"]), en=strip_tags(e["en"]),
+                    fr=strip_tags(e["fr"]), st=html.escape(e["status"]),
+                    badge=badge))
         blocks.append(
             f"<details{' open' if slug == '_global' else ''}>"
             f"<summary>{html.escape(slug)} ({len(entries)})</summary>"
