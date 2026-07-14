@@ -35,9 +35,9 @@ TEMPLATE = """<title>OOTW25 — Révision de la traduction française</title>
   summary {{ padding: .5rem .8rem; cursor: pointer; font-weight: 600; }}
   table {{ width: 100%; border-collapse: collapse; font-size: .92em;
            table-layout: fixed; min-width: 760px; }}
-  col.c-id {{ width: 15%; }}  col.c-en {{ width: 27%; }}
-  col.c-live {{ width: 27%; }} col.c-fr {{ width: 27%; }}
-  col.c-st {{ width: 4%; min-width: 90px; }}
+  col.c-id {{ width: 14%; }}  col.c-en {{ width: 26%; }}
+  col.c-live {{ width: 26%; }} col.c-fr {{ width: 26%; }}
+  col.c-st {{ width: 8%; }}
   th, td {{ border-top: 1px solid #8883; padding: .45rem .6rem;
             vertical-align: top; text-align: left;
             overflow-wrap: break-word; }}
@@ -51,12 +51,11 @@ TEMPLATE = """<title>OOTW25 — Révision de la traduction française</title>
   tr.differs td.id {{ border-left: 4px double #8886; }}
   .diff-mark {{ display: inline-block; font-size: .85em; padding: .1rem .4rem;
                 border-radius: 4px; background: #fde68a66; cursor: help;
-                white-space: nowrap; font-weight: 600; }}
+                font-weight: 600; }}
   @media (prefers-color-scheme: dark) {{ tr.differs {{ background: #713f1233; }}
     .diff-mark {{ background: #b4530944; }} }}
   .badge {{ display: inline-block; font-size: .85em; padding: .1rem .4rem;
-            border-radius: 4px; background: #4a90d922; cursor: help;
-            white-space: nowrap; }}
+            border-radius: 4px; background: #4a90d922; cursor: help; }}
   .bar {{ position: sticky; top: 0; padding: .6rem 0; backdrop-filter: blur(6px);
           display: flex; gap: .8rem; align-items: center; }}
   button {{ padding: .45rem .9rem; border-radius: 6px; border: 1px solid #8886;
