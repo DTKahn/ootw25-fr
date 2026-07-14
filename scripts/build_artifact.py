@@ -9,14 +9,18 @@ _TAG_RE = re.compile(r"<[^>]+>")
 _WS_RE = re.compile(r"\s+")
 
 
-def strip_tags(s: str) -> str:
-    """Plain-text rendering of a (possibly markup-bearing) string: strip all
-    HTML tags, collapse whitespace runs to a single space, and HTML-escape
-    the result so it is safe to insert into a table cell as text. Guillemets
-    and accented characters pass through untouched."""
+def plain(s: str) -> str:
+    """Plain-text form of a (possibly markup-bearing) string: tags stripped,
+    whitespace runs collapsed. Used both for display and for comparing the
+    proposed translation against the live-site one."""
     no_tags = _TAG_RE.sub("", s)
-    collapsed = _WS_RE.sub(" ", no_tags).strip()
-    return html.escape(collapsed)
+    return _WS_RE.sub(" ", no_tags).strip()
+
+
+def strip_tags(s: str) -> str:
+    """HTML-escaped plain(), safe to insert into a table cell as text.
+    Guillemets and accented characters pass through untouched."""
+    return html.escape(plain(s))
 
 TEMPLATE = """<title>OOTW25 — Révision de la traduction française</title>
 <style>
@@ -35,6 +39,13 @@ TEMPLATE = """<title>OOTW25 — Révision de la traduction française</title>
   td.fr[contenteditable]:focus {{ outline: 2px solid #4a90d9; }}
   td.fr.dirty {{ background: #fde68a55; }}
   td.live-fr {{ min-width: 280px; white-space: pre-wrap; opacity: .7; }}
+  tr.differs {{ background: #fef9c380; }}
+  tr.differs td.id {{ border-left: 4px double #8886; }}
+  .diff-mark {{ display: inline-block; font-size: .85em; padding: .1rem .4rem;
+                border-radius: 4px; background: #fde68a66; cursor: help;
+                white-space: nowrap; font-weight: 600; }}
+  @media (prefers-color-scheme: dark) {{ tr.differs {{ background: #713f1233; }}
+    .diff-mark {{ background: #b4530944; }} }}
   .badge {{ display: inline-block; font-size: .85em; padding: .1rem .4rem;
             border-radius: 4px; background: #4a90d922; cursor: help;
             white-space: nowrap; }}
@@ -57,7 +68,10 @@ réappliquée après l'application des corrections, vous n'avez donc pas à vous
 en préoccuper — modifiez simplement le texte. La colonne « Français actuel
 (site) », lorsqu'elle est présente, affiche à titre de référence uniquement
 la traduction française actuellement en ligne sur le site; elle n'est pas
-modifiable et n'a aucune influence sur la traduction proposée. Modifiez le
+modifiable et n'a aucune influence sur la traduction proposée. Les lignes où
+la traduction proposée diffère de la traduction actuelle du site sont
+surlignées en jaune et marquées « ≠ à revoir » (avec une double bordure à
+gauche de la ligne). Modifiez le
 texte français directement dans les cellules de la colonne « Français
 (modifiable) »; les cellules modifiées sont surlignées. Cliquez « Exporter
 les corrections », puis collez le résultat dans la conversation Claude
@@ -117,17 +131,28 @@ def build(catalog_dir="catalog", out_path="review.html", live_fr_path="live-fr.j
             # https://ootw25.ca/fr/ -- it never feeds back into the
             # catalog, it's display-only). Empty cell when there's no key.
             live_fr_td = ""
+            differs = False
             if live_fr is not None:
+                live_val = live_fr.get(e["id"], "")
+                # Row-level review flag: the proposed translation differs
+                # from the live site's current French (plain-text compare;
+                # no flag when the live string is simply missing).
+                differs = bool(live_val) and plain(live_val) != plain(e["fr"])
                 live_fr_td = ("<td class='live-fr'>{v}</td>"
-                               .format(v=strip_tags(live_fr.get(e["id"], ""))))
+                               .format(v=strip_tags(live_val)))
+            diff_mark = (
+                " <span class='diff-mark' title=\"La traduction proposée "
+                "diffère de la traduction actuellement en ligne — à "
+                "comparer.\">≠ à revoir</span>" if differs else "")
             rows.append(
-                "<tr><td class='id' title='{i}'>{i}</td><td>{en}</td>{live}"
+                "<tr{cls}><td class='id' title='{i}'>{i}</td><td>{en}</td>{live}"
                 "<td class='fr' contenteditable='plaintext-only' data-id='{i}'>{fr}</td>"
-                "<td class='status'>{st}{badge}</td></tr>".format(
+                "<td class='status'>{st}{badge}{diff}</td></tr>".format(
+                    cls=" class='differs'" if differs else "",
                     i=html.escape(e["id"]), en=strip_tags(e["en"]),
                     live=live_fr_td,
                     fr=strip_tags(e["fr"]), st=html.escape(e["status"]),
-                    badge=badge))
+                    badge=badge, diff=diff_mark))
         blocks.append(
             f"<details{' open' if slug == '_global' else ''}>"
             f"<summary>{html.escape(slug)} ({len(entries)})</summary>"
