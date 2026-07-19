@@ -10,6 +10,10 @@ export interface Row {
   suggestedFrench: string;
   reviewerFrench: string | null;
   status: RowStatus;
+  /** The row's last non-content status ("not_reviewed" or "no_changes"),
+   * remembered so it can be restored once Reviewer French and Notes are
+   * both cleared again after the row became "suggestions" or "flagged". */
+  restingStatus: RowStatus | null;
   notes: string | null;
   updatedAt: string;
 }
@@ -22,6 +26,7 @@ interface DbRow {
   suggested_french: string;
   reviewer_french: string | null;
   status: RowStatus;
+  resting_status: RowStatus | null;
   notes: string | null;
   updated_at: string;
 }
@@ -35,15 +40,21 @@ function fromDb(row: DbRow): Row {
     suggestedFrench: row.suggested_french,
     reviewerFrench: row.reviewer_french,
     status: row.status,
+    restingStatus: row.resting_status,
     notes: row.notes,
     updatedAt: row.updated_at,
   };
 }
 
 const VALID_STATUSES: RowStatus[] = ["not_reviewed", "no_changes", "suggestions", "flagged"];
+const VALID_RESTING_STATUSES: RowStatus[] = ["not_reviewed", "no_changes"];
 
 export function isValidStatus(value: unknown): value is RowStatus {
   return typeof value === "string" && (VALID_STATUSES as string[]).includes(value);
+}
+
+export function isValidRestingStatus(value: unknown): value is "not_reviewed" | "no_changes" {
+  return typeof value === "string" && (VALID_RESTING_STATUSES as string[]).includes(value);
 }
 
 /** True when the pipeline's suggested French differs from the live site's
@@ -58,7 +69,7 @@ export async function listRows(): Promise<Row[]> {
   const sql = getSql();
   const result = (await sql(
     `select id, page, english, live_french, suggested_french, reviewer_french,
-            status, notes, updated_at
+            status, resting_status, notes, updated_at
      from rows
      order by page, id`
   )) as unknown as DbRow[];
@@ -68,6 +79,7 @@ export async function listRows(): Promise<Row[]> {
 export interface RowPatch {
   reviewerFrench?: string;
   status?: RowStatus;
+  restingStatus?: "not_reviewed" | "no_changes";
   notes?: string;
 }
 
@@ -78,11 +90,18 @@ export async function updateRow(id: string, patch: RowPatch): Promise<Row | null
        reviewer_french = coalesce($2, reviewer_french),
        status = coalesce($3, status),
        notes = coalesce($4, notes),
+       resting_status = coalesce($5, resting_status),
        updated_at = now()
      where id = $1
      returning id, page, english, live_french, suggested_french, reviewer_french,
-               status, notes, updated_at`,
-    [id, patch.reviewerFrench ?? null, patch.status ?? null, patch.notes ?? null]
+               status, resting_status, notes, updated_at`,
+    [
+      id,
+      patch.reviewerFrench ?? null,
+      patch.status ?? null,
+      patch.notes ?? null,
+      patch.restingStatus ?? null,
+    ]
   )) as unknown as DbRow[];
   return result[0] ? fromDb(result[0]) : null;
 }
