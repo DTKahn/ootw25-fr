@@ -10,7 +10,7 @@ const AUTOSAVE_DELAY_MS = 600;
 const SAVE_RETRIES = 3;
 const RETRY_DELAY_MS = 1000;
 const ACCENT = "#4f46e5";
-const GRID_COLUMNS = "168px 160px 1fr 1fr 1fr 1fr 220px";
+const GRID_COLUMNS = "168px 160px 1fr 1fr 1fr 1fr 1fr";
 
 const ROW_STATUS_BG: Record<RowStatus, string | undefined> = {
   not_reviewed: undefined,
