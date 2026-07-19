@@ -6,5 +6,6 @@ review.html
 corrections.json
 fr-live/
 .worktrees/
+.claude/worktrees/
 .vercel
 .env*
