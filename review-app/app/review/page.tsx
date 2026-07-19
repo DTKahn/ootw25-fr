@@ -11,6 +11,9 @@ const SAVE_RETRIES = 3;
 const RETRY_DELAY_MS = 1000;
 
 const PAGE_STYLES = `
+  :root {
+    color-scheme: light dark;
+  }
   .card {
     border: 1px solid #8883;
     border-radius: 8px;
