@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { effectiveFrench, differsFromLive, type Row, type RowStatus } from "@/lib/rows";
+import { differsFromLive, type Row, type RowStatus } from "@/lib/rows";
 
 const STATUS_LABELS: Record<RowStatus, string> = {
   not_reviewed: "Not reviewed",
@@ -31,7 +31,17 @@ export default function ReviewPage() {
       .then((data: { rows: Row[] }) => {
         setRows(data.rows);
         setLoading(false);
+      })
+      .catch((err) => {
+        console.error("Failed to fetch rows:", err);
+        setLoading(false);
       });
+  }, []);
+
+  useEffect(() => {
+    return () => {
+      Object.values(timers.current).forEach(clearTimeout);
+    };
   }, []);
 
   const pages = useMemo(() => Array.from(new Set(rows.map((r) => r.page))).sort(), [rows]);
@@ -55,8 +65,9 @@ export default function ReviewPage() {
     setRows((prev) => prev.map((r) => (r.id === id ? { ...r, ...patch } : r)));
   }
 
-  async function saveRow(id: string, patch: Record<string, unknown>) {
-    setSaveStates((s) => ({ ...s, [id]: "saving" }));
+  async function saveRow(id: string, patch: Record<string, unknown>, stateKey?: string) {
+    const key = stateKey ?? id;
+    setSaveStates((s) => ({ ...s, [key]: "saving" }));
     const attempt = async (retriesLeft: number): Promise<void> => {
       try {
         const res = await fetch(`/api/rows/${encodeURIComponent(id)}`, {
@@ -65,36 +76,36 @@ export default function ReviewPage() {
           body: JSON.stringify(patch),
         });
         if (!res.ok) throw new Error(`status ${res.status}`);
-        setSaveStates((s) => ({ ...s, [id]: "idle" }));
+        setSaveStates((s) => ({ ...s, [key]: "idle" }));
       } catch {
         if (retriesLeft > 0) {
           await new Promise((resolve) => setTimeout(resolve, RETRY_DELAY_MS));
           return attempt(retriesLeft - 1);
         }
-        setSaveStates((s) => ({ ...s, [id]: "error" }));
+        setSaveStates((s) => ({ ...s, [key]: "error" }));
       }
     };
     await attempt(SAVE_RETRIES);
   }
 
-  function debouncedSave(key: string, id: string, patch: Record<string, unknown>) {
+  function debouncedSave(key: string, id: string, patch: Record<string, unknown>, stateKey?: string) {
     if (timers.current[key]) clearTimeout(timers.current[key]);
-    timers.current[key] = setTimeout(() => saveRow(id, patch), AUTOSAVE_DELAY_MS);
+    timers.current[key] = setTimeout(() => saveRow(id, patch, stateKey), AUTOSAVE_DELAY_MS);
   }
 
   function onFrenchChange(id: string, value: string) {
     patchRowLocal(id, { reviewerFrench: value });
-    debouncedSave(id, id, { reviewerFrench: value });
+    debouncedSave(`${id}:french`, id, { reviewerFrench: value }, `${id}:french`);
   }
 
   function onNotesChange(id: string, value: string) {
     patchRowLocal(id, { notes: value });
-    debouncedSave(`${id}:notes`, id, { notes: value });
+    debouncedSave(`${id}:notes`, id, { notes: value }, `${id}:notes`);
   }
 
   function onStatusChange(id: string, status: RowStatus) {
     patchRowLocal(id, { status });
-    saveRow(id, { status });
+    saveRow(id, { status }, `${id}:status`);
   }
 
   if (loading) return <p style={{ padding: "1rem" }}>Loading…</p>;
@@ -146,7 +157,7 @@ export default function ReviewPage() {
         <tbody>
           {filteredRows.map((row) => {
             const differs = differsFromLive(row);
-            const saveState = saveStates[row.id] ?? "idle";
+            const saveState = saveStates[`${row.id}:french`] ?? "idle";
             const hasEdit = (row.reviewerFrench ?? "") !== "";
             return (
               <tr
@@ -168,7 +179,7 @@ export default function ReviewPage() {
                   />
                   {saveState === "saving" && <span> saving…</span>}
                   {saveState === "error" && (
-                    <span style={{ color: "crimson" }}> save failed, retrying</span>
+                    <span style={{ color: "crimson" }}> save failed — edit again to retry</span>
                   )}
                 </td>
                 <td style={{ padding: "0.4rem", verticalAlign: "top" }}>
