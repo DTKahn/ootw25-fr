@@ -157,7 +157,9 @@ export default function ReviewPage() {
         <tbody>
           {filteredRows.map((row) => {
             const differs = differsFromLive(row);
-            const saveState = saveStates[`${row.id}:french`] ?? "idle";
+            const frenchSaveState = saveStates[`${row.id}:french`] ?? "idle";
+            const notesSaveState = saveStates[`${row.id}:notes`] ?? "idle";
+            const statusSaveState = saveStates[`${row.id}:status`] ?? "idle";
             const hasEdit = (row.reviewerFrench ?? "") !== "";
             return (
               <tr
@@ -177,8 +179,8 @@ export default function ReviewPage() {
                     rows={2}
                     style={{ width: "100%", background: hasEdit ? "#fde68a55" : undefined }}
                   />
-                  {saveState === "saving" && <span> saving…</span>}
-                  {saveState === "error" && (
+                  {frenchSaveState === "saving" && <span> saving…</span>}
+                  {frenchSaveState === "error" && (
                     <span style={{ color: "crimson" }}> save failed — edit again to retry</span>
                   )}
                 </td>
@@ -193,6 +195,10 @@ export default function ReviewPage() {
                       </option>
                     ))}
                   </select>
+                  {statusSaveState === "saving" && <span> saving…</span>}
+                  {statusSaveState === "error" && (
+                    <span style={{ color: "crimson" }}> save failed — edit again to retry</span>
+                  )}
                 </td>
                 <td style={{ padding: "0.4rem", verticalAlign: "top" }}>
                   <textarea
@@ -201,6 +207,10 @@ export default function ReviewPage() {
                     rows={2}
                     style={{ width: "100%" }}
                   />
+                  {notesSaveState === "saving" && <span> saving…</span>}
+                  {notesSaveState === "error" && (
+                    <span style={{ color: "crimson" }}> save failed — edit again to retry</span>
+                  )}
                 </td>
               </tr>
             );

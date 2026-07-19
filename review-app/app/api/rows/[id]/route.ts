@@ -7,7 +7,7 @@ export async function PATCH(
 ) {
   const { id } = await params;
   const body = await request.json().catch(() => null);
-  if (!body || typeof body !== "object") {
+  if (!body || typeof body !== "object" || Array.isArray(body)) {
     return NextResponse.json({ error: "invalid body" }, { status: 400 });
   }
 
