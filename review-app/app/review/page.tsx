@@ -10,7 +10,7 @@ const AUTOSAVE_DELAY_MS = 600;
 const SAVE_RETRIES = 3;
 const RETRY_DELAY_MS = 1000;
 const ACCENT = "#4f46e5";
-const GRID_COLUMNS = "168px 120px 1fr 1fr 1fr 1fr 220px";
+const GRID_COLUMNS = "168px 160px 1fr 1fr 1fr 1fr 220px";
 
 const PAGE_STYLES = `
   :root {
@@ -34,8 +34,6 @@ const PAGE_STYLES = `
     --input-bg: white;
     --progress-track: oklch(90% 0.006 90);
     --flagged-row-bg: oklch(99% 0.01 25);
-    --tag-bg: color-mix(in oklch, ${ACCENT} 14%, white);
-    --tag-text: color-mix(in oklch, ${ACCENT} 75%, black);
     --export-outline-bg: white;
     --export-outline-text: oklch(35% 0.01 260);
     --export-outline-border: oklch(88% 0.006 90);
@@ -62,8 +60,6 @@ const PAGE_STYLES = `
       --input-bg: oklch(22% 0.006 260);
       --progress-track: oklch(32% 0.006 260);
       --flagged-row-bg: oklch(28% 0.03 25 / 40%);
-      --tag-bg: color-mix(in oklch, ${ACCENT} 25%, black);
-      --tag-text: color-mix(in oklch, ${ACCENT} 60%, white);
       --export-outline-bg: oklch(24% 0.006 260);
       --export-outline-text: oklch(85% 0.005 90);
       --export-outline-border: oklch(35% 0.006 260);
@@ -212,14 +208,12 @@ const PAGE_STYLES = `
     font-weight: 700;
     cursor: pointer;
   }
-  .page-tag {
-    background: var(--tag-bg);
-    color: var(--tag-text);
-    padding: 3px 8px;
-    border-radius: 6px;
-    display: inline-block;
-    font-size: 12.5px;
-    font-weight: 600;
+  .id-cell {
+    font-family: ui-monospace, monospace;
+    font-size: 11.5px;
+    color: var(--text-muted);
+    overflow-wrap: break-word;
+    word-break: break-all;
   }
   .english-cell {
     font-size: 14px;
@@ -458,7 +452,7 @@ export default function ReviewPage() {
           <div className="table-grid">
             <div className="grid-row grid-header" style={{ gridTemplateColumns: GRID_COLUMNS }}>
               <div className="grid-header-cell">Status</div>
-              <div className="grid-header-cell">Page</div>
+              <div className="grid-header-cell">ID</div>
               <div className="grid-header-cell">English</div>
               <div className="grid-header-cell">
                 Live French <span className="grid-header-hint">(click to copy)</span>
@@ -503,9 +497,7 @@ export default function ReviewPage() {
                       </div>
                     )}
                   </div>
-                  <div className="grid-cell">
-                    <span className="page-tag">{row.page}</span>
-                  </div>
+                  <div className="grid-cell id-cell">{row.id}</div>
                   <div className="grid-cell english-cell">{row.english}</div>
                   <div className="grid-cell">
                     {row.liveFrench ? (
