@@ -299,9 +299,17 @@ export default function ReviewPage() {
     );
   }
 
-  function onNotesChange(id: string, value: string) {
-    patchRowLocal(id, { notes: value });
-    debouncedSave(`${id}:notes`, id, { notes: value }, `${id}:notes`);
+  // Auto-flag rule: adding notes content to a row that isn't already
+  // "suggestions" marks it "flagged" — notes are treated as a reviewer
+  // concern that needs attention, unless the row already has a suggested
+  // edit in progress.
+  function onNotesChange(id: string, value: string, currentStatus: RowStatus) {
+    const patch: Partial<Row> =
+      value.trim() !== "" && currentStatus !== "suggestions"
+        ? { notes: value, status: "flagged" }
+        : { notes: value };
+    patchRowLocal(id, patch);
+    debouncedSave(`${id}:notes`, id, patch, `${id}:notes`);
   }
 
   function onStatusChange(id: string, status: RowStatus) {
@@ -471,7 +479,7 @@ export default function ReviewPage() {
                     <textarea
                       className="field-textarea notes-textarea"
                       value={row.notes ?? ""}
-                      onChange={(e) => onNotesChange(row.id, e.target.value)}
+                      onChange={(e) => onNotesChange(row.id, e.target.value, row.status)}
                       placeholder="Add a note"
                     />
                     {notesSaveState === "error" && (
