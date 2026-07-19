@@ -14,7 +14,7 @@ const GRID_COLUMNS = "168px 160px 1fr 1fr 1fr 1fr 220px";
 
 const PAGE_STYLES = `
   :root {
-    color-scheme: light dark;
+    color-scheme: light;
     --bg: oklch(97.5% 0.004 90);
     --text: oklch(20% 0.01 260);
     --text-muted: oklch(50% 0.02 260);
@@ -38,33 +38,6 @@ const PAGE_STYLES = `
     --export-outline-text: oklch(35% 0.01 260);
     --export-outline-border: oklch(88% 0.006 90);
     --hover-bg: oklch(93% 0.02 260 / 60%);
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: oklch(18% 0.006 260);
-      --text: oklch(92% 0.005 90);
-      --text-muted: oklch(65% 0.01 260);
-      --h1-color: oklch(95% 0.004 90);
-      --card-bg: oklch(22% 0.006 260);
-      --card-border: oklch(32% 0.006 260);
-      --header-bg: oklch(24% 0.006 260);
-      --header-border: oklch(32% 0.006 260);
-      --header-label: oklch(65% 0.01 260);
-      --row-border: oklch(30% 0.006 260);
-      --english-text: oklch(85% 0.005 90);
-      --live-text: oklch(65% 0.01 260);
-      --suggested-text: oklch(88% 0.005 90);
-      --suggested-diff-bg: oklch(35% 0.06 80 / 35%);
-      --input-border: oklch(35% 0.006 260);
-      --input-text: oklch(90% 0.005 90);
-      --input-bg: oklch(22% 0.006 260);
-      --progress-track: oklch(32% 0.006 260);
-      --flagged-row-bg: oklch(28% 0.03 25 / 40%);
-      --export-outline-bg: oklch(24% 0.006 260);
-      --export-outline-text: oklch(85% 0.005 90);
-      --export-outline-border: oklch(35% 0.006 260);
-      --hover-bg: oklch(32% 0.02 260 / 60%);
-    }
   }
   .review-shell {
     min-height: 100vh;
@@ -259,12 +232,6 @@ const PAGE_STYLES = `
   .status-badge--no-changes { background: oklch(92% 0.07 150); color: oklch(38% 0.1 150); }
   .status-badge--suggestions { background: oklch(93% 0.07 250); color: oklch(42% 0.13 260); }
   .status-badge--flagged { background: oklch(93% 0.06 25); color: oklch(45% 0.14 25); }
-  @media (prefers-color-scheme: dark) {
-    .status-badge--not-reviewed { background: oklch(35% 0.01 260); color: oklch(85% 0.005 90); }
-    .status-badge--no-changes { background: oklch(30% 0.09 150); color: oklch(85% 0.08 150); }
-    .status-badge--suggestions { background: oklch(32% 0.1 260); color: oklch(85% 0.09 260); }
-    .status-badge--flagged { background: oklch(32% 0.09 25); color: oklch(85% 0.09 25); }
-  }
 `;
 
 export default function ReviewPage() {
