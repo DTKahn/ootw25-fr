@@ -10,7 +10,7 @@ export const metadata = { title: "OOTW25 Review" };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en" style={{ colorScheme: "light dark" }}>
+    <html lang="en" style={{ colorScheme: "light" }}>
       <body className={inter.className}>{children}</body>
     </html>
   );
