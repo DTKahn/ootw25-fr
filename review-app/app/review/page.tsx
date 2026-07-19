@@ -46,35 +46,6 @@ const PAGE_STYLES = `
     padding: 36px 40px 60px;
     box-sizing: border-box;
   }
-  .eyebrow {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 6px;
-  }
-  .eyebrow-icon {
-    width: 26px;
-    height: 26px;
-    border-radius: 7px;
-    background: ${ACCENT};
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-  }
-  .eyebrow-icon-dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 2px;
-    background: white;
-  }
-  .eyebrow-label {
-    font-size: 12.5px;
-    font-weight: 600;
-    color: var(--text-muted);
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-  }
   .page-title {
     font-size: 26px;
     font-weight: 700;
@@ -353,13 +324,7 @@ export default function ReviewPage() {
         }}
       >
         <div>
-          <div className="eyebrow">
-            <div className="eyebrow-icon">
-              <div className="eyebrow-icon-dot" />
-            </div>
-            <span className="eyebrow-label">OOTW25 · Translation Review</span>
-          </div>
-          <h1 className="page-title">OOTW25 — Révision de la traduction (fr-CA)</h1>
+          <h1 className="page-title">OOTW25 Translation Review</h1>
         </div>
         <div style={{ display: "flex", gap: 10, flexShrink: 0 }}>
           <a className="export-btn export-btn--outline" href="/api/export?scope=changed">
