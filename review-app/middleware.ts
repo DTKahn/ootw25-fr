@@ -1,10 +1,19 @@
 import { NextRequest, NextResponse } from "next/server";
-import { SESSION_COOKIE } from "@/lib/auth";
+import { SESSION_COOKIE, getExpectedSessionValue } from "@/lib/auth";
 
 export function middleware(request: NextRequest) {
   const session = request.cookies.get(SESSION_COOKIE)?.value;
-  const expected = process.env.AUTH_SECRET;
-  if (session && expected && session === expected) {
+
+  let expected: string;
+  try {
+    expected = getExpectedSessionValue();
+  } catch {
+    // If AUTH_SECRET is not configured, redirect to login rather than crash.
+    // This makes the misconfiguration explicit to the developer.
+    return NextResponse.redirect(new URL("/login", request.url));
+  }
+
+  if (session && session === expected) {
     return NextResponse.next();
   }
   return NextResponse.redirect(new URL("/login", request.url));
