@@ -22,7 +22,7 @@ export type ExportScope = "all" | "changed";
 
 export function selectRowsForExport(rows: Row[], scope: ExportScope): Row[] {
   if (scope === "all") return rows;
-  return rows.filter((row) => row.status === "changed" || row.status === "flagged");
+  return rows.filter((row) => row.status === "suggestions" || row.status === "flagged");
 }
 
 export function rowsToCsv(rows: Row[], scope: ExportScope): string {

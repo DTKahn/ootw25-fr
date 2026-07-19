@@ -16,4 +16,12 @@ export const SCHEMA_STATEMENTS: string[] = [
      notes text,
      updated_at timestamptz not null default now()
    )`,
+  `do $$ begin
+     alter type row_status rename value 'approved' to 'no_changes';
+   exception when undefined_object then null;
+   end $$`,
+  `do $$ begin
+     alter type row_status rename value 'changed' to 'suggestions';
+   exception when undefined_object then null;
+   end $$`,
 ];

@@ -1,6 +1,6 @@
 import { getSql } from "./db";
 
-export type RowStatus = "not_reviewed" | "approved" | "changed" | "flagged";
+export type RowStatus = "not_reviewed" | "no_changes" | "suggestions" | "flagged";
 
 export interface Row {
   id: string;
@@ -40,26 +40,18 @@ function fromDb(row: DbRow): Row {
   };
 }
 
-const VALID_STATUSES: RowStatus[] = ["not_reviewed", "approved", "changed", "flagged"];
+const VALID_STATUSES: RowStatus[] = ["not_reviewed", "no_changes", "suggestions", "flagged"];
 
 export function isValidStatus(value: unknown): value is RowStatus {
   return typeof value === "string" && (VALID_STATUSES as string[]).includes(value);
 }
 
-/** The French text that should currently be treated as "the proposal":
- * the reviewer's edit if they've made one, otherwise the pipeline's
- * suggestion. */
-export function effectiveFrench(row: Row): string {
-  return row.reviewerFrench && row.reviewerFrench.length > 0
-    ? row.reviewerFrench
-    : row.suggestedFrench;
-}
-
-/** Mirrors the "differs" flag from the old review artifact: true when the
- * current proposal doesn't match the live site's French (and we have a
- * live-site value to compare against at all). */
-export function differsFromLive(row: Row): boolean {
-  return row.liveFrench !== null && effectiveFrench(row) !== row.liveFrench;
+/** True when the pipeline's suggested French differs from the live site's
+ * current French (and we have a live-site value to compare against at
+ * all). Used to highlight the Suggested French cell specifically, not the
+ * whole row. */
+export function suggestedDiffersFromLive(row: Row): boolean {
+  return row.liveFrench !== null && row.suggestedFrench !== row.liveFrench;
 }
 
 export async function listRows(): Promise<Row[]> {
