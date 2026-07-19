@@ -124,8 +124,13 @@ const PAGE_STYLES = `
     background: var(--card-bg);
     border: 1px solid var(--card-border);
     border-radius: 14px;
-    overflow: hidden;
     box-shadow: 0 1px 2px rgba(20,20,40,0.08);
+  }
+  .table-header-scroll {
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 1;
   }
   .table-scroll { overflow-x: auto; }
   .table-grid { min-width: 1180px; }
@@ -133,10 +138,10 @@ const PAGE_STYLES = `
   .grid-header {
     background: var(--header-bg);
     border-bottom: 1px solid var(--header-border);
-    position: sticky;
-    top: 0;
-    z-index: 1;
+    border-radius: 14px 14px 0 0;
+    min-width: 1180px;
   }
+  .grid-data-row:last-child { border-radius: 0 0 14px 14px; }
   .grid-header-cell {
     padding: 13px 16px;
     font-size: 11.5px;
@@ -144,6 +149,7 @@ const PAGE_STYLES = `
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: var(--header-label);
+    min-width: 0;
   }
   .grid-header-hint {
     font-weight: 500;
@@ -151,7 +157,7 @@ const PAGE_STYLES = `
     color: var(--text-muted);
   }
   .grid-data-row { border-bottom: 1px solid var(--row-border); }
-  .grid-cell { padding: 16px; box-sizing: border-box; }
+  .grid-cell { padding: 16px; box-sizing: border-box; min-width: 0; }
   .status-badge {
     width: 100%;
     height: 30px;
@@ -230,6 +236,7 @@ export default function ReviewPage() {
   const [search, setSearch] = useState("");
   const [saveStates, setSaveStates] = useState<Record<string, SaveState>>({});
   const timers = useRef<Record<string, ReturnType<typeof setTimeout>>>({});
+  const headerScrollRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     fetch("/api/rows")
@@ -456,22 +463,30 @@ export default function ReviewPage() {
       </div>
 
       <div className="table-card">
-        <div className="table-scroll">
-          <div className="table-grid">
-            <div className="grid-row grid-header" style={{ gridTemplateColumns: GRID_COLUMNS }}>
-              <div className="grid-header-cell">Status</div>
-              <div className="grid-header-cell">ID</div>
-              <div className="grid-header-cell">English</div>
-              <div className="grid-header-cell">
-                Live French <span className="grid-header-hint">(click to copy)</span>
-              </div>
-              <div className="grid-header-cell">
-                Suggested French <span className="grid-header-hint">(click to copy)</span>
-              </div>
-              <div className="grid-header-cell">Reviewer French</div>
-              <div className="grid-header-cell">Notes</div>
+        <div className="table-header-scroll" ref={headerScrollRef}>
+          <div className="grid-row grid-header" style={{ gridTemplateColumns: GRID_COLUMNS }}>
+            <div className="grid-header-cell">Status</div>
+            <div className="grid-header-cell">ID</div>
+            <div className="grid-header-cell">English</div>
+            <div className="grid-header-cell">
+              Live French <span className="grid-header-hint">(click to copy)</span>
             </div>
-
+            <div className="grid-header-cell">
+              Suggested French <span className="grid-header-hint">(click to copy)</span>
+            </div>
+            <div className="grid-header-cell">Reviewer French</div>
+            <div className="grid-header-cell">Notes</div>
+          </div>
+        </div>
+        <div
+          className="table-scroll"
+          onScroll={(e) => {
+            if (headerScrollRef.current) {
+              headerScrollRef.current.scrollLeft = e.currentTarget.scrollLeft;
+            }
+          }}
+        >
+          <div className="table-grid">
             {filteredRows.map((row) => {
               const diff = suggestedDiffersFromLive(row);
               const frenchSaveState = saveStates[`${row.id}:french`] ?? "idle";
