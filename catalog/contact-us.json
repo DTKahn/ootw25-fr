@@ -1,0 +1,338 @@
+[
+  {
+    "id": "contact-us § meta § title",
+    "section": "meta",
+    "tag": "title",
+    "en": "Contact Us - OOTW25",
+    "fr": "Contactez-nous - OOTW25",
+    "status": "translated"
+  },
+  {
+    "id": "contact-us § meta § description",
+    "section": "meta",
+    "tag": "description",
+    "en": "Contact Us Get In Touch CanHist EMAIL info@canhist.ca PHONE NUMBER 519-217-0402 McMaster Children & Youth University (MCYU) ADDRESS Health Sciences Centre",
+    "fr": "Contactez-nous Entrer en contact CanHist COURRIEL info@canhist.ca NUMÉRO DE TÉLÉPHONE 519-217-0402 McMaster Children & Youth University (MCYU) ADRESSE Centre des sciences de la santé",
+    "status": "translated"
+  },
+  {
+    "id": "contact-us § top § img1",
+    "section": "top",
+    "tag": "img",
+    "en": "OOTW logo variations tm february 2026 ootw logo white outline",
+    "fr": "Variations du logo OOTW MC, février 2026, contour blanc",
+    "status": "translated"
+  },
+  {
+    "id": "contact-us § contact-us § h11",
+    "section": "contact-us",
+    "tag": "h1",
+    "en": "Contact Us",
+    "fr": "Contactez-nous",
+    "status": "translated"
+  },
+  {
+    "id": "contact-us § get-in-touch § h21",
+    "section": "get-in-touch",
+    "tag": "h2",
+    "en": "Get In Touch",
+    "fr": "Communiquez avec nous",
+    "status": "translated"
+  },
+  {
+    "id": "contact-us § get-in-touch § p1",
+    "section": "get-in-touch",
+    "tag": "p",
+    "en": "<span aria-hidden=\"true\" class=\"srfm-icon\">\n </span>\n<span class=\"srfm-error-content\">There was an error trying to submit your form. Please try again.</span>",
+    "fr": "<span aria-hidden=\"true\" class=\"srfm-icon\">\n </span>\n<span class=\"srfm-error-content\">Une erreur s’est produite lors de l’envoi de votre formulaire. Veuillez réessayer.</span>",
+    "status": "translated"
+  },
+  {
+    "id": "contact-us § get-in-touch § placeholder1",
+    "section": "get-in-touch",
+    "tag": "placeholder",
+    "en": "First Name *",
+    "fr": "Prénom *",
+    "status": "translated"
+  },
+  {
+    "id": "contact-us § get-in-touch § error-msg1",
+    "section": "get-in-touch",
+    "tag": "error-msg",
+    "en": "This field is required.",
+    "fr": "Ce champ est obligatoire.",
+    "status": "translated"
+  },
+  {
+    "id": "contact-us § get-in-touch § unique-msg1",
+    "section": "get-in-touch",
+    "tag": "unique-msg",
+    "en": "Value needs to be unique.",
+    "fr": "La valeur doit être unique.",
+    "status": "translated"
+  },
+  {
+    "id": "contact-us § get-in-touch § div1",
+    "section": "get-in-touch",
+    "tag": "div",
+    "en": "This field is required.",
+    "fr": "Ce champ est obligatoire.",
+    "status": "translated"
+  },
+  {
+    "id": "contact-us § get-in-touch § placeholder2",
+    "section": "get-in-touch",
+    "tag": "placeholder",
+    "en": "Last Name *",
+    "fr": "Nom de famille *",
+    "status": "translated"
+  },
+  {
+    "id": "contact-us § get-in-touch § error-msg2",
+    "section": "get-in-touch",
+    "tag": "error-msg",
+    "en": "This field is required.",
+    "fr": "Ce champ est obligatoire.",
+    "status": "translated"
+  },
+  {
+    "id": "contact-us § get-in-touch § unique-msg2",
+    "section": "get-in-touch",
+    "tag": "unique-msg",
+    "en": "Value needs to be unique.",
+    "fr": "La valeur doit être unique.",
+    "status": "translated"
+  },
+  {
+    "id": "contact-us § get-in-touch § div2",
+    "section": "get-in-touch",
+    "tag": "div",
+    "en": "This field is required.",
+    "fr": "Ce champ est obligatoire.",
+    "status": "translated"
+  },
+  {
+    "id": "contact-us § get-in-touch § placeholder3",
+    "section": "get-in-touch",
+    "tag": "placeholder",
+    "en": "Phone Number *",
+    "fr": "Numéro de téléphone *",
+    "status": "translated"
+  },
+  {
+    "id": "contact-us § get-in-touch § error-msg3",
+    "section": "get-in-touch",
+    "tag": "error-msg",
+    "en": "This field is required.",
+    "fr": "Ce champ est obligatoire.",
+    "status": "translated"
+  },
+  {
+    "id": "contact-us § get-in-touch § unique-msg3",
+    "section": "get-in-touch",
+    "tag": "unique-msg",
+    "en": "Value needs to be unique.",
+    "fr": "La valeur doit être unique.",
+    "status": "translated"
+  },
+  {
+    "id": "contact-us § get-in-touch § div3",
+    "section": "get-in-touch",
+    "tag": "div",
+    "en": "This field is required.",
+    "fr": "Ce champ est obligatoire.",
+    "status": "translated"
+  },
+  {
+    "id": "contact-us § get-in-touch § placeholder4",
+    "section": "get-in-touch",
+    "tag": "placeholder",
+    "en": "Email *",
+    "fr": "Courriel *",
+    "status": "translated"
+  },
+  {
+    "id": "contact-us § get-in-touch § error-msg4",
+    "section": "get-in-touch",
+    "tag": "error-msg",
+    "en": "This field is required.",
+    "fr": "Ce champ est obligatoire.",
+    "status": "translated"
+  },
+  {
+    "id": "contact-us § get-in-touch § unique-msg4",
+    "section": "get-in-touch",
+    "tag": "unique-msg",
+    "en": "Value needs to be unique.",
+    "fr": "La valeur doit être unique.",
+    "status": "translated"
+  },
+  {
+    "id": "contact-us § get-in-touch § div4",
+    "section": "get-in-touch",
+    "tag": "div",
+    "en": "This field is required.",
+    "fr": "Ce champ est obligatoire.",
+    "status": "translated"
+  },
+  {
+    "id": "contact-us § get-in-touch § placeholder5",
+    "section": "get-in-touch",
+    "tag": "placeholder",
+    "en": "Message",
+    "fr": "Message",
+    "status": "translated"
+  },
+  {
+    "id": "contact-us § get-in-touch § label1",
+    "section": "get-in-touch",
+    "tag": "label",
+    "en": "<span class=\"srfm-span-wrap\">\n\n</span>\n<span class=\"srfm-span-wrap srfm-block-label\">Consent: I agree to the <a href=\"/privacy-policy\" target=\"_blank\">Privacy Policy</a> <span aria-hidden=\"true\" class=\"srfm-required\"> *</span>\n</span>",
+    "fr": "<span class=\"srfm-span-wrap\">\n\n</span>\n<span class=\"srfm-span-wrap srfm-block-label\">Consentement : j’accepte la <a href=\"/privacy-policy\" target=\"_blank\">Politique de confidentialité</a> <span aria-hidden=\"true\" class=\"srfm-required\"> *</span>\n</span>",
+    "status": "translated"
+  },
+  {
+    "id": "contact-us § get-in-touch § error-msg5",
+    "section": "get-in-touch",
+    "tag": "error-msg",
+    "en": "This field is required.",
+    "fr": "Ce champ est obligatoire.",
+    "status": "translated"
+  },
+  {
+    "id": "contact-us § get-in-touch § div5",
+    "section": "get-in-touch",
+    "tag": "div",
+    "en": "This field is required.",
+    "fr": "Ce champ est obligatoire.",
+    "status": "translated"
+  },
+  {
+    "id": "contact-us § get-in-touch § div6",
+    "section": "get-in-touch",
+    "tag": "div",
+    "en": "Please verify that you are not a robot.",
+    "fr": "Veuillez confirmer que vous n’êtes pas un robot.",
+    "status": "translated"
+  },
+  {
+    "id": "contact-us § get-in-touch § button1",
+    "section": "get-in-touch",
+    "tag": "button",
+    "en": "SEND NOW",
+    "fr": "ENVOYER MAINTENANT",
+    "status": "translated"
+  },
+  {
+    "id": "contact-us § get-in-touch § p2",
+    "section": "get-in-touch",
+    "tag": "p",
+    "en": "<span aria-hidden=\"true\" class=\"srfm-icon\">\n </span>\n<span class=\"srfm-error-content\">There was an error trying to submit your form. Please try again.</span>",
+    "fr": "<span aria-hidden=\"true\" class=\"srfm-icon\">\n </span>\n<span class=\"srfm-error-content\">Une erreur s’est produite lors de l’envoi de votre formulaire. Veuillez réessayer.</span>",
+    "status": "translated"
+  },
+  {
+    "id": "contact-us § canhist § h21",
+    "section": "canhist",
+    "tag": "h2",
+    "en": "CanHist",
+    "fr": "CanHist",
+    "status": "translated"
+  },
+  {
+    "id": "contact-us § email § h31",
+    "section": "email",
+    "tag": "h3",
+    "en": "<span>\n\t\t\t\t\t\t\tEMAIL\t\t\t\t\t\t</span>",
+    "fr": "<span>\n\t\t\t\t\t\t\tCOURRIEL\t\t\t\t\t\t</span>",
+    "status": "translated"
+  },
+  {
+    "id": "contact-us § email § p1",
+    "section": "email",
+    "tag": "p",
+    "en": "info@canhist.ca",
+    "fr": "info@canhist.ca",
+    "status": "translated"
+  },
+  {
+    "id": "contact-us § phone-number § h31",
+    "section": "phone-number",
+    "tag": "h3",
+    "en": "<span>\n\t\t\t\t\t\t\tPHONE NUMBER\t\t\t\t\t\t</span>",
+    "fr": "<span>\n\t\t\t\t\t\t\tNUMÉRO DE TÉLÉPHONE\t\t\t\t\t\t</span>",
+    "status": "translated"
+  },
+  {
+    "id": "contact-us § phone-number § p1",
+    "section": "phone-number",
+    "tag": "p",
+    "en": "519-217-0402",
+    "fr": "519-217-0402",
+    "status": "translated"
+  },
+  {
+    "id": "contact-us § mcmaster-children-amp-youth-university-m § h21",
+    "section": "mcmaster-children-amp-youth-university-m",
+    "tag": "h2",
+    "en": "McMaster Children &amp; Youth University (MCYU)",
+    "fr": "McMaster Children &amp; Youth University (MCYU)",
+    "status": "translated"
+  },
+  {
+    "id": "contact-us § address § h31",
+    "section": "address",
+    "tag": "h3",
+    "en": "<span>\n\t\t\t\t\t\t\tADDRESS\t\t\t\t\t\t</span>",
+    "fr": "<span>\n\t\t\t\t\t\t\tADRESSE\t\t\t\t\t\t</span>",
+    "status": "translated"
+  },
+  {
+    "id": "contact-us § address § p1",
+    "section": "address",
+    "tag": "p",
+    "en": "Health Sciences Centre (HSC-3N11C-J)\nMcMaster University\n1280 Main Street West,\nHamilton, Ontario, L8S 4K1\nCanada",
+    "fr": "Centre des sciences de la santé (HSC-3N11C-J)\nUniversité McMaster\n1280, rue Main Ouest\nHamilton (Ontario) L8S 4K1\nCanada",
+    "status": "translated"
+  },
+  {
+    "id": "contact-us § email-2 § h31",
+    "section": "email-2",
+    "tag": "h3",
+    "en": "<span>\n\t\t\t\t\t\t\tEMAIL\t\t\t\t\t\t</span>",
+    "fr": "<span>\n\t\t\t\t\t\t\tCOURRIEL\t\t\t\t\t\t</span>",
+    "status": "translated"
+  },
+  {
+    "id": "contact-us § email-2 § p1",
+    "section": "email-2",
+    "tag": "p",
+    "en": "mcyu@mcmaster.ca",
+    "fr": "mcyu@mcmaster.ca",
+    "status": "translated"
+  },
+  {
+    "id": "contact-us § phone-number-2 § h31",
+    "section": "phone-number-2",
+    "tag": "h3",
+    "en": "<span>\n\t\t\t\t\t\t\tPHONE NUMBER\t\t\t\t\t\t</span>",
+    "fr": "<span>\n\t\t\t\t\t\t\tNUMÉRO DE TÉLÉPHONE\t\t\t\t\t\t</span>",
+    "status": "translated"
+  },
+  {
+    "id": "contact-us § phone-number-2 § p1",
+    "section": "phone-number-2",
+    "tag": "p",
+    "en": "905-521-2100 ext. 73790",
+    "fr": "905-521-2100, poste 73790",
+    "status": "translated"
+  },
+  {
+    "id": "contact-us § follow-us § h41",
+    "section": "follow-us",
+    "tag": "h4",
+    "en": "Follow Us:",
+    "fr": "Suivez-nous :",
+    "status": "translated"
+  }
+]

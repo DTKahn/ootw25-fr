@@ -1,0 +1,130 @@
+[
+  {
+    "id": "privacy-policy § meta § title",
+    "section": "meta",
+    "tag": "title",
+    "en": "Privacy Policy | Politique de confidentialité - OOTW25",
+    "fr": "Politique de confidentialité - OOTW25",
+    "status": "translated"
+  },
+  {
+    "id": "privacy-policy § meta § description",
+    "section": "meta",
+    "tag": "description",
+    "en": "Privacy Policy EN: We collect info solely via our contact form to respond to inquiries. We do not use tracking cookies. Privacy Officer:Name: Dr. Sandeep Raha",
+    "fr": "Politique de confidentialité Nous recueillons des renseignements uniquement par l’entremise de notre formulaire de contact pour répondre aux demandes. Nous n’utilisons pas de témoins de suivi. Responsable de la protection des renseignements personnels : Dr Sandeep Raha",
+    "status": "translated"
+  },
+  {
+    "id": "privacy-policy § top § img1",
+    "section": "top",
+    "tag": "img",
+    "en": "OOTW logo variations tm february 2026 ootw logo white outline",
+    "fr": "Variations du logo OOTW MC, février 2026, contour blanc",
+    "status": "translated"
+  },
+  {
+    "id": "privacy-policy § privacy-policy § h21",
+    "section": "privacy-policy",
+    "tag": "h2",
+    "en": "Privacy Policy",
+    "fr": "Politique de confidentialité",
+    "status": "translated"
+  },
+  {
+    "id": "privacy-policy § privacy-policy § p1",
+    "section": "privacy-policy",
+    "tag": "p",
+    "en": "<strong>EN:</strong> We collect info solely via our contact form to respond to inquiries. We do not use tracking cookies. <br/><br/>",
+    "fr": "<strong>EN:</strong> We collect info solely via our contact form to respond to inquiries. We do not use tracking cookies. <br/><br/>",
+    "status": "translated"
+  },
+  {
+    "id": "privacy-policy § privacy-policy § p2",
+    "section": "privacy-policy",
+    "tag": "p",
+    "en": "Privacy Officer:<br/>Name: Dr. Sandeep Raha",
+    "fr": "Privacy Officer:<br/>Name: Dr. Sandeep Raha",
+    "status": "translated"
+  },
+  {
+    "id": "privacy-policy § privacy-policy § p3",
+    "section": "privacy-policy",
+    "tag": "p",
+    "en": "Title: Creator &amp; Director, MCYU",
+    "fr": "Title: Creator &amp; Director, MCYU",
+    "status": "translated"
+  },
+  {
+    "id": "privacy-policy § privacy-policy § p4",
+    "section": "privacy-policy",
+    "tag": "p",
+    "en": "Associate Professor, Dept. of Pediatrics",
+    "fr": "Associate Professor, Dept. of Pediatrics",
+    "status": "translated"
+  },
+  {
+    "id": "privacy-policy § privacy-policy § p5",
+    "section": "privacy-policy",
+    "tag": "p",
+    "en": "Email: rahas@mcmaster.ca<br/>Address: Health Sciences Centre (HSC-3N11C-J)<br/>McMaster University<br/>1280 Main Street West,<br/>Hamilton, Ontario, L8S 4K1<br/>Canada<br/><br/>",
+    "fr": "Email: rahas@mcmaster.ca<br/>Address: Health Sciences Centre (HSC-3N11C-J)<br/>McMaster University<br/>1280 Main Street West,<br/>Hamilton, Ontario, L8S 4K1<br/>Canada<br/><br/>",
+    "status": "translated"
+  },
+  {
+    "id": "privacy-policy § privacy-policy § p6",
+    "section": "privacy-policy",
+    "tag": "p",
+    "en": "<strong>FR:</strong> Nous recueillons des renseignements uniquement via notre formulaire de contact. Nous n’utilisons pas de témoins de suivi. Responsable de la vie privée : <br/><br/>Nom : Dr. Sandeep Raha",
+    "fr": "<strong>FR:</strong> Nous recueillons des renseignements uniquement via notre formulaire de contact. Nous n’utilisons pas de témoins de suivi. Responsable de la vie privée : <br/><br/>Nom : Dr. Sandeep Raha",
+    "status": "translated"
+  },
+  {
+    "id": "privacy-policy § privacy-policy § p7",
+    "section": "privacy-policy",
+    "tag": "p",
+    "en": "Titre : Titre : Créateur et directeur, MCYU Professeur agrégé, Département de pédiatrie",
+    "fr": "Titre : Titre : Créateur et directeur, MCYU Professeur agrégé, Département de pédiatrie",
+    "status": "translated"
+  },
+  {
+    "id": "privacy-policy § privacy-policy § p8",
+    "section": "privacy-policy",
+    "tag": "p",
+    "en": "Courriel : rahas@mcmaster.ca<br/>Adresse : Centre des sciences de la santé (HSC-3N11C-J)",
+    "fr": "Courriel : rahas@mcmaster.ca<br/>Adresse : Centre des sciences de la santé (HSC-3N11C-J)",
+    "status": "translated"
+  },
+  {
+    "id": "privacy-policy § privacy-policy § p9",
+    "section": "privacy-policy",
+    "tag": "p",
+    "en": "Université McMaster",
+    "fr": "Université McMaster",
+    "status": "translated"
+  },
+  {
+    "id": "privacy-policy § privacy-policy § p10",
+    "section": "privacy-policy",
+    "tag": "p",
+    "en": "1280, rue Main Ouest",
+    "fr": "1280, rue Main Ouest",
+    "status": "translated"
+  },
+  {
+    "id": "privacy-policy § privacy-policy § p11",
+    "section": "privacy-policy",
+    "tag": "p",
+    "en": "Hamilton (Ontario) L8S 4K1",
+    "fr": "Hamilton (Ontario) L8S 4K1",
+    "status": "translated"
+  },
+  {
+    "id": "privacy-policy § privacy-policy § p12",
+    "section": "privacy-policy",
+    "tag": "p",
+    "en": "Canada",
+    "fr": "Canada",
+    "status": "translated"
+  }
+]

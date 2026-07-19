@@ -1,0 +1,722 @@
+[
+  {
+    "id": "educators § meta § title",
+    "section": "meta",
+    "tag": "title",
+    "en": "Educators - OOTW25",
+    "fr": "Éducateurs - OOTW25",
+    "status": "translated"
+  },
+  {
+    "id": "educators § meta § description",
+    "section": "meta",
+    "tag": "description",
+    "en": "Educators Connecting curiosity, discovery, and the classroom. Inspiring Learning Through Space Out of This World 25 offers educators new ways to connect",
+    "fr": "Éducateurs Relier la curiosité, la découverte et la salle de classe. Inspirer l’apprentissage par l’espace Out of This World 25 offre aux éducateurs de nouvelles façons de créer des liens",
+    "status": "translated"
+  },
+  {
+    "id": "educators § top § img1",
+    "section": "top",
+    "tag": "img",
+    "en": "OOTW logo variations tm february 2026 ootw logo white outline",
+    "fr": "Variations du logo OOTW MC, février 2026, contour blanc",
+    "status": "translated"
+  },
+  {
+    "id": "educators § educators § h11",
+    "section": "educators",
+    "tag": "h1",
+    "en": "Educators",
+    "fr": "Éducateurs",
+    "status": "translated"
+  },
+  {
+    "id": "educators § educators § img1",
+    "section": "educators",
+    "tag": "img",
+    "en": "Astronaut Chris Hadfield on a spacewalk mission STS-100",
+    "fr": "L’astronaute Chris Hadfield en sortie extravéhiculaire lors de la mission STS-100",
+    "status": "translated"
+  },
+  {
+    "id": "educators § educators § img2",
+    "section": "educators",
+    "tag": "img",
+    "en": "ISS, Dextre, and Canadarm2",
+    "fr": "SSI, Dextre et Canadarm2",
+    "status": "translated"
+  },
+  {
+    "id": "educators § educators § img3",
+    "section": "educators",
+    "tag": "img",
+    "en": "The Artemis II crew enters quarantine.",
+    "fr": "L’équipage d’Artemis II entre en quarantaine.",
+    "status": "translated"
+  },
+  {
+    "id": "educators § connecting-curiosity-discovery-and-the-c § h21",
+    "section": "connecting-curiosity-discovery-and-the-c",
+    "tag": "h2",
+    "en": "Connecting curiosity, discovery, and the classroom.",
+    "fr": "Relier la curiosité, la découverte et la salle de classe.",
+    "status": "translated"
+  },
+  {
+    "id": "educators § inspiring-learning-through-space § h21",
+    "section": "inspiring-learning-through-space",
+    "tag": "h2",
+    "en": "Inspiring Learning Through Space",
+    "fr": "Inspirer l’apprentissage par l’espace",
+    "status": "translated"
+  },
+  {
+    "id": "educators § inspiring-learning-through-space § p1",
+    "section": "inspiring-learning-through-space",
+    "tag": "p",
+    "en": "Out of This World 25 offers educators new ways to connect <strong>science, history, innovation, and storytelling</strong> in the classroom.",
+    "fr": "Out of This World 25 offre aux éducateurs de nouvelles façons de relier <strong>la science, l’histoire, l’innovation et la narration</strong> en salle de classe.",
+    "status": "translated"
+  },
+  {
+    "id": "educators § inspiring-learning-through-space § p2",
+    "section": "inspiring-learning-through-space",
+    "tag": "p",
+    "en": "Through the story of <strong>Chris Hadfield’s 2001 mission</strong>, Canada’s role aboard the <strong>International Space Station</strong>, and the historic <strong>Artemis II mission</strong>, OOTW25 helps students explore how curiosity, teamwork, and discovery shape our understanding of the world and beyond.",
+    "fr": "Grâce à l’histoire de la <strong>mission de Chris Hadfield en 2001</strong>, du rôle du Canada à bord de la <strong>Station spatiale internationale</strong> et de la <strong>mission historique Artemis II</strong>, OOTW25 aide les élèves à explorer comment la curiosité, le travail d’équipe et la découverte façonnent notre compréhension du monde et au-delà.",
+    "status": "translated"
+  },
+  {
+    "id": "educators § inspiring-learning-through-space § p3",
+    "section": "inspiring-learning-through-space",
+    "tag": "p",
+    "en": "Developed in collaboration with <strong>McMaster Children and Youth University (MCYU)</strong> and project partners across Canada, these resources are designed to support meaningful, interdisciplinary learning.",
+    "fr": "Élaborées en collaboration avec la <strong>McMaster Children and Youth University (MCYU)</strong> et des partenaires du projet partout au Canada, ces ressources sont conçues pour soutenir un apprentissage interdisciplinaire significatif.",
+    "status": "translated"
+  },
+  {
+    "id": "educators § teaching-space-means-teaching-curiosity- § h21",
+    "section": "teaching-space-means-teaching-curiosity-",
+    "tag": "h2",
+    "en": "Teaching space means teaching curiosity, discovery, and possibility.",
+    "fr": "Enseigner l’espace, c’est enseigner la curiosité, la découverte et les possibilités.",
+    "status": "translated"
+  },
+  {
+    "id": "educators § classroom-connections § h21",
+    "section": "classroom-connections",
+    "tag": "h2",
+    "en": "Classroom Connections",
+    "fr": "Liens avec la salle de classe",
+    "status": "translated"
+  },
+  {
+    "id": "educators § classroom-connections § p1",
+    "section": "classroom-connections",
+    "tag": "p",
+    "en": "Out of This World 25 gives educators new ways to connect classroom learning to real stories of Canadian achievement in space.",
+    "fr": "Out of This World 25 donne aux éducateurs de nouvelles façons de relier l’apprentissage en classe à de véritables récits de réussites canadiennes dans l’espace.",
+    "status": "translated"
+  },
+  {
+    "id": "educators § classroom-connections § p2",
+    "section": "classroom-connections",
+    "tag": "p",
+    "en": "<strong>Themes explored through the project include:</strong>",
+    "fr": "<strong>Les thèmes explorés dans le cadre du projet comprennent notamment :</strong>",
+    "status": "translated"
+  },
+  {
+    "id": "educators § classroom-connections § li1",
+    "section": "classroom-connections",
+    "tag": "li",
+    "en": "science and innovation",
+    "fr": "la science et l’innovation",
+    "status": "translated"
+  },
+  {
+    "id": "educators § classroom-connections § li2",
+    "section": "classroom-connections",
+    "tag": "li",
+    "en": "Canadian history",
+    "fr": "l’histoire canadienne",
+    "status": "translated"
+  },
+  {
+    "id": "educators § classroom-connections § li3",
+    "section": "classroom-connections",
+    "tag": "li",
+    "en": "space exploration",
+    "fr": "l’exploration spatiale",
+    "status": "translated"
+  },
+  {
+    "id": "educators § classroom-connections § li4",
+    "section": "classroom-connections",
+    "tag": "li",
+    "en": "STEAM learning",
+    "fr": "l’apprentissage STIAM",
+    "status": "translated"
+  },
+  {
+    "id": "educators § classroom-connections § li5",
+    "section": "classroom-connections",
+    "tag": "li",
+    "en": "storytelling and communication",
+    "fr": "la narration et la communication",
+    "status": "translated"
+  },
+  {
+    "id": "educators § classroom-connections § p3",
+    "section": "classroom-connections",
+    "tag": "p",
+    "en": "These connections help students see how discovery happens across disciplines — and how Canada continues to play a role in the future of exploration.",
+    "fr": "Ces liens aident les élèves à voir comment la découverte se produit à travers les disciplines — et comment le Canada continue de jouer un rôle dans l’avenir de l’exploration.",
+    "status": "translated"
+  },
+  {
+    "id": "educators § classroom-connections § button1",
+    "section": "classroom-connections",
+    "tag": "button",
+    "en": "EXPLORE TEACHING RESURCES",
+    "fr": "EXPLOREZ LES RESSOURCES PÉDAGOGIQUES",
+    "status": "translated"
+  },
+  {
+    "id": "educators § from-history-to-science-space-exploratio § h21",
+    "section": "from-history-to-science-space-exploratio",
+    "tag": "h2",
+    "en": "From history to science, space exploration opens the door to interdisciplinary learning.",
+    "fr": "De l’histoire à la science, l’exploration spatiale ouvre la porte à l’apprentissage interdisciplinaire.",
+    "status": "translated"
+  },
+  {
+    "id": "educators § teaching-through-canadian-space-history § h21",
+    "section": "teaching-through-canadian-space-history",
+    "tag": "h2",
+    "en": "Teaching Through Canadian Space History",
+    "fr": "Enseigner à travers l’histoire spatiale canadienne",
+    "status": "translated"
+  },
+  {
+    "id": "educators § teaching-through-canadian-space-history § p1",
+    "section": "teaching-through-canadian-space-history",
+    "tag": "p",
+    "en": "The story of <strong>Chris Hadfield</strong>, <strong>STS-100</strong>, and <strong>Canadarm2</strong> offers a powerful way to bring history, engineering, and scientific discovery together.",
+    "fr": "L’histoire de <strong>Chris Hadfield</strong>, de <strong>STS-100</strong> et de <strong>Canadarm2</strong> offre un puissant moyen de réunir l’histoire, l’ingénierie et la découverte scientifique.",
+    "status": "translated"
+  },
+  {
+    "id": "educators § teaching-through-canadian-space-history § p2",
+    "section": "teaching-through-canadian-space-history",
+    "tag": "p",
+    "en": "Educators can use OOTW25 to help students explore:",
+    "fr": "Les éducateurs peuvent utiliser OOTW25 pour aider les élèves à explorer :",
+    "status": "translated"
+  },
+  {
+    "id": "educators § teaching-through-canadian-space-history § li1",
+    "section": "teaching-through-canadian-space-history",
+    "tag": "li",
+    "en": "Canada’s role in human spaceflight<br/>the history of the International Space Station",
+    "fr": "le rôle du Canada dans le vol spatial habité<br/>l’histoire de la Station spatiale internationale",
+    "status": "translated"
+  },
+  {
+    "id": "educators § teaching-through-canadian-space-history § li2",
+    "section": "teaching-through-canadian-space-history",
+    "tag": "li",
+    "en": "innovation in robotics and engineering",
+    "fr": "l’innovation en robotique et en ingénierie",
+    "status": "translated"
+  },
+  {
+    "id": "educators § teaching-through-canadian-space-history § li3",
+    "section": "teaching-through-canadian-space-history",
+    "tag": "li",
+    "en": "the importance of teamwork and collaboration",
+    "fr": "l’importance du travail d’équipe et de la collaboration",
+    "status": "translated"
+  },
+  {
+    "id": "educators § teaching-through-canadian-space-history § li4",
+    "section": "teaching-through-canadian-space-history",
+    "tag": "li",
+    "en": "how major achievements connect to missions like Artemis II",
+    "fr": "comment les grandes réalisations se rattachent à des missions comme Artemis II",
+    "status": "translated"
+  },
+  {
+    "id": "educators § teaching-through-canadian-space-history § button1",
+    "section": "teaching-through-canadian-space-history",
+    "tag": "button",
+    "en": "EXPLORE CANADIAN SPACE HISTORY",
+    "fr": "EXPLOREZ L’HISTOIRE SPATIALE CANADIENNE",
+    "status": "translated"
+  },
+  {
+    "id": "educators § great-questions-lead-to-great-discoverie § h21",
+    "section": "great-questions-lead-to-great-discoverie",
+    "tag": "h2",
+    "en": "Great questions lead to great discoveries.",
+    "fr": "Les bonnes questions mènent à de grandes découvertes.",
+    "status": "translated"
+  },
+  {
+    "id": "educators § tools-for-inquiry-and-exploration § h21",
+    "section": "tools-for-inquiry-and-exploration",
+    "tag": "h2",
+    "en": "Tools for Inquiry and Exploration",
+    "fr": "Outils pour l’enquête et l’exploration",
+    "status": "translated"
+  },
+  {
+    "id": "educators § tools-for-inquiry-and-exploration § p1",
+    "section": "tools-for-inquiry-and-exploration",
+    "tag": "p",
+    "en": "Space is a powerful starting point for inquiry-based learning.",
+    "fr": "L’espace est un puissant point de départ pour l’apprentissage par l’enquête.",
+    "status": "translated"
+  },
+  {
+    "id": "educators § tools-for-inquiry-and-exploration § p2",
+    "section": "tools-for-inquiry-and-exploration",
+    "tag": "p",
+    "en": "OOTW25 encourages students to ask questions, investigate ideas, and explore how science, creativity, and communication work together.",
+    "fr": "OOTW25 encourage les élèves à poser des questions, à explorer des idées et à découvrir comment la science, la créativité et la communication fonctionnent ensemble.",
+    "status": "translated"
+  },
+  {
+    "id": "educators § tools-for-inquiry-and-exploration § p3",
+    "section": "tools-for-inquiry-and-exploration",
+    "tag": "p",
+    "en": "<strong>Educators can use the project to support:</strong>",
+    "fr": "<strong>Les éducateurs peuvent utiliser le projet pour appuyer :</strong>",
+    "status": "translated"
+  },
+  {
+    "id": "educators § tools-for-inquiry-and-exploration § li1",
+    "section": "tools-for-inquiry-and-exploration",
+    "tag": "li",
+    "en": "inquiry-based learning",
+    "fr": "l’apprentissage par l’enquête",
+    "status": "translated"
+  },
+  {
+    "id": "educators § tools-for-inquiry-and-exploration § li2",
+    "section": "tools-for-inquiry-and-exploration",
+    "tag": "li",
+    "en": "project-based learning",
+    "fr": "l’apprentissage par projet",
+    "status": "translated"
+  },
+  {
+    "id": "educators § tools-for-inquiry-and-exploration § li3",
+    "section": "tools-for-inquiry-and-exploration",
+    "tag": "li",
+    "en": "STEAM connections",
+    "fr": "les liens STIAM",
+    "status": "translated"
+  },
+  {
+    "id": "educators § tools-for-inquiry-and-exploration § li4",
+    "section": "tools-for-inquiry-and-exploration",
+    "tag": "li",
+    "en": "critical thinking",
+    "fr": "la pensée critique",
+    "status": "translated"
+  },
+  {
+    "id": "educators § tools-for-inquiry-and-exploration § li5",
+    "section": "tools-for-inquiry-and-exploration",
+    "tag": "li",
+    "en": "future-focused exploration",
+    "fr": "une exploration tournée vers l’avenir",
+    "status": "translated"
+  },
+  {
+    "id": "educators § tools-for-inquiry-and-exploration § button1",
+    "section": "tools-for-inquiry-and-exploration",
+    "tag": "button",
+    "en": "EXPLORE SPACE ACTIVITIES",
+    "fr": "EXPLOREZ LES ACTIVITÉS SPATIALES",
+    "status": "translated"
+  },
+  {
+    "id": "educators § today-s-classrooms-are-shaping-tomorrow- § h21",
+    "section": "today-s-classrooms-are-shaping-tomorrow-",
+    "tag": "h2",
+    "en": "Today’s classrooms are shaping tomorrow’s explorers.",
+    "fr": "Les salles de classe d’aujourd’hui façonnent les explorateurs de demain.",
+    "status": "translated"
+  },
+  {
+    "id": "educators § classroom-ideas § h21",
+    "section": "classroom-ideas",
+    "tag": "h2",
+    "en": "Classroom Ideas",
+    "fr": "Idées pour la salle de classe",
+    "status": "translated"
+  },
+  {
+    "id": "educators § classroom-ideas § p1",
+    "section": "classroom-ideas",
+    "tag": "p",
+    "en": "Use OOTW25 to spark discussion, inquiry, and creative learning in the classroom.",
+    "fr": "Utilisez OOTW25 pour susciter la discussion, l’enquête et l’apprentissage créatif en salle de classe.",
+    "status": "translated"
+  },
+  {
+    "id": "educators § classroom-ideas § p2",
+    "section": "classroom-ideas",
+    "tag": "p",
+    "en": "<strong>Educators can build lessons and activities around:</strong>",
+    "fr": "<strong>Les éducateurs peuvent bâtir des leçons et des activités autour de :</strong>",
+    "status": "translated"
+  },
+  {
+    "id": "educators § classroom-ideas § li1",
+    "section": "classroom-ideas",
+    "tag": "li",
+    "en": "Chris Hadfield and STS-100",
+    "fr": "Chris Hadfield et STS-100",
+    "status": "translated"
+  },
+  {
+    "id": "educators § classroom-ideas § li2",
+    "section": "classroom-ideas",
+    "tag": "li",
+    "en": "Canadarm2 and Canadian robotics",
+    "fr": "Canadarm2 et la robotique canadienne",
+    "status": "translated"
+  },
+  {
+    "id": "educators § classroom-ideas § li3",
+    "section": "classroom-ideas",
+    "tag": "li",
+    "en": "the International Space Station",
+    "fr": "la Station spatiale internationale",
+    "status": "translated"
+  },
+  {
+    "id": "educators § classroom-ideas § li4",
+    "section": "classroom-ideas",
+    "tag": "li",
+    "en": "Artemis II and Canada’s next era of exploration",
+    "fr": "Artemis II et la prochaine ère d’exploration du Canada",
+    "status": "translated"
+  },
+  {
+    "id": "educators § classroom-ideas § li5",
+    "section": "classroom-ideas",
+    "tag": "li",
+    "en": "science communication and storytelling",
+    "fr": "la communication scientifique et la narration",
+    "status": "translated"
+  },
+  {
+    "id": "educators § classroom-ideas § button1",
+    "section": "classroom-ideas",
+    "tag": "button",
+    "en": "EXPLORE TEACHING RESOURCES",
+    "fr": "EXPLOREZ LES RESSOURCES PÉDAGOGIQUES",
+    "status": "translated"
+  },
+  {
+    "id": "educators § resource-spotlight § h21",
+    "section": "resource-spotlight",
+    "tag": "h2",
+    "en": "Resource Spotlight",
+    "fr": "Ressource à l’honneur",
+    "status": "translated"
+  },
+  {
+    "id": "educators § resource-spotlight § p1",
+    "section": "resource-spotlight",
+    "tag": "p",
+    "en": "Looking for ready-to-use resources right now? Explore Canadian Space Agency tools and activities designed to bring space exploration into the classroom.",
+    "fr": "Vous cherchez des ressources prêtes à utiliser dès maintenant? Découvrez les outils et activités de l’Agence spatiale canadienne conçus pour faire entrer l’exploration spatiale en salle de classe.",
+    "status": "translated"
+  },
+  {
+    "id": "educators § resource-spotlight § button1",
+    "section": "resource-spotlight",
+    "tag": "button",
+    "en": "EXPLORE CSA TOOLKITS",
+    "fr": "EXPLOREZ LES TROUSSES DE L’ASC",
+    "status": "translated"
+  },
+  {
+    "id": "educators § learning-can-happen-through-stories-maps § h21",
+    "section": "learning-can-happen-through-stories-maps",
+    "tag": "h2",
+    "en": "Learning can happen through stories, maps, missions, and ideas.",
+    "fr": "L’apprentissage peut se faire par des récits, des cartes, des missions et des idées.",
+    "status": "translated"
+  },
+  {
+    "id": "educators § connecting-students-to-the-future § h21",
+    "section": "connecting-students-to-the-future",
+    "tag": "h2",
+    "en": "Connecting Students to the Future",
+    "fr": "Relier les élèves à l’avenir",
+    "status": "translated"
+  },
+  {
+    "id": "educators § connecting-students-to-the-future § p1",
+    "section": "connecting-students-to-the-future",
+    "tag": "p",
+    "en": "With <strong>Artemis II</strong> now marking a major moment in Canadian space history, educators have a unique opportunity to help students reflect on that achievement and imagine what comes next.",
+    "fr": "Alors qu'<strong>Artemis II</strong> marque désormais un moment marquant de l’histoire spatiale canadienne, les éducateurs ont une occasion unique d’aider les élèves à réfléchir à cette réussite et à imaginer la suite.",
+    "status": "translated"
+  },
+  {
+    "id": "educators § connecting-students-to-the-future § p2",
+    "section": "connecting-students-to-the-future",
+    "tag": "p",
+    "en": "OOTW25 helps students see that the future of space exploration will be shaped not only by astronauts, but also by scientists, engineers, artists, communicators, and creative thinkers.",
+    "fr": "OOTW25 aide les élèves à comprendre que l’avenir de l’exploration spatiale sera façonné non seulement par des astronautes, mais aussi par des scientifiques, des ingénieurs, des artistes, des communicateurs et des esprits créatifs.",
+    "status": "translated"
+  },
+  {
+    "id": "educators § connecting-students-to-the-future § button1",
+    "section": "connecting-students-to-the-future",
+    "tag": "button",
+    "en": "EXPLORE ARTEMIS II",
+    "fr": "EXPLOREZ ARTEMIS II",
+    "status": "translated"
+  },
+  {
+    "id": "educators § discover-more-tools-to-bring-canada-s-sp § h21",
+    "section": "discover-more-tools-to-bring-canada-s-sp",
+    "tag": "h2",
+    "en": "Discover more tools to bring Canada’s space story into the classroom.",
+    "fr": "Découvrez d’autres outils pour faire entrer l’histoire spatiale du Canada en salle de classe.",
+    "status": "translated"
+  },
+  {
+    "id": "educators § explore-more-educators § h21",
+    "section": "explore-more-educators",
+    "tag": "h2",
+    "en": "Explore More Educators",
+    "fr": "Explorez d’autres ressources pour éducateurs",
+    "status": "translated"
+  },
+  {
+    "id": "educators § teaching-resources § h21",
+    "section": "teaching-resources",
+    "tag": "h2",
+    "en": "Teaching Resources",
+    "fr": "Ressources pédagogiques",
+    "status": "translated"
+  },
+  {
+    "id": "educators § teaching-resources § p1",
+    "section": "teaching-resources",
+    "tag": "p",
+    "en": "Classroom tools and learning ideas",
+    "fr": "Outils de classe et idées d’apprentissage",
+    "status": "translated"
+  },
+  {
+    "id": "educators § teaching-resources § button1",
+    "section": "teaching-resources",
+    "tag": "button",
+    "en": "EXPLORE TEACHING RESOURCES",
+    "fr": "EXPLOREZ LES RESSOURCES PÉDAGOGIQUES",
+    "status": "translated"
+  },
+  {
+    "id": "educators § space-history § h21",
+    "section": "space-history",
+    "tag": "h2",
+    "en": "Space History",
+    "fr": "Histoire spatiale",
+    "status": "translated"
+  },
+  {
+    "id": "educators § space-history § p1",
+    "section": "space-history",
+    "tag": "p",
+    "en": "Explore missions, milestones, and discovery",
+    "fr": "Explorez les missions, les jalons et la découverte",
+    "status": "translated"
+  },
+  {
+    "id": "educators § space-history § button1",
+    "section": "space-history",
+    "tag": "button",
+    "en": "EXPLORE SPACE HISTORY",
+    "fr": "EXPLOREZ L’HISTOIRE SPATIALE",
+    "status": "translated"
+  },
+  {
+    "id": "educators § storymaps § h21",
+    "section": "storymaps",
+    "tag": "h2",
+    "en": "StoryMaps",
+    "fr": "StoryMaps",
+    "status": "translated"
+  },
+  {
+    "id": "educators § storymaps § p1",
+    "section": "storymaps",
+    "tag": "p",
+    "en": "Explore Canada’s  story through maps",
+    "fr": "Explorez l’histoire du Canada à travers des cartes",
+    "status": "translated"
+  },
+  {
+    "id": "educators § storymaps § button1",
+    "section": "storymaps",
+    "tag": "button",
+    "en": "EXPLORE STORYMAPS",
+    "fr": "EXPLOREZ LES STORYMAPS",
+    "status": "translated"
+  },
+  {
+    "id": "educators § artemis-ii § h21",
+    "section": "artemis-ii",
+    "tag": "h2",
+    "en": "Artemis II",
+    "fr": "Artemis II",
+    "status": "translated"
+  },
+  {
+    "id": "educators § artemis-ii § p1",
+    "section": "artemis-ii",
+    "tag": "p",
+    "en": "Connect students to Canada’s historic mission",
+    "fr": "Reliez les élèves à la mission historique du Canada",
+    "status": "translated"
+  },
+  {
+    "id": "educators § artemis-ii § button1",
+    "section": "artemis-ii",
+    "tag": "button",
+    "en": "EXPLORE ARTEMIS II",
+    "fr": "EXPLOREZ ARTEMIS II",
+    "status": "translated"
+  },
+  {
+    "id": "educators § microhistories § h21",
+    "section": "microhistories",
+    "tag": "h2",
+    "en": "Microhistories",
+    "fr": "Microhistoires",
+    "status": "translated"
+  },
+  {
+    "id": "educators § microhistories § p1",
+    "section": "microhistories",
+    "tag": "p",
+    "en": "Hidden stories behind space exploration",
+    "fr": "Récits cachés derrière l’exploration spatiale",
+    "status": "translated"
+  },
+  {
+    "id": "educators § microhistories § button1",
+    "section": "microhistories",
+    "tag": "button",
+    "en": "EXPLORE MICROHISTORIES",
+    "fr": "EXPLOREZ LES MICROHISTOIRES",
+    "status": "translated"
+  },
+  {
+    "id": "educators § students-amp-families § h21",
+    "section": "students-amp-families",
+    "tag": "h2",
+    "en": "Students &amp; Families",
+    "fr": "Élèves et familles",
+    "status": "translated"
+  },
+  {
+    "id": "educators § students-amp-families § p1",
+    "section": "students-amp-families",
+    "tag": "p",
+    "en": "Share space learning beyond the classroom",
+    "fr": "Partagez l’apprentissage spatial au-delà de la salle de classe",
+    "status": "translated"
+  },
+  {
+    "id": "educators § students-amp-families § button1",
+    "section": "students-amp-families",
+    "tag": "button",
+    "en": "EXPLORE STUDENTS &amp; FAMILIES",
+    "fr": "EXPLOREZ ÉLÈVES ET FAMILLES",
+    "status": "translated"
+  },
+  {
+    "id": "educators § through-out-of-this-world-25-educators-c § h21",
+    "section": "through-out-of-this-world-25-educators-c",
+    "tag": "h2",
+    "en": "Through Out of This World 25, educators can help students connect Canada’s achievements in space with the possibilities of tomorrow.\nCuriosity in the classroom can inspire the explorers of the future.",
+    "fr": "Grâce à Out of This World 25, les éducateurs peuvent aider les élèves à relier les réussites du Canada dans l’espace aux possibilités de demain.\nLa curiosité en salle de classe peut inspirer les explorateurs de demain.",
+    "status": "translated"
+  },
+  {
+    "id": "educators § through-out-of-this-world-25-educators-c § p1",
+    "section": "through-out-of-this-world-25-educators-c",
+    "tag": "p",
+    "en": "<strong>Sources &amp; Image Credits</strong>",
+    "fr": "<strong>Sources et crédits photographiques</strong>",
+    "status": "translated"
+  },
+  {
+    "id": "educators § through-out-of-this-world-25-educators-c § p2",
+    "section": "through-out-of-this-world-25-educators-c",
+    "tag": "p",
+    "en": "<em>This page includes information from Canadian Space Agency resources. Many images are courtesy of the </em><a href=\"https://www.asc-csa.gc.ca/eng/\" rel=\"noopener\" target=\"_blank\"><em>Canadian Space Agency (CSA)</em></a><em> and are used with permission. Other visuals are licensed stock photography or approved website assets. Image credits are provided here collectively as part of the page design. </em>",
+    "fr": "<em>Cette page comprend des renseignements provenant de ressources de l’Agence spatiale canadienne. De nombreuses images sont fournies avec l’aimable autorisation de l’</em><a href=\"https://www.asc-csa.gc.ca/eng/\" rel=\"noopener\" target=\"_blank\"><em>Agence spatiale canadienne (ASC)</em></a><em> et sont utilisées avec permission. D’autres visuels proviennent de photographies libres de droits sous licence ou d’éléments approuvés du site Web. Les crédits photographiques sont fournis ici collectivement dans le cadre de la conception de la page. </em>",
+    "status": "translated"
+  },
+  {
+    "id": "educators § through-out-of-this-world-25-educators-c § p3",
+    "section": "through-out-of-this-world-25-educators-c",
+    "tag": "p",
+    "en": "<strong>MCYU</strong>",
+    "fr": "<strong>MCYU</strong>",
+    "status": "translated"
+  },
+  {
+    "id": "educators § through-out-of-this-world-25-educators-c § p4",
+    "section": "through-out-of-this-world-25-educators-c",
+    "tag": "p",
+    "en": "<a href=\"mailto:mcyu@mcmaster.ca\">mcyu@mcmaster.ca</a>",
+    "fr": "<a href=\"mailto:mcyu@mcmaster.ca\">mcyu@mcmaster.ca</a>",
+    "status": "translated"
+  },
+  {
+    "id": "educators § through-out-of-this-world-25-educators-c § p5",
+    "section": "through-out-of-this-world-25-educators-c",
+    "tag": "p",
+    "en": "<a data-tccl=\"ux2.FOOTER.footer4.Layout.Default.Link.Default.51716.click,click\" data-typography=\"LinkAlpha\" data-ux=\"Link\" href=\"tel:+19055212100,,73790\" rel=\"\">905-521-2100 ext. 73790</a>",
+    "fr": "<a data-tccl=\"ux2.FOOTER.footer4.Layout.Default.Link.Default.51716.click,click\" data-typography=\"LinkAlpha\" data-ux=\"Link\" href=\"tel:+19055212100,,73790\" rel=\"\">905-521-2100, poste 73790</a>",
+    "status": "translated"
+  },
+  {
+    "id": "educators § through-out-of-this-world-25-educators-c § p6",
+    "section": "through-out-of-this-world-25-educators-c",
+    "tag": "p",
+    "en": "<strong>CanHist.ca</strong>",
+    "fr": "<strong>CanHist.ca</strong>",
+    "status": "translated"
+  },
+  {
+    "id": "educators § through-out-of-this-world-25-educators-c § p7",
+    "section": "through-out-of-this-world-25-educators-c",
+    "tag": "p",
+    "en": "<a href=\"mailto:info@canhist.ca\">info@canhist.ca</a>",
+    "fr": "<a href=\"mailto:info@canhist.ca\">info@canhist.ca</a>",
+    "status": "translated"
+  },
+  {
+    "id": "educators § through-out-of-this-world-25-educators-c § p8",
+    "section": "through-out-of-this-world-25-educators-c",
+    "tag": "p",
+    "en": "<a data-tccl=\"ux2.FOOTER.footer4.Layout.Default.Link.Default.51716.click,click\" data-typography=\"LinkAlpha\" data-ux=\"Link\" href=\"tel:+15192170402\" rel=\"\">519-217-0402</a>",
+    "fr": "<a data-tccl=\"ux2.FOOTER.footer4.Layout.Default.Link.Default.51716.click,click\" data-typography=\"LinkAlpha\" data-ux=\"Link\" href=\"tel:+15192170402\" rel=\"\">519-217-0402</a>",
+    "status": "translated"
+  }
+]

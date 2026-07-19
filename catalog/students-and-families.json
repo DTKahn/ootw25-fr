@@ -1,0 +1,842 @@
+[
+  {
+    "id": "students-and-families § meta § title",
+    "section": "meta",
+    "tag": "title",
+    "en": "Students & Families - OOTW25",
+    "fr": "Élèves et familles - OOTW25",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § meta § description",
+    "section": "meta",
+    "tag": "description",
+    "en": "Students & Families Discover the excitement of space exploration and how Canadians are helping explore the universe. Space exploration begins with curiosity.",
+    "fr": "Élèves et familles Découvrez l’enthousiasme de l’exploration spatiale et la façon dont les Canadiens contribuent à l’exploration de l’univers. L’exploration spatiale commence par la curiosité.",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § top § img1",
+    "section": "top",
+    "tag": "img",
+    "en": "OOTW logo variations tm february 2026 ootw logo white outline",
+    "fr": "Variations du logo OOTW MC, février 2026, contour blanc",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § students-amp-families § h21",
+    "section": "students-amp-families",
+    "tag": "h2",
+    "en": "Students &amp; Families",
+    "fr": "Élèves et familles",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § students-amp-families § img1",
+    "section": "students-amp-families",
+    "tag": "img",
+    "en": "Astronaut Chris Hadfield onboard Endeavour",
+    "fr": "L’astronaute Chris Hadfield à bord d’Endeavour",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § students-amp-families § img2",
+    "section": "students-amp-families",
+    "tag": "img",
+    "en": "Spacewalking with Canadarm2",
+    "fr": "Sortie extravéhiculaire avec Canadarm2",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § students-amp-families § img3",
+    "section": "students-amp-families",
+    "tag": "img",
+    "en": "David Saint Jacques first NBL training",
+    "fr": "Premier entraînement de David Saint Jacques au NBL",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § discover-the-excitement-of-space-explora § h21",
+    "section": "discover-the-excitement-of-space-explora",
+    "tag": "h2",
+    "en": "Discover the excitement of space exploration and how Canadians are helping explore the universe.",
+    "fr": "Découvrez l’enthousiasme de l’exploration spatiale et la façon dont les Canadiens contribuent à l’exploration de l’univers.",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § space-exploration-begins-with-curiosity § h21",
+    "section": "space-exploration-begins-with-curiosity",
+    "tag": "h2",
+    "en": "Space exploration begins with curiosity.",
+    "fr": "L’exploration spatiale commence par la curiosité.",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § space-exploration-begins-with-curiosity § p1",
+    "section": "space-exploration-begins-with-curiosity",
+    "tag": "p",
+    "en": "Through <strong>Out of This World 25</strong>, students and families can explore Canada’s remarkable journey in space — from <strong>Chris Hadfield walking in space during Mission STS-100</strong> to <strong>Jeremy Hansen’s historic Artemis II mission around the Moon</strong>.",
+    "fr": "Grâce à <strong>Out of This World 25</strong>, les élèves et les familles peuvent explorer le remarquable parcours du Canada dans l’espace — de <strong>la sortie extravéhiculaire de Chris Hadfield pendant la mission STS-100</strong> à <strong>la mission historique Artemis II de Jeremy Hansen autour de la Lune</strong>.",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § space-exploration-begins-with-curiosity § p2",
+    "section": "space-exploration-begins-with-curiosity",
+    "tag": "p",
+    "en": "Discover how astronauts live and work in orbit, how Canadian robotics help build and operate the International Space Station, and how curiosity and imagination continue to shape new chapters in Canada’s story in space.",
+    "fr": "Découvrez comment les astronautes vivent et travaillent en orbite, comment la robotique canadienne contribue à construire et à exploiter la Station spatiale internationale, et comment la curiosité et l’imagination continuent de façonner de nouveaux chapitres de l’histoire du Canada dans l’espace.",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § space-exploration-begins-with-curiosity § p3",
+    "section": "space-exploration-begins-with-curiosity",
+    "tag": "p",
+    "en": "<strong>What would you discover if you could explore space?</strong>",
+    "fr": "<strong>Que découvririez-vous si vous pouviez explorer l’espace?</strong>",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § space-exploration-begins-with-curiosity § p4",
+    "section": "space-exploration-begins-with-curiosity",
+    "tag": "p",
+    "en": "Many of the learning activities featured here are part of the <strong>Out of This World 25 partnership with </strong><a href=\"https://mcyu.mcmaster.ca/\" rel=\"noopener\" target=\"_blank\"><strong>McMaster Children and Youth University (MCYU)</strong></a>, helping inspire young Canadians to explore science, technology, and discovery.",
+    "fr": "Plusieurs des activités d’apprentissage présentées ici font partie du <strong>partenariat d’Out of This World 25 avec la </strong><a href=\"https://mcyu.mcmaster.ca/\" rel=\"noopener\" target=\"_blank\"><strong>McMaster Children and Youth University (MCYU)</strong></a>, qui aide à inspirer les jeunes Canadiens et Canadiennes à explorer la science, la technologie et la découverte.",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § every-astronaut-begins-as-a-curious-lear § h21",
+    "section": "every-astronaut-begins-as-a-curious-lear",
+    "tag": "h2",
+    "en": "Every astronaut begins as a curious learner. Your journey into space starts the same way.",
+    "fr": "Chaque astronaute a d’abord été un apprenant curieux. Votre voyage vers l’espace commence de la même façon.",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § choose-a-mission-and-start-exploring-can § h21",
+    "section": "choose-a-mission-and-start-exploring-can",
+    "tag": "h2",
+    "en": "Choose a mission and start exploring Canada’s story in space.",
+    "fr": "Choisissez une mission et commencez à explorer l’histoire du Canada dans l’espace.",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § become-an-astronaut § h21",
+    "section": "become-an-astronaut",
+    "tag": "h2",
+    "en": "Become an Astronaut",
+    "fr": "Devenez astronaute",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § become-an-astronaut § p1",
+    "section": "become-an-astronaut",
+    "tag": "p",
+    "en": "Train like a real astronaut",
+    "fr": "Entraînez-vous comme un vrai astronaute",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § become-an-astronaut § button1",
+    "section": "become-an-astronaut",
+    "tag": "button",
+    "en": "EXPLORE BECOMING AN ASTRONAUT",
+    "fr": "EXPLOREZ COMMENT DEVENIR ASTRONAUTE",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § space-games § h21",
+    "section": "space-games",
+    "tag": "h2",
+    "en": "Space Games",
+    "fr": "Jeux spatiaux",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § space-games § p1",
+    "section": "space-games",
+    "tag": "p",
+    "en": "Test your knowledge on space",
+    "fr": "Testez vos connaissances sur l’espace",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § space-games § button1",
+    "section": "space-games",
+    "tag": "button",
+    "en": "EXPLORE SPACE GAMES",
+    "fr": "EXPLOREZ LES JEUX SPATIAUX",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § space-experiments § h21",
+    "section": "space-experiments",
+    "tag": "h2",
+    "en": "Space Experiments",
+    "fr": "Expériences spatiales",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § space-experiments § p1",
+    "section": "space-experiments",
+    "tag": "p",
+    "en": "Try science activities at home",
+    "fr": "Essayez des activités scientifiques à la maison",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § space-experiments § button1",
+    "section": "space-experiments",
+    "tag": "button",
+    "en": "EXPLORE SPACE EXPERIMENTS",
+    "fr": "EXPLOREZ LES EXPÉRIENCES SPATIALES",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § canadarm2-robot § h21",
+    "section": "canadarm2-robot",
+    "tag": "h2",
+    "en": "Canadarm2 Robot",
+    "fr": "Le robot Canadarm2",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § canadarm2-robot § p1",
+    "section": "canadarm2-robot",
+    "tag": "p",
+    "en": "See how Canada’s famous space robot works",
+    "fr": "Découvrez comment fonctionne le célèbre robot spatial canadien",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § canadarm2-robot § button1",
+    "section": "canadarm2-robot",
+    "tag": "button",
+    "en": "EXPLORE CANADARM2",
+    "fr": "EXPLOREZ CANADARM2",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § life-in-space § h21",
+    "section": "life-in-space",
+    "tag": "h2",
+    "en": "Life in Space",
+    "fr": "La vie dans l’espace",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § life-in-space § p1",
+    "section": "life-in-space",
+    "tag": "p",
+    "en": "See how astronauts live in orbit",
+    "fr": "Découvrez comment les astronautes vivent en orbite",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § life-in-space § button1",
+    "section": "life-in-space",
+    "tag": "button",
+    "en": "EXPLORE LIFE IN SPACE",
+    "fr": "EXPLOREZ LA VIE DANS L’ESPACE",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § explore-space-storymaps § h21",
+    "section": "explore-space-storymaps",
+    "tag": "h2",
+    "en": "Explore Space StoryMaps",
+    "fr": "Explorez les StoryMaps spatiales",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § explore-space-storymaps § p1",
+    "section": "explore-space-storymaps",
+    "tag": "p",
+    "en": "Explore Canada’s space story through maps",
+    "fr": "Explorez l’histoire spatiale du Canada à travers des cartes",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § explore-space-storymaps § button1",
+    "section": "explore-space-storymaps",
+    "tag": "button",
+    "en": "EXPLORE SPACE STORYMAPS",
+    "fr": "EXPLOREZ LES STORYMAPS SPATIALES",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § what-happens-when-everyday-things-behave § h21",
+    "section": "what-happens-when-everyday-things-behave",
+    "tag": "h2",
+    "en": "What happens when everyday things behave differently in space? Astronaut Chris Hadfield shows how microgravity changes the way water behaves.",
+    "fr": "Que se passe-t-il lorsque des objets du quotidien se comportent différemment dans l’espace? L’astronaute Chris Hadfield montre comment la microgravité change le comportement de l’eau.",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § water-in-space-with-astronaut-chris-hadf § h21",
+    "section": "water-in-space-with-astronaut-chris-hadf",
+    "tag": "h2",
+    "en": "Water in Space with Astronaut Chris Hadfield",
+    "fr": "L’eau dans l’espace avec l’astronaute Chris Hadfield",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § water-in-space-with-astronaut-chris-hadf § p1",
+    "section": "water-in-space-with-astronaut-chris-hadf",
+    "tag": "p",
+    "en": "Life aboard the <strong>International Space Station</strong> can turn ordinary things into fascinating science experiments.",
+    "fr": "La vie à bord de la <strong>Station spatiale internationale</strong> peut transformer des objets ordinaires en fascinantes expériences scientifiques.",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § water-in-space-with-astronaut-chris-hadf § p2",
+    "section": "water-in-space-with-astronaut-chris-hadf",
+    "tag": "p",
+    "en": "In microgravity, liquids behave very differently than they do on Earth. In this demonstration, Canadian astronaut <strong>Chris Hadfield</strong> shows how water forms floating spheres instead of falling downward.",
+    "fr": "En microgravité, les liquides se comportent très différemment que sur Terre. Dans cette démonstration, l’astronaute canadien <strong>Chris Hadfield</strong> montre comment l’eau forme des sphères flottantes au lieu de tomber vers le bas.",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § water-in-space-with-astronaut-chris-hadf § p3",
+    "section": "water-in-space-with-astronaut-chris-hadf",
+    "tag": "p",
+    "en": "Experiments like this help scientists understand how liquids behave in space — knowledge that is important for everything from <strong>spacecraft systems to future missions beyond Earth</strong>.",
+    "fr": "Des expériences comme celle-ci aident les scientifiques à comprendre comment les liquides se comportent dans l’espace — des connaissances importantes pour tout, des <strong>systèmes des vaisseaux spatiaux aux futures missions au-delà de la Terre</strong>.",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § explore-experiment-discover § h21",
+    "section": "explore-experiment-discover",
+    "tag": "h2",
+    "en": "Explore. Experiment. Discover.",
+    "fr": "Explorez. Expérimentez. Découvrez.",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § explore-experiment-discover § p1",
+    "section": "explore-experiment-discover",
+    "tag": "p",
+    "en": "<strong>What would it be like to train like an astronaut?</strong>",
+    "fr": "<strong>Que ressentirait-on à s’entraîner comme un astronaute?</strong>",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § explore-experiment-discover § p2",
+    "section": "explore-experiment-discover",
+    "tag": "p",
+    "en": "The <strong>Canadian Space Agency</strong> offers exciting activities, games, and challenges designed especially for young explorers.",
+    "fr": "L'<strong>Agence spatiale canadienne</strong> propose des activités, des jeux et des défis captivants conçus spécialement pour les jeunes explorateurs et exploratrices.",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § explore-experiment-discover § p3",
+    "section": "explore-experiment-discover",
+    "tag": "p",
+    "en": "Learn how astronauts train, explore amazing space technologies, and discover how scientists study the universe.",
+    "fr": "Apprenez comment les astronautes s’entraînent, explorez d’incroyables technologies spatiales et découvrez comment les scientifiques étudient l’univers.",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § explore-experiment-discover § p4",
+    "section": "explore-experiment-discover",
+    "tag": "p",
+    "en": "Whether you’re dreaming of becoming an astronaut or simply curious about the stars, there is always something new to explore.",
+    "fr": "Que vous rêviez de devenir astronaute ou que vous soyez simplement curieux des étoiles, il y a toujours quelque chose de nouveau à explorer.",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § explore-experiment-discover § button1",
+    "section": "explore-experiment-discover",
+    "tag": "button",
+    "en": "EXPLORE SPACE ACTIVITIES",
+    "fr": "EXPLOREZ LES ACTIVITÉS SPATIALES",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § mission-challenge § h21",
+    "section": "mission-challenge",
+    "tag": "h2",
+    "en": "Mission Challenge",
+    "fr": "Défi mission",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § mission-challenge § p1",
+    "section": "mission-challenge",
+    "tag": "p",
+    "en": "<strong>Can you answer these space questions?</strong>",
+    "fr": "<strong>Pouvez-vous répondre à ces questions sur l’espace?</strong>",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § mission-challenge § li1",
+    "section": "mission-challenge",
+    "tag": "li",
+    "en": "How fast does the ISS travel around Earth?",
+    "fr": "À quelle vitesse la SSI se déplace-t-elle autour de la Terre?",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § mission-challenge § li2",
+    "section": "mission-challenge",
+    "tag": "li",
+    "en": "What does Canadarm2 do on the space station?",
+    "fr": "Que fait Canadarm2 sur la station spatiale?",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § mission-challenge § li3",
+    "section": "mission-challenge",
+    "tag": "li",
+    "en": "How does water behave in microgravity?",
+    "fr": "Comment l’eau se comporte-t-elle en microgravité?",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § mission-challenge § p2",
+    "section": "mission-challenge",
+    "tag": "p",
+    "en": "Explore the page and see if you can find the answers.",
+    "fr": "Explorez la page et voyez si vous pouvez trouver les réponses.",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § life-in-orbit-is-very-different-from-lif § h21",
+    "section": "life-in-orbit-is-very-different-from-lif",
+    "tag": "h2",
+    "en": "Life in orbit is very different from life on Earth.",
+    "fr": "La vie en orbite est très différente de la vie sur Terre.",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § life-in-orbit § h21",
+    "section": "life-in-orbit",
+    "tag": "h2",
+    "en": "Life in Orbit",
+    "fr": "La vie en orbite",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § life-in-orbit § p1",
+    "section": "life-in-orbit",
+    "tag": "p",
+    "en": "<strong>How do astronauts eat, sleep, and float in space? </strong>",
+    "fr": "<strong>Comment les astronautes mangent-ils, dorment-ils et flottent-ils dans l’espace? </strong>",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § life-in-orbit § p2",
+    "section": "life-in-orbit",
+    "tag": "p",
+    "en": "Astronauts aboard the <strong>International Space Station (ISS)</strong> live and work hundreds of kilometres above Earth.",
+    "fr": "Les astronautes à bord de la <strong>Station spatiale internationale (SSI)</strong> vivent et travaillent à des centaines de kilomètres au-dessus de la Terre.",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § life-in-orbit § p3",
+    "section": "life-in-orbit",
+    "tag": "p",
+    "en": "In microgravity, everyday tasks become extraordinary experiences. Astronauts float instead of walk, conduct scientific experiments, maintain complex technology, and work closely with international teams on Earth.",
+    "fr": "En microgravité, les tâches quotidiennes deviennent des expériences extraordinaires. Les astronautes flottent au lieu de marcher, mènent des expériences scientifiques, entretiennent des technologies complexes et travaillent en étroite collaboration avec des équipes internationales sur Terre.",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § life-in-orbit § p4",
+    "section": "life-in-orbit",
+    "tag": "p",
+    "en": "Canadian astronauts — along with Canadian technology such as <strong>Canadarm2</strong> — play an important role aboard the ISS, helping operate the station and supporting research that helps scientists better understand space and our own planet.",
+    "fr": "Les astronautes canadiens — ainsi que des technologies canadiennes comme <strong>Canadarm2</strong> — jouent un rôle important à bord de la SSI, contribuant à l’exploitation de la station et appuyant des recherches qui aident les scientifiques à mieux comprendre l’espace et notre propre planète.",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § space-facts § h21",
+    "section": "space-facts",
+    "tag": "h2",
+    "en": "Space Facts",
+    "fr": "Faits spatiaux",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § space-facts § li1",
+    "section": "space-facts",
+    "tag": "li",
+    "en": "The International Space Station travels <strong>28,000 km per hour</strong>",
+    "fr": "La Station spatiale internationale se déplace à <strong>28 000 km à l’heure</strong>",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § space-facts § li2",
+    "section": "space-facts",
+    "tag": "li",
+    "en": "Astronauts see <strong>16 sunrises every day</strong>",
+    "fr": "Les astronautes voient <strong>16 levers de soleil par jour</strong>",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § space-facts § li3",
+    "section": "space-facts",
+    "tag": "li",
+    "en": "Canadarm2 can move objects <strong>the size of school buses</strong>",
+    "fr": "Canadarm2 peut déplacer des objets <strong>de la taille d’autobus scolaires</strong>",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § space-facts § button1",
+    "section": "space-facts",
+    "tag": "button",
+    "en": "EXPLORE THE INTERNATIONAL SPACE STATION",
+    "fr": "EXPLOREZ LA STATION SPATIALE INTERNATIONALE",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § canada-s-robotics-have-become-essential- § h21",
+    "section": "canada-s-robotics-have-become-essential-",
+    "tag": "h2",
+    "en": "Canada’s robotics have become essential tools in space exploration.",
+    "fr": "La robotique canadienne est devenue un outil essentiel de l’exploration spatiale.",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § meet-canadarm2 § h21",
+    "section": "meet-canadarm2",
+    "tag": "h2",
+    "en": "Meet Canadarm2",
+    "fr": "Découvrez Canadarm2",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § meet-canadarm2 § p1",
+    "section": "meet-canadarm2",
+    "tag": "p",
+    "en": "<strong>How does a giant robot work in space? </strong>",
+    "fr": "<strong>Comment un robot géant fonctionne-t-il dans l’espace? </strong>",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § meet-canadarm2 § p2",
+    "section": "meet-canadarm2",
+    "tag": "p",
+    "en": "One of Canada’s most important contributions to space exploration is <strong>Canadarm2</strong>, the advanced robotic arm aboard the International Space Station.",
+    "fr": "L’une des contributions les plus importantes du Canada à l’exploration spatiale est <strong>Canadarm2</strong>, le bras robotique avancé à bord de la Station spatiale internationale.",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § meet-canadarm2 § p3",
+    "section": "meet-canadarm2",
+    "tag": "p",
+    "en": "Developed by Canadian engineers, Canadarm2 helps astronauts move equipment, capture visiting spacecraft, and support space missions in orbit.",
+    "fr": "Conçu par des ingénieurs canadiens, Canadarm2 aide les astronautes à déplacer de l’équipement, à capturer des vaisseaux spatiaux en visite et à appuyer les missions spatiales en orbite.",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § meet-canadarm2 § p4",
+    "section": "meet-canadarm2",
+    "tag": "p",
+    "en": "Watch how this remarkable Canadian technology helps astronauts operate and maintain the International Space Station",
+    "fr": "Découvrez comment cette remarquable technologie canadienne aide les astronautes à exploiter et à entretenir la Station spatiale internationale",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § behind-every-astronaut-is-a-team-of-expl § h21",
+    "section": "behind-every-astronaut-is-a-team-of-expl",
+    "tag": "h2",
+    "en": "Behind every astronaut is a team of explorers on Earth.",
+    "fr": "Derrière chaque astronaute se trouve une équipe d’explorateurs sur Terre.",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § where-could-curiosity-take-you § h21",
+    "section": "where-could-curiosity-take-you",
+    "tag": "h2",
+    "en": "Where Could Curiosity Take You?",
+    "fr": "Où la curiosité pourrait-elle vous mener?",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § where-could-curiosity-take-you § p1",
+    "section": "where-could-curiosity-take-you",
+    "tag": "p",
+    "en": "Canada’s journey in space continues with <strong>Artemis II</strong>, which carried Canadian astronaut <strong>Jeremy Hansen</strong> around the Moon and marked a historic milestone for Canada in space.",
+    "fr": "Le parcours du Canada dans l’espace se poursuit avec <strong>Artemis II</strong>, qui a emmené l’astronaute canadien <strong>Jeremy Hansen</strong> autour de la Lune et a marqué un jalon historique pour le Canada dans l’espace.",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § where-could-curiosity-take-you § p2",
+    "section": "where-could-curiosity-take-you",
+    "tag": "p",
+    "en": "The discoveries of tomorrow will come from the students of today.",
+    "fr": "Les découvertes de demain viendront des élèves d’aujourd’hui.",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § where-could-curiosity-take-you § p3",
+    "section": "where-could-curiosity-take-you",
+    "tag": "p",
+    "en": "Space exploration needs scientists, engineers, artists, programmers, and creative thinkers — people who are curious about the universe and eager to explore new ideas.",
+    "fr": "L’exploration spatiale a besoin de scientifiques, d’ingénieurs, d’artistes, de programmeurs et d’esprits créatifs — des personnes curieuses de l’univers et désireuses d’explorer de nouvelles idées.",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § design-your-destiny-challenge § h21",
+    "section": "design-your-destiny-challenge",
+    "tag": "h2",
+    "en": "Design Your Destiny Challenge",
+    "fr": "Défi : concevez votre destinée",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § design-your-destiny-challenge § p1",
+    "section": "design-your-destiny-challenge",
+    "tag": "p",
+    "en": "<strong class=\"x-el x-el-span c1-22 c1-23 c1-b c1-dl c1-3m c1-51 c1-dm\">If you were part of a future space mission, what role would you choose?</strong>",
+    "fr": "<strong class=\"x-el x-el-span c1-22 c1-23 c1-b c1-dl c1-3m c1-51 c1-dm\">Si vous faisiez partie d’une future mission spatiale, quel rôle choisiriez-vous?</strong>",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § design-your-destiny-challenge § p2",
+    "section": "design-your-destiny-challenge",
+    "tag": "p",
+    "en": "Would you be the astronaut, the engineer, the scientist, the storyteller, or the designer helping shape the mission?",
+    "fr": "Seriez-vous l’astronaute, l’ingénieur, le scientifique, le conteur ou le concepteur qui aide à façonner la mission?",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § design-your-destiny-challenge § button1",
+    "section": "design-your-destiny-challenge",
+    "tag": "button",
+    "en": "LEARN ABOUT ARTEMIS II",
+    "fr": "APPRENEZ-EN PLUS SUR ARTEMIS II",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § discover-more-stories-missions-and-ideas § h21",
+    "section": "discover-more-stories-missions-and-ideas",
+    "tag": "h2",
+    "en": "Discover more stories, missions, and ideas from Canada’s journey in space.",
+    "fr": "Découvrez d’autres récits, missions et idées du parcours du Canada dans l’espace.",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § explore-more-space-adventures § h21",
+    "section": "explore-more-space-adventures",
+    "tag": "h2",
+    "en": "Explore More Space Adventures",
+    "fr": "Explorez d’autres aventures spatiales",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § meet-chris-hadfield § h21",
+    "section": "meet-chris-hadfield",
+    "tag": "h2",
+    "en": "Meet Chris Hadfield",
+    "fr": "Rencontrez Chris Hadfield",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § meet-chris-hadfield § p1",
+    "section": "meet-chris-hadfield",
+    "tag": "p",
+    "en": "Meet the first Canadian to walk in space",
+    "fr": "Rencontrez le premier Canadien à effectuer une sortie extravéhiculaire",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § meet-chris-hadfield § button1",
+    "section": "meet-chris-hadfield",
+    "tag": "button",
+    "en": "EXPLORE CHRIS HADFIELD",
+    "fr": "EXPLOREZ CHRIS HADFIELD",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § tour-the-csa § h21",
+    "section": "tour-the-csa",
+    "tag": "h2",
+    "en": "Tour the CSA",
+    "fr": "Visitez l’ASC",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § tour-the-csa § p1",
+    "section": "tour-the-csa",
+    "tag": "p",
+    "en": "Explore Canada’s Space headquarters",
+    "fr": "Explorez le quartier général spatial du Canada",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § tour-the-csa § button1",
+    "section": "tour-the-csa",
+    "tag": "button",
+    "en": "EXPLORE THE CSA",
+    "fr": "EXPLOREZ L’ASC",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § space-robotics § h21",
+    "section": "space-robotics",
+    "tag": "h2",
+    "en": "Space Robotics",
+    "fr": "Robotique spatiale",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § space-robotics § p1",
+    "section": "space-robotics",
+    "tag": "p",
+    "en": "Discover Canada’s famous space robots",
+    "fr": "Découvrez les célèbres robots spatiaux du Canada",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § space-robotics § button1",
+    "section": "space-robotics",
+    "tag": "button",
+    "en": "EXPLORE SPACE ROBOTICS",
+    "fr": "EXPLOREZ LA ROBOTIQUE SPATIALE",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § explore-the-iss § h21",
+    "section": "explore-the-iss",
+    "tag": "h2",
+    "en": "Explore the ISS",
+    "fr": "Explorez la SSI",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § explore-the-iss § p1",
+    "section": "explore-the-iss",
+    "tag": "p",
+    "en": "Explore the orbiting space lab",
+    "fr": "Explorez le laboratoire spatial en orbite",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § explore-the-iss § button1",
+    "section": "explore-the-iss",
+    "tag": "button",
+    "en": "EXPLORE THE ISS",
+    "fr": "EXPLOREZ LA SSI",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § microhistories § h21",
+    "section": "microhistories",
+    "tag": "h2",
+    "en": "Microhistories",
+    "fr": "Microhistoires",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § microhistories § p1",
+    "section": "microhistories",
+    "tag": "p",
+    "en": "Discover the hidden stories behind space missions",
+    "fr": "Découvrez les récits cachés derrière les missions spatiales",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § microhistories § button1",
+    "section": "microhistories",
+    "tag": "button",
+    "en": "EXPLORE MICROHISTORIES",
+    "fr": "EXPLOREZ LES MICROHISTOIRES",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § design-your-destiny § h21",
+    "section": "design-your-destiny",
+    "tag": "h2",
+    "en": "Design your destiny",
+    "fr": "Concevez votre destinée",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § design-your-destiny § p1",
+    "section": "design-your-destiny",
+    "tag": "p",
+    "en": "Imagine your future in space exploration",
+    "fr": "Imaginez votre avenir dans l’exploration spatiale",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § design-your-destiny § button1",
+    "section": "design-your-destiny",
+    "tag": "button",
+    "en": "EXPLORE YOUR DESTINY",
+    "fr": "EXPLOREZ VOTRE DESTINÉE",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § the-next-generation-of-explorers-is-alre § h21",
+    "section": "the-next-generation-of-explorers-is-alre",
+    "tag": "h2",
+    "en": "The next generation of explorers is already looking up at the stars.\nThrough Out of This World 25, students and families across Canada can discover the people, technologies, and ideas shaping our journey in space.\nThe future of exploration may begin with your curiosity.",
+    "fr": "La prochaine génération d’explorateurs regarde déjà vers les étoiles.\nGrâce à Out of This World 25, les élèves et les familles de partout au Canada peuvent découvrir les personnes, les technologies et les idées qui façonnent notre parcours dans l’espace.\nL’avenir de l’exploration pourrait commencer par votre curiosité.",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § the-next-generation-of-explorers-is-alre § p1",
+    "section": "the-next-generation-of-explorers-is-alre",
+    "tag": "p",
+    "en": "<strong>Sources &amp; Image Credits</strong>",
+    "fr": "<strong>Sources et crédits photographiques</strong>",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § the-next-generation-of-explorers-is-alre § p2",
+    "section": "the-next-generation-of-explorers-is-alre",
+    "tag": "p",
+    "en": "<em>This page includes information from Canadian Space Agency resources. Many images are courtesy of the </em><a href=\"https://www.asc-csa.gc.ca/eng/\" rel=\"noopener\" target=\"_blank\"><em>Canadian Space Agency (CSA)</em></a><em> and are used with permission. Other visuals are licensed stock photography or approved website assets. Image credits are provided here collectively as part of the page design. </em>",
+    "fr": "<em>Cette page comprend des renseignements provenant de ressources de l’Agence spatiale canadienne. De nombreuses images sont fournies avec l’aimable autorisation de l’</em><a href=\"https://www.asc-csa.gc.ca/eng/\" rel=\"noopener\" target=\"_blank\"><em>Agence spatiale canadienne (ASC)</em></a><em> et sont utilisées avec permission. D’autres visuels proviennent de photographies libres de droits sous licence ou d’éléments approuvés du site Web. Les crédits photographiques sont fournis ici collectivement dans le cadre de la conception de la page. </em>",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § the-next-generation-of-explorers-is-alre § p3",
+    "section": "the-next-generation-of-explorers-is-alre",
+    "tag": "p",
+    "en": "<strong>MCYU</strong>",
+    "fr": "<strong>MCYU</strong>",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § the-next-generation-of-explorers-is-alre § p4",
+    "section": "the-next-generation-of-explorers-is-alre",
+    "tag": "p",
+    "en": "<a href=\"mailto:mcyu@mcmaster.ca\">mcyu@mcmaster.ca</a>",
+    "fr": "<a href=\"mailto:mcyu@mcmaster.ca\">mcyu@mcmaster.ca</a>",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § the-next-generation-of-explorers-is-alre § p5",
+    "section": "the-next-generation-of-explorers-is-alre",
+    "tag": "p",
+    "en": "<a data-tccl=\"ux2.FOOTER.footer4.Layout.Default.Link.Default.51716.click,click\" data-typography=\"LinkAlpha\" data-ux=\"Link\" href=\"tel:+19055212100,,73790\" rel=\"\">905-521-2100 ext. 73790</a>",
+    "fr": "<a data-tccl=\"ux2.FOOTER.footer4.Layout.Default.Link.Default.51716.click,click\" data-typography=\"LinkAlpha\" data-ux=\"Link\" href=\"tel:+19055212100,,73790\" rel=\"\">905-521-2100, poste 73790</a>",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § the-next-generation-of-explorers-is-alre § p6",
+    "section": "the-next-generation-of-explorers-is-alre",
+    "tag": "p",
+    "en": "<strong>CanHist.ca</strong>",
+    "fr": "<strong>CanHist.ca</strong>",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § the-next-generation-of-explorers-is-alre § p7",
+    "section": "the-next-generation-of-explorers-is-alre",
+    "tag": "p",
+    "en": "<a href=\"mailto:info@canhist.ca\">info@canhist.ca</a>",
+    "fr": "<a href=\"mailto:info@canhist.ca\">info@canhist.ca</a>",
+    "status": "translated"
+  },
+  {
+    "id": "students-and-families § the-next-generation-of-explorers-is-alre § p8",
+    "section": "the-next-generation-of-explorers-is-alre",
+    "tag": "p",
+    "en": "<a data-tccl=\"ux2.FOOTER.footer4.Layout.Default.Link.Default.51716.click,click\" data-typography=\"LinkAlpha\" data-ux=\"Link\" href=\"tel:+15192170402\" rel=\"\">519-217-0402</a>",
+    "fr": "<a data-tccl=\"ux2.FOOTER.footer4.Layout.Default.Link.Default.51716.click,click\" data-typography=\"LinkAlpha\" data-ux=\"Link\" href=\"tel:+15192170402\" rel=\"\">519-217-0402</a>",
+    "status": "translated"
+  }
+]

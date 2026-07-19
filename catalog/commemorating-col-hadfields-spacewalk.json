@@ -1,0 +1,98 @@
+[
+  {
+    "id": "commemorating-col-hadfields-spacewalk § meta § title",
+    "section": "meta",
+    "tag": "title",
+    "en": "Commemorating Col. Hadfield’s Spacewalk - OOTW25",
+    "fr": "Commémoration de la sortie extravéhiculaire du Col Hadfield - OOTW25",
+    "status": "translated"
+  },
+  {
+    "id": "commemorating-col-hadfields-spacewalk § meta § description",
+    "section": "meta",
+    "tag": "description",
+    "en": "Commemorating Col. Hadfield's Spacewalk Initiative spearheaded by local historian marks 25th anniversary of Hadfield’s spacewalk Orangeville Citizen | March",
+    "fr": "Commémoration de la sortie extravéhiculaire du Col Hadfield Une initiative menée par un historien local souligne le 25e anniversaire de la sortie extravéhiculaire de Hadfield Orangeville Citizen | mars",
+    "status": "translated"
+  },
+  {
+    "id": "commemorating-col-hadfields-spacewalk § top § img1",
+    "section": "top",
+    "tag": "img",
+    "en": "OOTW logo TM white elements",
+    "fr": "Logo OOTW MC, éléments blancs",
+    "status": "translated"
+  },
+  {
+    "id": "commemorating-col-hadfields-spacewalk § commemorating-col-hadfield-s-spacewalk § h21",
+    "section": "commemorating-col-hadfield-s-spacewalk",
+    "tag": "h2",
+    "en": "Commemorating Col. Hadfield's Spacewalk",
+    "fr": "Commémoration de la sortie extravéhiculaire du Col Hadfield",
+    "status": "translated"
+  },
+  {
+    "id": "commemorating-col-hadfields-spacewalk § initiative-spearheaded-by-local-historia § h21",
+    "section": "initiative-spearheaded-by-local-historia",
+    "tag": "h2",
+    "en": "Initiative spearheaded by local historian marks 25th anniversary of Hadfield’s spacewalk",
+    "fr": "Une initiative menée par un historien local souligne le 25e anniversaire de la sortie extravéhiculaire de Hadfield",
+    "status": "translated"
+  },
+  {
+    "id": "commemorating-col-hadfields-spacewalk § initiative-spearheaded-by-local-historia § button1",
+    "section": "initiative-spearheaded-by-local-historia",
+    "tag": "button",
+    "en": "READ ARTICLE",
+    "fr": "Lisez l’article",
+    "status": "translated"
+  },
+  {
+    "id": "commemorating-col-hadfields-spacewalk § initiative-spearheaded-by-local-historia § p1",
+    "section": "initiative-spearheaded-by-local-historia",
+    "tag": "p",
+    "en": "<strong>MCYU</strong>",
+    "fr": "<strong>MCYU</strong>",
+    "status": "translated"
+  },
+  {
+    "id": "commemorating-col-hadfields-spacewalk § initiative-spearheaded-by-local-historia § p2",
+    "section": "initiative-spearheaded-by-local-historia",
+    "tag": "p",
+    "en": "<a href=\"mailto:mcyu@mcmaster.ca\">mcyu@mcmaster.ca</a>",
+    "fr": "<a href=\"mailto:mcyu@mcmaster.ca\">mcyu@mcmaster.ca</a>",
+    "status": "translated"
+  },
+  {
+    "id": "commemorating-col-hadfields-spacewalk § initiative-spearheaded-by-local-historia § p3",
+    "section": "initiative-spearheaded-by-local-historia",
+    "tag": "p",
+    "en": "<a data-tccl=\"ux2.FOOTER.footer4.Layout.Default.Link.Default.51716.click,click\" data-typography=\"LinkAlpha\" data-ux=\"Link\" href=\"tel:+19055212100,,73790\" rel=\"\">905-521-2100 ext. 73790</a>",
+    "fr": "<a data-tccl=\"ux2.FOOTER.footer4.Layout.Default.Link.Default.51716.click,click\" data-typography=\"LinkAlpha\" data-ux=\"Link\" href=\"tel:+19055212100,,73790\" rel=\"\">905-521-2100, poste 73790</a>",
+    "status": "translated"
+  },
+  {
+    "id": "commemorating-col-hadfields-spacewalk § initiative-spearheaded-by-local-historia § p4",
+    "section": "initiative-spearheaded-by-local-historia",
+    "tag": "p",
+    "en": "<strong>CanHist.ca</strong>",
+    "fr": "<strong>CanHist.ca</strong>",
+    "status": "translated"
+  },
+  {
+    "id": "commemorating-col-hadfields-spacewalk § initiative-spearheaded-by-local-historia § p5",
+    "section": "initiative-spearheaded-by-local-historia",
+    "tag": "p",
+    "en": "<a href=\"mailto:info@canhist.ca\">info@canhist.ca</a>",
+    "fr": "<a href=\"mailto:info@canhist.ca\">info@canhist.ca</a>",
+    "status": "translated"
+  },
+  {
+    "id": "commemorating-col-hadfields-spacewalk § initiative-spearheaded-by-local-historia § p6",
+    "section": "initiative-spearheaded-by-local-historia",
+    "tag": "p",
+    "en": "<a data-tccl=\"ux2.FOOTER.footer4.Layout.Default.Link.Default.51716.click,click\" data-typography=\"LinkAlpha\" data-ux=\"Link\" href=\"tel:+15192170402\" rel=\"\">519-217-0402</a>",
+    "fr": "<a data-tccl=\"ux2.FOOTER.footer4.Layout.Default.Link.Default.51716.click,click\" data-typography=\"LinkAlpha\" data-ux=\"Link\" href=\"tel:+15192170402\" rel=\"\">519-217-0402</a>",
+    "status": "translated"
+  }
+]

@@ -1,0 +1,794 @@
+[
+  {
+    "id": "index § meta § title",
+    "section": "meta",
+    "tag": "title",
+    "en": "Home - OOTW25",
+    "fr": "Accueil - OOTW25",
+    "status": "translated"
+  },
+  {
+    "id": "index § meta § description",
+    "section": "meta",
+    "tag": "description",
+    "en": "Out of This World 25 (OOTW25) On April 22, 2001, Mission Specialist Chris Hadfield stepped from the Shuttle Endeavour to help install the robotic ‘Canadarm 2’",
+    "fr": "Out of This World 25 (OOTW25). Le 22 avril 2001, le spécialiste de mission Chris Hadfield est sorti de la navette Endeavour pour aider à installer le bras robotique « Canadarm 2 »",
+    "status": "translated"
+  },
+  {
+    "id": "index § top § img1",
+    "section": "top",
+    "tag": "img",
+    "en": "OOTW logo variations tm february 2026 ootw logo white outline",
+    "fr": "Variations du logo OOTW MC, février 2026, contour blanc",
+    "status": "translated"
+  },
+  {
+    "id": "index § out-of-this-world-25 § h11",
+    "section": "out-of-this-world-25",
+    "tag": "h1",
+    "en": "Out of This World 25",
+    "fr": "Out of This World 25",
+    "status": "translated"
+  },
+  {
+    "id": "index § ootw25 § h21",
+    "section": "ootw25",
+    "tag": "h2",
+    "en": "(OOTW25)",
+    "fr": "(OOTW25)",
+    "status": "translated"
+  },
+  {
+    "id": "index § ootw25 § img1",
+    "section": "ootw25",
+    "tag": "img",
+    "en": "ootw25 press release",
+    "fr": "communiqué de presse ootw25",
+    "status": "translated"
+  },
+  {
+    "id": "index § ootw25 § img2",
+    "section": "ootw25",
+    "tag": "img",
+    "en": "chris hadfield prior to the launch of sts 100",
+    "fr": "chris hadfield avant le lancement de sts 100",
+    "status": "translated"
+  },
+  {
+    "id": "index § ootw25 § a1",
+    "section": "ootw25",
+    "tag": "a",
+    "en": "Listen to Chris Hadfield",
+    "fr": "Écoutez Chris Hadfield",
+    "status": "translated"
+  },
+  {
+    "id": "index § ootw25 § img3",
+    "section": "ootw25",
+    "tag": "img",
+    "en": "jeremy hansen trains to spacewalk with the help of chris hadfielld",
+    "fr": "jeremy hansen s’entraîne pour la sortie extravéhiculaire avec l’aide de chris hadfield",
+    "status": "translated"
+  },
+  {
+    "id": "index § ootw25 § img4",
+    "section": "ootw25",
+    "tag": "img",
+    "en": "artemis ii crew suit up and walkout for night",
+    "fr": "l’équipage d’artemis ii revêt sa combinaison et prend part à la sortie nocturne avant le lancement",
+    "status": "translated"
+  },
+  {
+    "id": "index § ootw25 § img5",
+    "section": "ootw25",
+    "tag": "img",
+    "en": "chris hadfield during the first space walk",
+    "fr": "chris hadfield pendant la première sortie extravéhiculaire",
+    "status": "translated"
+  },
+  {
+    "id": "index § ootw25 § p1",
+    "section": "ootw25",
+    "tag": "p",
+    "en": "On April 22, 2001, Mission Specialist Chris Hadfield stepped from the Shuttle Endeavour to help install the robotic ‘Canadarm 2’ on the International Space Station (ISS) hundreds of kilometres above the earth, as a part of Mission STS-100. In doing so, he became the first Canadian to ‘walk’ in the vacuum of space.",
+    "fr": "Le 22 avril 2001, le spécialiste de mission Chris Hadfield est sorti de la navette Endeavour pour aider à installer le « Canadarm 2 » robotique sur la Station spatiale internationale (SSI), à des centaines de kilomètres au-dessus de la Terre, dans le cadre de la mission STS-100. Il est ainsi devenu le premier Canadien à « marcher » dans le vide spatial.",
+    "status": "translated"
+  },
+  {
+    "id": "index § ootw25 § p2",
+    "section": "ootw25",
+    "tag": "p",
+    "en": "The McMaster Children and Youth University (MCYU) and CanHist.ca will partner with Canadian organizations leading the charge to explore space as well as other science and heritage education organizations to commemorate the 25th anniversary of this defining moment in Canadian history. Explore this website to learn about how international collaborations in many disciplines will need to come together in order for humanity to journey into deep space.",
+    "fr": "La McMaster Children and Youth University (MCYU) et CanHist.ca s’associeront à des organismes canadiens à l’avant-garde de l’exploration spatiale, ainsi qu’à d’autres organismes d’éducation scientifique et patrimoniale, pour commémorer le 25e anniversaire de ce moment déterminant de l’histoire canadienne. Explorez ce site Web pour découvrir comment les collaborations internationales dans de nombreuses disciplines devront s’unir pour permettre à l’humanité de voyager vers l’espace lointain.",
+    "status": "translated"
+  },
+  {
+    "id": "index § celebrating-canada-s-past-in-space-inspi § h21",
+    "section": "celebrating-canada-s-past-in-space-inspi",
+    "tag": "h2",
+    "en": "Celebrating Canada’s Past in Space. Inspiring Its Future.",
+    "fr": "Célébrer le passé du Canada dans l’espace. Inspirer son avenir.",
+    "status": "translated"
+  },
+  {
+    "id": "index § celebrating-canada-s-past-in-space-inspi § p1",
+    "section": "celebrating-canada-s-past-in-space-inspi",
+    "tag": "p",
+    "en": "In 2001, Canadian astronaut Chris Hadfield became the first Canadian to walk in space. In April 2026, Canadian astronaut Jeremy Hansen journeyed around the Moon on Artemis II, marking another defining moment in Canada’s story in space.",
+    "fr": "En 2001, l’astronaute canadien Chris Hadfield est devenu le premier Canadien à marcher dans l’espace. En avril 2026, l’astronaute canadien Jeremy Hansen a voyagé autour de la Lune dans le cadre d’Artemis II, marquant un autre moment déterminant de l’histoire du Canada dans l’espace.",
+    "status": "translated"
+  },
+  {
+    "id": "index § celebrating-canada-s-past-in-space-inspi § p2",
+    "section": "celebrating-canada-s-past-in-space-inspi",
+    "tag": "p",
+    "en": "<strong>Out of This World 25 (OOTW25)</strong> connects these two defining moments — celebrating 25 years of Canadian excellence in space while inspiring the next generation of explorers, learners, and storytellers.",
+    "fr": "<strong>Out of This World 25 (OOTW25)</strong> relie ces deux moments déterminants — célébrant 25 ans d’excellence canadienne dans l’espace tout en inspirant la prochaine génération d’explorateurs, d’apprenants et de conteurs.",
+    "status": "translated"
+  },
+  {
+    "id": "index § celebrating-canada-s-past-in-space-inspi § p3",
+    "section": "celebrating-canada-s-past-in-space-inspi",
+    "tag": "p",
+    "en": "“<em>It was the most magnificent experience of my life. Alone in a one-person spaceship (my suit), just holding on with my one hand, with the bottomless black universe on my left and the world pouring by in technicolour on my right. I highly recommend it.</em>”",
+    "fr": "« <em>Ce fut l’expérience la plus magnifique de ma vie. Seul dans un vaisseau spatial d’une personne (ma combinaison), ne tenant qu’avec une main, avec l’univers noir et sans fond à ma gauche et le monde défilant en couleurs à ma droite. Je le recommande vivement.</em> »",
+    "status": "translated"
+  },
+  {
+    "id": "index § celebrating-canada-s-past-in-space-inspi § p4",
+    "section": "celebrating-canada-s-past-in-space-inspi",
+    "tag": "p",
+    "en": "-Chris Hadfield (1)",
+    "fr": "– Chris Hadfield (1)",
+    "status": "translated"
+  },
+  {
+    "id": "index § a-defining-moment-in-canadian-space-hist § h21",
+    "section": "a-defining-moment-in-canadian-space-hist",
+    "tag": "h2",
+    "en": "A Defining Moment in Canadian Space History",
+    "fr": "Un moment déterminant de l’histoire spatiale canadienne",
+    "status": "translated"
+  },
+  {
+    "id": "index § a-defining-moment-in-canadian-space-hist § p1",
+    "section": "a-defining-moment-in-canadian-space-hist",
+    "tag": "p",
+    "en": "On April 22, 2001, Mission Specialist Chris Hadfield stepped from Space Shuttle <em class=\"x-el x-el-span c1-22 c1-23 c1-b c1-ap c1-3m c1-2b c1-aq c1-ar\">Endeavour</em> to help install the robotic <strong class=\"x-el x-el-span c1-22 c1-23 c1-b c1-ap c1-3m c1-51 c1-aq\">Canadarm2</strong> on the International Space Station (ISS), hundreds of kilometres above Earth.",
+    "fr": "Le 22 avril 2001, le spécialiste de mission Chris Hadfield est sorti de la navette spatiale <em class=\"x-el x-el-span c1-22 c1-23 c1-b c1-ap c1-3m c1-2b c1-aq c1-ar\">Endeavour</em> pour aider à installer le bras robotique <strong class=\"x-el x-el-span c1-22 c1-23 c1-b c1-ap c1-3m c1-51 c1-aq\">Canadarm2</strong> sur la Station spatiale internationale (SSI), à des centaines de kilomètres au-dessus de la Terre.",
+    "status": "translated"
+  },
+  {
+    "id": "index § a-defining-moment-in-canadian-space-hist § p2",
+    "section": "a-defining-moment-in-canadian-space-hist",
+    "tag": "p",
+    "en": "As part of NASA Mission STS-100, Hadfield became the first Canadian to “walk” in the vacuum of space — a milestone that reshaped Canada’s place in human spaceflight.",
+    "fr": "Dans le cadre de la mission STS-100 de la NASA, Hadfield est devenu le premier Canadien à « marcher » dans le vide spatial — un jalon qui a redéfini la place du Canada dans les vols spatiaux habités.",
+    "status": "translated"
+  },
+  {
+    "id": "index § commemorating-25-years-looking-forward-t § h21",
+    "section": "commemorating-25-years-looking-forward-t",
+    "tag": "h2",
+    "en": "Commemorating 25 Years — Looking Forward to the Future",
+    "fr": "Commémorer 25 ans — Se tourner vers l’avenir",
+    "status": "translated"
+  },
+  {
+    "id": "index § commemorating-25-years-looking-forward-t § p1",
+    "section": "commemorating-25-years-looking-forward-t",
+    "tag": "p",
+    "en": "In 2026, <strong>CanHist.ca</strong> is leading a national partnership with <strong>McMaster Children and Youth University (MCYU)</strong> and multiple science, heritage, and education organizations to commemorate the <strong>25th anniversary of Chris Hadfield becoming the first Canadian to walk in space.</strong>",
+    "fr": "En 2026, <strong>CanHist.ca</strong> dirige un partenariat national avec la <strong>McMaster Children and Youth University (MCYU)</strong> et de nombreux organismes de science, de patrimoine et d’éducation afin de commémorer le <strong>25e anniversaire du moment où Chris Hadfield est devenu le premier Canadien à marcher dans l’espace.</strong>",
+    "status": "translated"
+  },
+  {
+    "id": "index § commemorating-25-years-looking-forward-t § p2",
+    "section": "commemorating-25-years-looking-forward-t",
+    "tag": "p",
+    "en": "This two-year commemoration — <strong>Out of This World 25 (OOTW25)</strong> — connects Hadfield’s historic mission in <strong>April 2001</strong> with the highly anticipated <strong>Artemis II mission</strong>, which carried Canadian astronaut <strong>Jeremy Hansen around the Moon in April 2026, </strong>marking a new milestone in Canada’s continuing journey in space.",
+    "fr": "Cette commémoration de deux ans — <strong>Out of This World 25 (OOTW25)</strong> — relie la mission historique de Hadfield en <strong>avril 2001</strong> à la très attendue <strong>mission Artemis II</strong>, qui a transporté l’astronaute canadien <strong>Jeremy Hansen autour de la Lune en avril 2026, </strong>marquant un nouveau jalon dans le parcours continu du Canada dans l’espace.",
+    "status": "translated"
+  },
+  {
+    "id": "index § explore-out-of-this-world-25 § h21",
+    "section": "explore-out-of-this-world-25",
+    "tag": "h2",
+    "en": "Explore Out of This World 25",
+    "fr": "Explorez Out of This World 25",
+    "status": "translated"
+  },
+  {
+    "id": "index § choose-a-path-and-explore-the-stories-pe § h21",
+    "section": "choose-a-path-and-explore-the-stories-pe",
+    "tag": "h2",
+    "en": "Choose a path and explore the stories, people, and ideas behind Canada’s journey in space.",
+    "fr": "Choisissez un parcours et explorez les histoires, les personnes et les idées derrière le parcours du Canada dans l’espace.",
+    "status": "translated"
+  },
+  {
+    "id": "index § canadian-space-history § h21",
+    "section": "canadian-space-history",
+    "tag": "h2",
+    "en": "Canadian Space History",
+    "fr": "Histoire spatiale canadienne",
+    "status": "translated"
+  },
+  {
+    "id": "index § canadian-space-history § p1",
+    "section": "canadian-space-history",
+    "tag": "p",
+    "en": "Explore Canada’s journey in space",
+    "fr": "Explorez le parcours du Canada dans l’espace",
+    "status": "translated"
+  },
+  {
+    "id": "index § canadian-space-history § button1",
+    "section": "canadian-space-history",
+    "tag": "button",
+    "en": "EXPLORE CANADIAN SPACE HISTORY",
+    "fr": "EXPLOREZ L’HISTOIRE SPATIALE CANADIENNE",
+    "status": "translated"
+  },
+  {
+    "id": "index § artemis-ii-mission § h21",
+    "section": "artemis-ii-mission",
+    "tag": "h2",
+    "en": "Artemis II Mission",
+    "fr": "Mission Artemis II",
+    "status": "translated"
+  },
+  {
+    "id": "index § artemis-ii-mission § p1",
+    "section": "artemis-ii-mission",
+    "tag": "p",
+    "en": "Explore Canada’s historic mission around the moon",
+    "fr": "Explorez la mission historique du Canada autour de la Lune",
+    "status": "translated"
+  },
+  {
+    "id": "index § artemis-ii-mission § button1",
+    "section": "artemis-ii-mission",
+    "tag": "button",
+    "en": "EXPLORE ARTEMIS II MISSION",
+    "fr": "Explorez la mission Artemis II",
+    "status": "translated"
+  },
+  {
+    "id": "index § students-amp-families § h21",
+    "section": "students-amp-families",
+    "tag": "h2",
+    "en": "Students &amp; Families",
+    "fr": "Élèves et familles",
+    "status": "translated"
+  },
+  {
+    "id": "index § students-amp-families § p1",
+    "section": "students-amp-families",
+    "tag": "p",
+    "en": "Discover space games, stories, and activities",
+    "fr": "Découvrez des jeux, des histoires et des activités spatiales",
+    "status": "translated"
+  },
+  {
+    "id": "index § students-amp-families § button1",
+    "section": "students-amp-families",
+    "tag": "button",
+    "en": "EXPLORE STUDENTS &amp; FAMILIES",
+    "fr": "EXPLOREZ ÉLÈVES ET FAMILLES",
+    "status": "translated"
+  },
+  {
+    "id": "index § educators § h21",
+    "section": "educators",
+    "tag": "h2",
+    "en": "Educators",
+    "fr": "Éducateurs",
+    "status": "translated"
+  },
+  {
+    "id": "index § educators § p1",
+    "section": "educators",
+    "tag": "p",
+    "en": "Classroom resources for space learning",
+    "fr": "Ressources en classe pour l’apprentissage sur l’espace",
+    "status": "translated"
+  },
+  {
+    "id": "index § educators § button1",
+    "section": "educators",
+    "tag": "button",
+    "en": "EXPLORE EDUCATORS",
+    "fr": "EXPLOREZ ÉDUCATEURS",
+    "status": "translated"
+  },
+  {
+    "id": "index § microhistories § h21",
+    "section": "microhistories",
+    "tag": "h2",
+    "en": "Microhistories",
+    "fr": "Microhistoires",
+    "status": "translated"
+  },
+  {
+    "id": "index § microhistories § p1",
+    "section": "microhistories",
+    "tag": "p",
+    "en": "Hidden stories behind Canada’s missions",
+    "fr": "Les histoires cachées derrière les missions du Canada",
+    "status": "translated"
+  },
+  {
+    "id": "index § microhistories § button1",
+    "section": "microhistories",
+    "tag": "button",
+    "en": "EXPLORE MICROHISTORIES",
+    "fr": "EXPLOREZ LES MICROHISTOIRES",
+    "status": "translated"
+  },
+  {
+    "id": "index § partners § h21",
+    "section": "partners",
+    "tag": "h2",
+    "en": "Partners",
+    "fr": "Partenaires",
+    "status": "translated"
+  },
+  {
+    "id": "index § partners § p1",
+    "section": "partners",
+    "tag": "p",
+    "en": "Meet the partners behind OOTW25",
+    "fr": "Découvrez les partenaires derrière OOTW25",
+    "status": "translated"
+  },
+  {
+    "id": "index § partners § button1",
+    "section": "partners",
+    "tag": "button",
+    "en": "EXPLORE PARTNERS",
+    "fr": "EXPLOREZ PARTENAIRES",
+    "status": "translated"
+  },
+  {
+    "id": "index § empowering-young-canadians-to-imagine-ex § h21",
+    "section": "empowering-young-canadians-to-imagine-ex",
+    "tag": "h2",
+    "en": "Empowering young Canadians to imagine, explore, and shape their own futures.",
+    "fr": "Donner aux jeunes Canadiens les moyens d’imaginer, d’explorer et de façonner leur propre avenir.",
+    "status": "translated"
+  },
+  {
+    "id": "index § inspiring-the-next-generation § h21",
+    "section": "inspiring-the-next-generation",
+    "tag": "h2",
+    "en": "Inspiring the Next Generation",
+    "fr": "Inspirer la prochaine génération",
+    "status": "translated"
+  },
+  {
+    "id": "index § inspiring-the-next-generation § p1",
+    "section": "inspiring-the-next-generation",
+    "tag": "p",
+    "en": "OOTW25 is an aspirational, transdisciplinary project that uses Chris Hadfield’s accomplishments as a platform to explore advances in <strong>science, technology, engineering, the arts, and mathematics (STEAM)</strong>. It highlights how teamwork, innovation, and community support have shaped Canada’s space program — and how those same values continue to define a new generation of Canadian astronauts.",
+    "fr": "OOTW25 est un projet ambitieux et transdisciplinaire qui s’appuie sur les réalisations de Chris Hadfield comme plateforme pour explorer les avancées en <strong>sciences, technologie, ingénierie, arts et mathématiques (STIAM)</strong>. Il met en lumière comment le travail d’équipe, l’innovation et le soutien communautaire ont façonné le programme spatial canadien — et comment ces mêmes valeurs continuent de définir une nouvelle génération d’astronautes canadiens.",
+    "status": "translated"
+  },
+  {
+    "id": "index § inspiring-the-next-generation § p2",
+    "section": "inspiring-the-next-generation",
+    "tag": "p",
+    "en": "Beginning in 2026, this anniversary offers a powerful opportunity in science communication: to celebrate not only a historic mission, but also the people, ideas, and collaborations that made it possible. At its core, OOTW25 invites young learners to <strong>Design a Destiny</strong> for themselves and step confidently into the unknown.",
+    "fr": "À partir de 2026, cet anniversaire offre une occasion importante en communication scientifique : celle de célébrer non seulement une mission historique, mais aussi les personnes, les idées et les collaborations qui l’ont rendue possible. Au cœur d’OOTW25, on invite les jeunes apprenants à <strong>concevoir leur destinée</strong> et à s’aventurer avec confiance dans l’inconnu.",
+    "status": "translated"
+  },
+  {
+    "id": "index § indigenous-ways-of-knowing § h21",
+    "section": "indigenous-ways-of-knowing",
+    "tag": "h2",
+    "en": "Indigenous Ways of Knowing",
+    "fr": "Les savoirs autochtones",
+    "status": "translated"
+  },
+  {
+    "id": "index § indigenous-ways-of-knowing § p1",
+    "section": "indigenous-ways-of-knowing",
+    "tag": "p",
+    "en": "Out of This World 25 recognizes that there are <strong>many ways of understanding the universe</strong>. For generations, Indigenous peoples in Canada have shared deep knowledge of the skies, stars, and natural world through observation, storytelling, and connection to the land.",
+    "fr": "Out of This World 25 reconnaît qu’il existe <strong>de nombreuses façons de comprendre l’univers</strong>. Depuis des générations, les peuples autochtones du Canada partagent une connaissance profonde du ciel, des étoiles et du monde naturel par l’observation, le récit et le lien avec la terre.",
+    "status": "translated"
+  },
+  {
+    "id": "index § indigenous-ways-of-knowing § p2",
+    "section": "indigenous-ways-of-knowing",
+    "tag": "p",
+    "en": "The <strong>Canadian Space Agency (CSA)</strong> acknowledges that its headquarters are located on the traditional and unceded territory of the <strong>Kanien’kehá:ka (Mohawk Nation)</strong>, part of the <strong>Haudenosaunee Confederacy</strong>, and recognizes the long history of Indigenous peoples as stewards and knowledge holders of these lands and waters.",
+    "fr": "L'<strong>Agence spatiale canadienne (ASC)</strong> reconnaît que son siège social est situé sur le territoire traditionnel et non cédé des <strong>Kanien’kehá:ka (nation mohawk)</strong>, qui fait partie de la <strong>Confédération Haudenosaunee</strong>, et souligne la longue histoire des peuples autochtones en tant que gardiens et détenteurs du savoir de ces terres et de ces eaux.",
+    "status": "translated"
+  },
+  {
+    "id": "index § indigenous-ways-of-knowing § p3",
+    "section": "indigenous-ways-of-knowing",
+    "tag": "p",
+    "en": "Building on this perspective, OOTW25 highlights how <strong>Indigenous ways of knowing</strong> offer valuable insights into science, astronomy, and discovery. Working with educational partners, OOTW25 will explore how Indigenous ways of knowing can enrich the way Canadians learn about astronomy, discovery, and our place in the universe.",
+    "fr": "S’appuyant sur cette perspective, OOTW25 met en lumière comment <strong>les savoirs autochtones</strong> offrent des perspectives précieuses sur la science, l’astronomie et la découverte. En collaboration avec des partenaires en éducation, OOTW25 explorera comment les savoirs autochtones peuvent enrichir la façon dont les Canadiens apprennent l’astronomie, la découverte et notre place dans l’univers.",
+    "status": "translated"
+  },
+  {
+    "id": "index § indigenous-ways-of-knowing § button1",
+    "section": "indigenous-ways-of-knowing",
+    "tag": "button",
+    "en": "EXPLORE INDIGENOUS WAYS OF KNOWING",
+    "fr": "Explorez les savoirs autochtones",
+    "status": "translated"
+  },
+  {
+    "id": "index § artemis-ii-marks-a-new-chapter-in-canada § h21",
+    "section": "artemis-ii-marks-a-new-chapter-in-canada",
+    "tag": "h2",
+    "en": "Artemis II marks a new chapter in Canada’s journey in space.",
+    "fr": "Artemis II marque un nouveau chapitre du parcours du Canada dans l’espace.",
+    "status": "translated"
+  },
+  {
+    "id": "index § why-artemis-ii-matters-for-canada § h21",
+    "section": "why-artemis-ii-matters-for-canada",
+    "tag": "h2",
+    "en": "Why Artemis II Matters for Canada",
+    "fr": "Pourquoi Artemis II est important pour le Canada",
+    "status": "translated"
+  },
+  {
+    "id": "index § why-artemis-ii-matters-for-canada § p1",
+    "section": "why-artemis-ii-matters-for-canada",
+    "tag": "p",
+    "en": "Before the mission, Jeremy Hansen reflected on what Artemis II could mean for Canada — and for the future of space exploration.",
+    "fr": "Avant la mission, Jeremy Hansen a réfléchi à ce que pouvait signifier Artemis II pour le Canada — et pour l’avenir de l’exploration spatiale.",
+    "status": "translated"
+  },
+  {
+    "id": "index § why-artemis-ii-matters-for-canada § p2",
+    "section": "why-artemis-ii-matters-for-canada",
+    "tag": "p",
+    "en": "<em>“Why is Artemis II important for Canada? Well, Canada would become the second country in the world to send a human into deep space… If you have a regional problem and you can find a space solution, you’ve now created a global solution. There will be more space in everybody’s future. And if we can send a human around the moon in 2026, imagine what Canada can do next.”</em> <a href=\"https://www.theglobeandmail.com/canada/science/article-artemis-ii-mission-moon-nasa-orion-capsule-astronaut-jeremyhansen/\" rel=\"noopener\" target=\"_blank\">(2)</a> <em>—</em> <em>Jeremy Hansen</em>",
+    "fr": "<em>« Pourquoi Artemis II est-il important pour le Canada? Eh bien, le Canada deviendrait le deuxième pays au monde à envoyer un être humain dans l’espace lointain… Si vous avez un problème régional et que vous pouvez trouver une solution spatiale, vous avez alors créé une solution mondiale. Il y aura plus de place pour l’espace dans l’avenir de chacun. Et si nous pouvons envoyer un être humain autour de la Lune en 2026, imaginez ce que le Canada peut faire ensuite. »</em> <a href=\"https://www.theglobeandmail.com/canada/science/article-artemis-ii-mission-moon-nasa-orion-capsule-astronaut-jeremyhansen/\" rel=\"noopener\" target=\"_blank\">(2)</a> <em>—</em> <em>Jeremy Hansen</em>",
+    "status": "translated"
+  },
+  {
+    "id": "index § why-artemis-ii-matters-for-canada § button1",
+    "section": "why-artemis-ii-matters-for-canada",
+    "tag": "button",
+    "en": "EXPLORE ARTEMIS II",
+    "fr": "EXPLOREZ ARTEMIS II",
+    "status": "translated"
+  },
+  {
+    "id": "index § sharing-the-stories-behind-science-helps § h21",
+    "section": "sharing-the-stories-behind-science-helps",
+    "tag": "h2",
+    "en": "Sharing the stories behind science helps inspire understanding and curiosity.",
+    "fr": "Partager les histoires derrière la science aide à inspirer la compréhension et la curiosité.",
+    "status": "translated"
+  },
+  {
+    "id": "index § a-focus-on-science-communication § h21",
+    "section": "a-focus-on-science-communication",
+    "tag": "h2",
+    "en": "A Focus on Science Communication",
+    "fr": "Un accent sur la communication scientifique",
+    "status": "translated"
+  },
+  {
+    "id": "index § a-focus-on-science-communication § p1",
+    "section": "a-focus-on-science-communication",
+    "tag": "p",
+    "en": "<span style=\"color: #ffffff;\">Project Lead <span style=\"text-decoration: underline;\"><a data-page=\"38105295-5f80-4c54-9841-6f17118b9cf9\" href=\"https://canhist.ca/who-are-we\" rel=\"\" style=\"color: #ffffff;\"><strong>Neil Orford</strong></a></span> explains:<br/><em>“At its heart, OOTW25 is about science communication — how we teach, understand, and talk to one another about science. There has never been a more important time for Canadians to share the stories that shape our scientific history.</em> <em>Artemis II has reminded us that Canada’s future in space is built on the achievements that came before it, including Colonel Hadfield’s groundbreaking STS-100 mission 25 years ago .”<br/><br/></em></span>",
+    "fr": "<span style=\"color: #ffffff;\">Le responsable du projet, <span style=\"text-decoration: underline;\"><a data-page=\"38105295-5f80-4c54-9841-6f17118b9cf9\" href=\"https://canhist.ca/who-are-we\" rel=\"\" style=\"color: #ffffff;\"><strong>Neil Orford</strong></a></span>, explique :<br/><em>« Au fond, OOTW25 est une question de communication scientifique — comment nous enseignons, comprenons et parlons de la science entre nous. Il n’y a jamais eu de moment plus important pour les Canadiens de partager les histoires qui façonnent notre histoire scientifique.</em> <em>Artemis II nous a rappelé que l’avenir du Canada dans l’espace repose sur les réalisations qui l’ont précédé, y compris la mission STS-100 déterminante du colonel Hadfield, il y a 25 ans. »<br/><br/></em></span>",
+    "status": "translated"
+  },
+  {
+    "id": "index § a-focus-on-science-communication § p2",
+    "section": "a-focus-on-science-communication",
+    "tag": "p",
+    "en": "<span style=\"color: #ffffff;\">Working alongside the creative team at MCYU, led by <strong>Dr. Sandeep Raha</strong> of McMaster University, OOTW25 will immerse young Canadians in innovative tools and expertise across science, mathematics, the arts, and technology — all through an aspirational lens focused on space and the stars.</span>",
+    "fr": "<span style=\"color: #ffffff;\">En collaboration avec l’équipe créative de la MCYU, dirigée par le <strong>Dr Sandeep Raha</strong> de l’Université McMaster, OOTW25 plongera les jeunes Canadiens dans des outils et une expertise novateurs en science, en mathématiques, en arts et en technologie — le tout sous un angle ambitieux axé sur l’espace et les étoiles.</span>",
+    "status": "translated"
+  },
+  {
+    "id": "index § explore-the-story-through-digital-mappin § h21",
+    "section": "explore-the-story-through-digital-mappin",
+    "tag": "h2",
+    "en": "Explore the Story Through Digital Mapping",
+    "fr": "Explorez l’histoire par la cartographie numérique",
+    "status": "translated"
+  },
+  {
+    "id": "index § explore-the-story-through-digital-mappin § p1",
+    "section": "explore-the-story-through-digital-mappin",
+    "tag": "p",
+    "en": "Out of This World 25 is partnering with <strong>ESRI Canada</strong> to develop interactive <strong>StoryMaps</strong> that will bring Canada’s space history to life through digital storytelling. These immersive experiences will allow visitors to explore missions, milestones, and discoveries through maps, images, and multimedia narratives.",
+    "fr": "Out of This World 25 s’associe à <strong>Esri Canada</strong> pour développer des <strong>StoryMaps</strong> interactives qui donneront vie à l’histoire spatiale du Canada grâce au récit numérique. Ces expériences immersives permettront aux visiteurs d’explorer les missions, les jalons et les découvertes à travers des cartes, des images et des récits multimédias.",
+    "status": "translated"
+  },
+  {
+    "id": "index § explore-the-story-through-digital-mappin § p2",
+    "section": "explore-the-story-through-digital-mappin",
+    "tag": "p",
+    "en": "Developed in collaboration with <strong>McMaster Children and Youth University (MCYU)</strong>, these StoryMaps connect historic achievements — such as <strong>Chris Hadfield walking in space during Mission STS-100</strong> — with Canada’s next era in exploration, including the now historic <strong>Artemis II mission</strong>.",
+    "fr": "Développées en collaboration avec la <strong>McMaster Children and Youth University (MCYU)</strong>, ces StoryMaps relient des réalisations historiques — comme <strong>la sortie extravéhiculaire de Chris Hadfield lors de la mission STS-100</strong> — à la nouvelle ère d’exploration du Canada, y compris la désormais historique <strong>mission Artemis II</strong>.",
+    "status": "translated"
+  },
+  {
+    "id": "index § explore-the-story-through-digital-mappin § button1",
+    "section": "explore-the-story-through-digital-mappin",
+    "tag": "button",
+    "en": "EXPLORE THE STORYMAPS",
+    "fr": "Explorez les StoryMaps",
+    "status": "translated"
+  },
+  {
+    "id": "index § explore-the-story-through-digital-mappin § img1",
+    "section": "explore-the-story-through-digital-mappin",
+    "tag": "img",
+    "en": "chris hadfield prior to the launch of sts 100",
+    "fr": "chris hadfield avant le lancement de sts 100",
+    "status": "translated"
+  },
+  {
+    "id": "index § a-coast-to-coast-collaboration-bringing- § h21",
+    "section": "a-coast-to-coast-collaboration-bringing-",
+    "tag": "h2",
+    "en": "A coast-to-coast collaboration bringing Canada’s space story to life.",
+    "fr": "Une collaboration d’un océan à l’autre qui donne vie à l’histoire spatiale du Canada.",
+    "status": "translated"
+  },
+  {
+    "id": "index § a-national-partnership § h21",
+    "section": "a-national-partnership",
+    "tag": "h2",
+    "en": "A National Partnership",
+    "fr": "Un partenariat national",
+    "status": "translated"
+  },
+  {
+    "id": "index § a-national-partnership § p1",
+    "section": "a-national-partnership",
+    "tag": "p",
+    "en": "Led by CanHist.ca and supported by partners including <strong>ESRI Canada</strong>, the <strong>Canadian Space Agency</strong>, the <strong>Ingenium Canada Aviation and Space Museum</strong>, the <strong>Canadian Science &amp; Technology Historical Association</strong>, and <strong>Canadian History Ehx</strong>, OOTW25 is a collaborative, coast-to-coast initiative.",
+    "fr": "Dirigé par CanHist.ca et appuyé par des partenaires dont <strong>Esri Canada</strong>, l'<strong>Agence spatiale canadienne</strong>, le <strong>Musée de l’aviation et de l’espace du Canada d’Ingenium</strong>, la <strong>Canadian Science &amp; Technology Historical Association</strong>, et <strong>Canadian History Ehx</strong>, OOTW25 est une initiative collaborative d’un océan à l’autre.",
+    "status": "translated"
+  },
+  {
+    "id": "index § a-national-partnership § p2",
+    "section": "a-national-partnership",
+    "tag": "p",
+    "en": "Based in Orangeville, Ontario, CanHist.ca is proud to coordinate this national effort to celebrate Canada’s past achievements in space while inspiring what comes next.",
+    "fr": "Basé à Orangeville, en Ontario, CanHist.ca est fier de coordonner cet effort national visant à célébrer les réalisations passées du Canada dans l’espace tout en inspirant ce qui vient ensuite.",
+    "status": "translated"
+  },
+  {
+    "id": "index § a-national-partnership § p3",
+    "section": "a-national-partnership",
+    "tag": "p",
+    "en": "<strong>Explore the organizations helping bring OOTW25 to life. </strong>",
+    "fr": "<strong>Découvrez les organismes qui contribuent à faire vivre OOTW25. </strong>",
+    "status": "translated"
+  },
+  {
+    "id": "index § a-national-partnership § button1",
+    "section": "a-national-partnership",
+    "tag": "button",
+    "en": "MEET OUR PARTNERS",
+    "fr": "Découvrez nos partenaires",
+    "status": "translated"
+  },
+  {
+    "id": "index § join-the-mission § h21",
+    "section": "join-the-mission",
+    "tag": "h2",
+    "en": "Join the Mission",
+    "fr": "Joignez-vous à la mission",
+    "status": "translated"
+  },
+  {
+    "id": "index § join-the-mission § p1",
+    "section": "join-the-mission",
+    "tag": "p",
+    "en": "Out of This World 25 is more than a commemoration — it’s an invitation to explore Canada’s remarkable journey in space and imagine what comes next.",
+    "fr": "Out of This World 25 est bien plus qu’une commémoration — c’est une invitation à explorer le remarquable parcours du Canada dans l’espace et à imaginer ce qui vient ensuite.",
+    "status": "translated"
+  },
+  {
+    "id": "index § join-the-mission § p2",
+    "section": "join-the-mission",
+    "tag": "p",
+    "en": "Follow the story. Get involved. Help inspire the next generation of Canadians to <strong>design their destiny</strong> — <em><strong>Out Of This World</strong></em>.",
+    "fr": "Suivez l’histoire. Impliquez-vous. Aidez à inspirer la prochaine génération de Canadiens à <strong>concevoir leur destinée</strong> — <em><strong>Out Of This World</strong></em>.",
+    "status": "translated"
+  },
+  {
+    "id": "index § students-amp-families-2 § h21",
+    "section": "students-amp-families-2",
+    "tag": "h2",
+    "en": "Students &amp; Families",
+    "fr": "Élèves et familles",
+    "status": "translated"
+  },
+  {
+    "id": "index § students-amp-families-2 § p1",
+    "section": "students-amp-families-2",
+    "tag": "p",
+    "en": "Discover how curiosity &amp; teamwork spark big dreams",
+    "fr": "Découvrez comment la curiosité et le travail d’équipe suscitent de grands rêves",
+    "status": "translated"
+  },
+  {
+    "id": "index § students-amp-families-2 § button1",
+    "section": "students-amp-families-2",
+    "tag": "button",
+    "en": "EXPLORE STUDENTS &amp; FAMILIES",
+    "fr": "EXPLOREZ ÉLÈVES ET FAMILLES",
+    "status": "translated"
+  },
+  {
+    "id": "index § educators-2 § h21",
+    "section": "educators-2",
+    "tag": "h2",
+    "en": "Educators",
+    "fr": "Éducateurs",
+    "status": "translated"
+  },
+  {
+    "id": "index § educators-2 § p1",
+    "section": "educators-2",
+    "tag": "p",
+    "en": "Bring Canada’s story in space into your classroom",
+    "fr": "Faites entrer l’histoire du Canada dans l’espace dans votre salle de classe",
+    "status": "translated"
+  },
+  {
+    "id": "index § educators-2 § button1",
+    "section": "educators-2",
+    "tag": "button",
+    "en": "EXPLORE EDUCATORS",
+    "fr": "EXPLOREZ ÉDUCATEURS",
+    "status": "translated"
+  },
+  {
+    "id": "index § partners-amp-supporters § h21",
+    "section": "partners-amp-supporters",
+    "tag": "h2",
+    "en": "Partners &amp; Supporters",
+    "fr": "Partenaires et soutiens",
+    "status": "translated"
+  },
+  {
+    "id": "index § partners-amp-supporters § p1",
+    "section": "partners-amp-supporters",
+    "tag": "p",
+    "en": "Help inspire the next generation of explorers",
+    "fr": "Aidez à inspirer la prochaine génération d’explorateurs",
+    "status": "translated"
+  },
+  {
+    "id": "index § partners-amp-supporters § button1",
+    "section": "partners-amp-supporters",
+    "tag": "button",
+    "en": "EXPLORE PARTNERS &amp; SUPPORTERS",
+    "fr": "Explorez les partenaires et soutiens",
+    "status": "translated"
+  },
+  {
+    "id": "index § join-canada-s-space-journey § h21",
+    "section": "join-canada-s-space-journey",
+    "tag": "h2",
+    "en": "Join Canada’s Space Journey",
+    "fr": "Joignez-vous au parcours spatial du Canada",
+    "status": "translated"
+  },
+  {
+    "id": "index § join-canada-s-space-journey § p1",
+    "section": "join-canada-s-space-journey",
+    "tag": "p",
+    "en": "Interested in learning more or getting involved?",
+    "fr": "Intéressé à en apprendre davantage ou à vous impliquer?",
+    "status": "translated"
+  },
+  {
+    "id": "index § join-canada-s-space-journey § p2",
+    "section": "join-canada-s-space-journey",
+    "tag": "p",
+    "en": "We’d love to hear from you.",
+    "fr": "Nous aimerions avoir de vos nouvelles.",
+    "status": "translated"
+  },
+  {
+    "id": "index § join-canada-s-space-journey § button1",
+    "section": "join-canada-s-space-journey",
+    "tag": "button",
+    "en": "CONTACT THE OOTW25 TEAM",
+    "fr": "Contactez l’équipe d’OOTW25",
+    "status": "translated"
+  },
+  {
+    "id": "index § join-canada-s-space-journey § p3",
+    "section": "join-canada-s-space-journey",
+    "tag": "p",
+    "en": "<strong>Sources &amp; Image Credits</strong>",
+    "fr": "<strong>Sources et crédits photographiques</strong>",
+    "status": "translated"
+  },
+  {
+    "id": "index § join-canada-s-space-journey § p4",
+    "section": "join-canada-s-space-journey",
+    "tag": "p",
+    "en": "<em>This page includes information from Canadian Space Agency resources. Many images are courtesy of the </em><a href=\"https://www.asc-csa.gc.ca/eng/\" rel=\"noopener\" target=\"_blank\"><em>Canadian Space Agency (CSA)</em></a><em> and are used with permission. Other visuals are licensed stock photography or approved website assets. Image credits are provided here collectively as part of the page design. </em>",
+    "fr": "<em>Cette page comprend des renseignements provenant de ressources de l’Agence spatiale canadienne. De nombreuses images sont fournies avec l’aimable autorisation de l’</em><a href=\"https://www.asc-csa.gc.ca/eng/\" rel=\"noopener\" target=\"_blank\"><em>Agence spatiale canadienne (ASC)</em></a><em> et sont utilisées avec permission. D’autres visuels proviennent de photographies libres de droits sous licence ou d’éléments approuvés du site Web. Les crédits photographiques sont fournis ici collectivement dans le cadre de la conception de la page. </em>",
+    "status": "translated"
+  },
+  {
+    "id": "index § join-canada-s-space-journey § p5",
+    "section": "join-canada-s-space-journey",
+    "tag": "p",
+    "en": "(1) <a href=\"https://www.asc-csa.gc.ca/eng/astronauts/about-the-job/spacewalks.asp\" rel=\"noopener\" target=\"_blank\">https://www.asc-csa.gc.ca/eng/astronauts/about-the-job/spacewalks.asp</a>",
+    "fr": "(1) <a href=\"https://www.asc-csa.gc.ca/eng/astronauts/about-the-job/spacewalks.asp\" rel=\"noopener\" target=\"_blank\">https://www.asc-csa.gc.ca/eng/astronauts/about-the-job/spacewalks.asp</a>",
+    "status": "translated"
+  },
+  {
+    "id": "index § join-canada-s-space-journey § p6",
+    "section": "join-canada-s-space-journey",
+    "tag": "p",
+    "en": "(2) Jeremy Hansen. <a href=\"https://www.theglobeandmail.com/canada/science/article-artemis-ii-mission-moon-nasa-orion-capsule-astronaut-jeremyhansen/\" rel=\"noopener\" target=\"_blank\">https://www.theglobeandmail.com/canada/science/article-artemis-ii-mission-moon-nasa-orion-capsule-astronaut-jeremyhansen/</a>",
+    "fr": "(2) Jeremy Hansen. <a href=\"https://www.theglobeandmail.com/canada/science/article-artemis-ii-mission-moon-nasa-orion-capsule-astronaut-jeremyhansen/\" rel=\"noopener\" target=\"_blank\">https://www.theglobeandmail.com/canada/science/article-artemis-ii-mission-moon-nasa-orion-capsule-astronaut-jeremyhansen/</a>",
+    "status": "translated"
+  },
+  {
+    "id": "index § join-canada-s-space-journey § p7",
+    "section": "join-canada-s-space-journey",
+    "tag": "p",
+    "en": "<strong>MCYU</strong>",
+    "fr": "<strong>MCYU</strong>",
+    "status": "translated"
+  },
+  {
+    "id": "index § join-canada-s-space-journey § p8",
+    "section": "join-canada-s-space-journey",
+    "tag": "p",
+    "en": "<a href=\"mailto:mcyu@mcmaster.ca\">mcyu@mcmaster.ca</a>",
+    "fr": "<a href=\"mailto:mcyu@mcmaster.ca\">mcyu@mcmaster.ca</a>",
+    "status": "translated"
+  },
+  {
+    "id": "index § join-canada-s-space-journey § p9",
+    "section": "join-canada-s-space-journey",
+    "tag": "p",
+    "en": "<a data-tccl=\"ux2.FOOTER.footer4.Layout.Default.Link.Default.51716.click,click\" data-typography=\"LinkAlpha\" data-ux=\"Link\" href=\"tel:+19055212100,,73790\" rel=\"\">905-521-2100 ext. 73790</a>",
+    "fr": "<a data-tccl=\"ux2.FOOTER.footer4.Layout.Default.Link.Default.51716.click,click\" data-typography=\"LinkAlpha\" data-ux=\"Link\" href=\"tel:+19055212100,,73790\" rel=\"\">905-521-2100, poste 73790</a>",
+    "status": "translated"
+  },
+  {
+    "id": "index § join-canada-s-space-journey § p10",
+    "section": "join-canada-s-space-journey",
+    "tag": "p",
+    "en": "<strong>CanHist.ca</strong>",
+    "fr": "<strong>CanHist.ca</strong>",
+    "status": "translated"
+  },
+  {
+    "id": "index § join-canada-s-space-journey § p11",
+    "section": "join-canada-s-space-journey",
+    "tag": "p",
+    "en": "<a href=\"mailto:info@canhist.ca\">info@canhist.ca</a>",
+    "fr": "<a href=\"mailto:info@canhist.ca\">info@canhist.ca</a>",
+    "status": "translated"
+  },
+  {
+    "id": "index § join-canada-s-space-journey § p12",
+    "section": "join-canada-s-space-journey",
+    "tag": "p",
+    "en": "<a data-tccl=\"ux2.FOOTER.footer4.Layout.Default.Link.Default.51716.click,click\" data-typography=\"LinkAlpha\" data-ux=\"Link\" href=\"tel:+15192170402\" rel=\"\">519-217-0402</a>",
+    "fr": "<a data-tccl=\"ux2.FOOTER.footer4.Layout.Default.Link.Default.51716.click,click\" data-typography=\"LinkAlpha\" data-ux=\"Link\" href=\"tel:+15192170402\" rel=\"\">519-217-0402</a>",
+    "status": "translated"
+  }
+]

@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.superpowers/
+review.html
+corrections.json
+fr-live/
+.worktrees/
