@@ -6,3 +6,5 @@ review.html
 corrections.json
 fr-live/
 .worktrees/
+.vercel
+.env*
