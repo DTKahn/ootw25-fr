@@ -300,18 +300,54 @@ export default function ReviewPage() {
     timers.current[key] = setTimeout(() => saveRow(id, patch, stateKey), AUTOSAVE_DELAY_MS);
   }
 
-  // Auto-status rule: a non-empty Reviewer French field always means status
-  // "suggestions" (even overriding a manual "flagged"); an emptied field
-  // reverts to "not_reviewed". This is the single call site for typing and
-  // for the Live/Suggested click-to-copy cells, so the rule applies
-  // identically everywhere the field's content can change.
-  function onFrenchChange(id: string, value: string) {
-    const autoStatus: RowStatus = value.trim() === "" ? "not_reviewed" : "suggestions";
-    patchRowLocal(id, { reviewerFrench: value, status: autoStatus });
+  function isRestingStatus(status: RowStatus): status is "not_reviewed" | "no_changes" {
+    return status === "not_reviewed" || status === "no_changes";
+  }
+
+  // Before a row moves to a content-driven status ("suggestions" or
+  // "flagged"), remember its last non-content status ("not_reviewed" or
+  // "no_changes") so it can be restored once Reviewer French and Notes are
+  // both cleared again. Flipping between the two content statuses (e.g.
+  // flagged -> suggestions) must not overwrite an already-captured value.
+  function captureRestingStatus(row: Row): RowStatus | null {
+    return isRestingStatus(row.status) ? row.status : row.restingStatus;
+  }
+
+  // Only include restingStatus in the saved patch when it's a concrete
+  // value — omitting the key (rather than sending null) leaves the
+  // database column untouched via its coalesce(...) update.
+  function withRestingStatus(
+    patch: Record<string, unknown>,
+    restingStatus: RowStatus | null
+  ): Record<string, unknown> {
+    return restingStatus === null ? patch : { ...patch, restingStatus };
+  }
+
+  // Auto-status rule, combining Reviewer French and Notes:
+  // - Reviewer French non-empty -> "suggestions" (highest priority, always)
+  // - Reviewer French empty, Notes non-empty -> "flagged"
+  // - Both empty -> restore the row's last resting status
+  // This is the single call site for typing and for the Live/Suggested
+  // click-to-copy cells, so the rule applies identically everywhere the
+  // field's content can change.
+  function onFrenchChange(id: string, value: string, row: Row) {
+    const hasNotes = (row.notes ?? "").trim() !== "";
+    let status: RowStatus;
+    let restingStatus = row.restingStatus;
+    if (value.trim() !== "") {
+      restingStatus = captureRestingStatus(row);
+      status = "suggestions";
+    } else if (hasNotes) {
+      restingStatus = captureRestingStatus(row);
+      status = "flagged";
+    } else {
+      status = row.restingStatus ?? "not_reviewed";
+    }
+    patchRowLocal(id, { reviewerFrench: value, status, restingStatus });
     debouncedSave(
       `${id}:french`,
       id,
-      { reviewerFrench: value, status: autoStatus },
+      withRestingStatus({ reviewerFrench: value, status }, restingStatus),
       `${id}:french`
     );
   }
@@ -319,19 +355,34 @@ export default function ReviewPage() {
   // Auto-flag rule: adding notes content to a row that isn't already
   // "suggestions" marks it "flagged" — notes are treated as a reviewer
   // concern that needs attention, unless the row already has a suggested
-  // edit in progress.
-  function onNotesChange(id: string, value: string, currentStatus: RowStatus) {
-    const patch: Partial<Row> =
-      value.trim() !== "" && currentStatus !== "suggestions"
-        ? { notes: value, status: "flagged" }
-        : { notes: value };
-    patchRowLocal(id, patch);
-    debouncedSave(`${id}:notes`, id, patch, `${id}:notes`);
+  // edit in progress. Notes only reconsiders Reviewer French to decide
+  // whether BOTH fields are now empty (restoring the resting status); it
+  // never re-derives "suggestions" from Reviewer French's content alone —
+  // a status set by editing Notes (auto or manual) stands until Reviewer
+  // French itself is edited.
+  function onNotesChange(id: string, value: string, row: Row) {
+    const hasFrench = (row.reviewerFrench ?? "").trim() !== "";
+    let status = row.status;
+    let restingStatus = row.restingStatus;
+    if (value.trim() !== "" && row.status !== "suggestions") {
+      restingStatus = captureRestingStatus(row);
+      status = "flagged";
+    } else if (value.trim() === "" && !hasFrench) {
+      status = row.restingStatus ?? "not_reviewed";
+    }
+    patchRowLocal(id, { notes: value, status, restingStatus });
+    debouncedSave(
+      `${id}:notes`,
+      id,
+      withRestingStatus({ notes: value, status }, restingStatus),
+      `${id}:notes`
+    );
   }
 
-  function onStatusChange(id: string, status: RowStatus) {
-    patchRowLocal(id, { status });
-    saveRow(id, { status }, `${id}:status`);
+  function onStatusChange(id: string, status: RowStatus, row: Row) {
+    const restingStatus = isRestingStatus(status) ? status : row.restingStatus;
+    patchRowLocal(id, { status, restingStatus });
+    saveRow(id, withRestingStatus({ status }, restingStatus), `${id}:status`);
   }
 
   if (loading) return <p style={{ padding: "1rem" }}>Loading…</p>;
@@ -439,7 +490,7 @@ export default function ReviewPage() {
                     <select
                       className={STATUS_BADGE_CLASS[row.status]}
                       value={row.status}
-                      onChange={(e) => onStatusChange(row.id, e.target.value as RowStatus)}
+                      onChange={(e) => onStatusChange(row.id, e.target.value as RowStatus, row)}
                     >
                       {Object.entries(STATUS_LABELS).map(([value, label]) => (
                         <option key={value} value={value}>
@@ -461,7 +512,7 @@ export default function ReviewPage() {
                         type="button"
                         className="copy-cell live-cell"
                         title="Click to copy into Reviewer French"
-                        onClick={() => onFrenchChange(row.id, row.liveFrench as string)}
+                        onClick={() => onFrenchChange(row.id, row.liveFrench as string, row)}
                       >
                         {row.liveFrench}
                       </button>
@@ -474,7 +525,7 @@ export default function ReviewPage() {
                       type="button"
                       className="copy-cell suggested-cell"
                       title="Click to copy into Reviewer French"
-                      onClick={() => onFrenchChange(row.id, row.suggestedFrench)}
+                      onClick={() => onFrenchChange(row.id, row.suggestedFrench, row)}
                     >
                       {row.suggestedFrench}
                     </button>
@@ -483,7 +534,7 @@ export default function ReviewPage() {
                     <textarea
                       className="field-textarea"
                       value={row.reviewerFrench ?? ""}
-                      onChange={(e) => onFrenchChange(row.id, e.target.value)}
+                      onChange={(e) => onFrenchChange(row.id, e.target.value, row)}
                       placeholder="Write reviewer French…"
                     />
                     {frenchSaveState === "error" && (
@@ -496,7 +547,7 @@ export default function ReviewPage() {
                     <textarea
                       className="field-textarea notes-textarea"
                       value={row.notes ?? ""}
-                      onChange={(e) => onNotesChange(row.id, e.target.value, row.status)}
+                      onChange={(e) => onNotesChange(row.id, e.target.value, row)}
                       placeholder="Add a note"
                     />
                     {notesSaveState === "error" && (

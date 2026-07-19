@@ -11,6 +11,7 @@ function makeRow(overrides: Partial<Row>): Row {
     suggestedFrench: "Salut",
     reviewerFrench: null,
     status: "not_reviewed",
+    restingStatus: null,
     notes: null,
     updatedAt: "2026-01-01T00:00:00.000Z",
     ...overrides,

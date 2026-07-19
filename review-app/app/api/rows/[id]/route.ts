@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { updateRow, isValidStatus, type RowPatch } from "@/lib/rows";
+import { updateRow, isValidStatus, isValidRestingStatus, type RowPatch } from "@/lib/rows";
 
 export async function PATCH(
   request: NextRequest,
@@ -29,6 +29,12 @@ export async function PATCH(
       return NextResponse.json({ error: "invalid status" }, { status: 400 });
     }
     patch.status = body.status;
+  }
+  if ("restingStatus" in body) {
+    if (!isValidRestingStatus(body.restingStatus)) {
+      return NextResponse.json({ error: "invalid restingStatus" }, { status: 400 });
+    }
+    patch.restingStatus = body.restingStatus;
   }
 
   const updated = await updateRow(id, patch);
