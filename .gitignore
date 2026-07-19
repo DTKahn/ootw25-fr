@@ -5,3 +5,4 @@ __pycache__/
 review.html
 corrections.json
 fr-live/
+.worktrees/
