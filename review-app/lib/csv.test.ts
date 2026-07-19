@@ -23,11 +23,11 @@ describe("selectRowsForExport", () => {
     expect(selectRowsForExport(rows, "all")).toHaveLength(2);
   });
 
-  it("returns only changed/flagged rows for scope=changed", () => {
+  it("returns only suggestions/flagged rows for scope=changed", () => {
     const rows = [
       makeRow({ id: "a", status: "not_reviewed" }),
-      makeRow({ id: "b", status: "approved" }),
-      makeRow({ id: "c", status: "changed" }),
+      makeRow({ id: "b", status: "no_changes" }),
+      makeRow({ id: "c", status: "suggestions" }),
       makeRow({ id: "d", status: "flagged" }),
     ];
     const result = selectRowsForExport(rows, "changed");
@@ -63,7 +63,7 @@ describe("rowsToCsv", () => {
   });
 
   it("applies the changed-only filter before writing rows", () => {
-    const rows = [makeRow({ id: "a", status: "not_reviewed" }), makeRow({ id: "b", status: "changed" })];
+    const rows = [makeRow({ id: "a", status: "not_reviewed" }), makeRow({ id: "b", status: "suggestions" })];
     const csv = rowsToCsv(rows, "changed");
     const lines = csv.trim().split("\r\n");
     expect(lines).toHaveLength(2); // header + one changed row

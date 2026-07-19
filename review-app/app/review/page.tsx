@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { differsFromLive, type Row, type RowStatus } from "@/lib/rows";
+import { suggestedDiffersFromLive, type Row, type RowStatus } from "@/lib/rows";
 import { STATUS_LABELS, STATUS_BADGE_CLASS } from "@/lib/statusStyles";
 
 type SaveState = "idle" | "saving" | "error";
@@ -79,14 +79,14 @@ const PAGE_STYLES = `
     cursor: pointer;
   }
   .status-badge--not-reviewed { background: #e5e7eb; color: #374151; }
-  .status-badge--changed { background: #dbeafe; color: #1d4ed8; }
-  .status-badge--approved { background: #dcfce7; color: #15803d; }
+  .status-badge--suggestions { background: #dbeafe; color: #1d4ed8; }
+  .status-badge--no-changes { background: #dcfce7; color: #15803d; }
   .status-badge--flagged { background: #fee2e2; color: #b91c1c; }
   @media (prefers-color-scheme: dark) {
     table.review-table tbody tr:hover { background: #ffffff10; }
     .status-badge--not-reviewed { background: #37415199; color: #d1d5db; }
-    .status-badge--changed { background: #1d4ed855; color: #93c5fd; }
-    .status-badge--approved { background: #15803d55; color: #86efac; }
+    .status-badge--suggestions { background: #1d4ed855; color: #93c5fd; }
+    .status-badge--no-changes { background: #15803d55; color: #86efac; }
     .status-badge--flagged { background: #b91c1c55; color: #fca5a5; }
   }
 `;
@@ -169,11 +169,11 @@ export default function ReviewPage() {
   }
 
   // Auto-status rule: a non-empty Reviewer French field always means status
-  // "changed" (even overriding a manual "flagged"); an emptied field reverts
+  // "suggestions" (even overriding a manual "flagged"); an emptied field reverts
   // to "not_reviewed". This is the single call site for both manual typing
   // and the "Use suggested" button, so the rule applies identically to both.
   function onFrenchChange(id: string, value: string) {
-    const autoStatus: RowStatus = value.trim() === "" ? "not_reviewed" : "changed";
+    const autoStatus: RowStatus = value.trim() === "" ? "not_reviewed" : "suggestions";
     patchRowLocal(id, { reviewerFrench: value, status: autoStatus });
     debouncedSave(
       `${id}:french`,
@@ -258,7 +258,7 @@ export default function ReviewPage() {
           </thead>
           <tbody>
             {filteredRows.map((row) => {
-              const differs = differsFromLive(row);
+              const differs = suggestedDiffersFromLive(row);
               const frenchSaveState = saveStates[`${row.id}:french`] ?? "idle";
               const notesSaveState = saveStates[`${row.id}:notes`] ?? "idle";
               const statusSaveState = saveStates[`${row.id}:status`] ?? "idle";
