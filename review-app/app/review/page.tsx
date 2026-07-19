@@ -108,7 +108,17 @@ const PAGE_STYLES = `
     font-weight: 500;
     color: var(--input-text);
   }
-  select.filter-control { cursor: pointer; }
+  select.filter-control {
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 0 34px 0 12px;
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 10px 10px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Cpath fill='none' stroke='%23666666' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' d='M3 4.5L6 7.5L9 4.5'/%3E%3C/svg%3E");
+  }
   input.filter-control { flex: 1; min-width: 220px; max-width: 360px; }
   .table-card {
     background: var(--card-bg);
@@ -145,12 +155,19 @@ const PAGE_STYLES = `
   .status-badge {
     width: 100%;
     height: 30px;
-    padding: 0 8px;
+    padding: 0 28px 0 12px;
     border-radius: 20px;
     border: none;
     font-size: 11.5px;
     font-weight: 700;
     cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 9px 9px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Cpath fill='none' stroke='%23666666' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' d='M3 4.5L6 7.5L9 4.5'/%3E%3C/svg%3E");
   }
   .id-cell {
     font-family: ui-monospace, monospace;
@@ -199,10 +216,10 @@ const PAGE_STYLES = `
   }
   .notes-textarea { min-height: 34px; font-size: 13px; }
   .meta-text { font-size: 0.75rem; color: var(--text-muted); }
-  .status-badge--not-reviewed { background: oklch(92% 0.006 90); color: oklch(45% 0.01 260); }
-  .status-badge--no-changes { background: oklch(92% 0.07 150); color: oklch(38% 0.1 150); }
-  .status-badge--suggestions { background: oklch(93% 0.07 250); color: oklch(42% 0.13 260); }
-  .status-badge--flagged { background: oklch(93% 0.06 25); color: oklch(45% 0.14 25); }
+  .status-badge--not-reviewed { background-color: oklch(92% 0.006 90); color: oklch(45% 0.01 260); }
+  .status-badge--no-changes { background-color: oklch(92% 0.07 150); color: oklch(38% 0.1 150); }
+  .status-badge--suggestions { background-color: oklch(93% 0.07 250); color: oklch(42% 0.13 260); }
+  .status-badge--flagged { background-color: oklch(93% 0.06 25); color: oklch(45% 0.14 25); }
 `;
 
 export default function ReviewPage() {
