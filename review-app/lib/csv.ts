@@ -5,7 +5,6 @@ const COLUMNS: { key: keyof Row; header: string }[] = [
   { key: "page", header: "Page" },
   { key: "english", header: "English" },
   { key: "liveFrench", header: "Live French" },
-  { key: "suggestedFrench", header: "Suggested French" },
   { key: "reviewerFrench", header: "Reviewer French" },
   { key: "status", header: "Status" },
   { key: "notes", header: "Notes" },

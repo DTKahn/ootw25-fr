@@ -41,9 +41,7 @@ describe("rowsToCsv", () => {
     const csv = rowsToCsv(rows, "all");
     const lines = csv.trim().split("\r\n");
     expect(lines).toHaveLength(2);
-    expect(lines[0]).toBe(
-      "ID,Page,English,Live French,Suggested French,Reviewer French,Status,Notes"
-    );
+    expect(lines[0]).toBe("ID,Page,English,Live French,Reviewer French,Status,Notes");
   });
 
   it("escapes commas, quotes, and newlines", () => {
@@ -58,8 +56,8 @@ describe("rowsToCsv", () => {
     const dataLine = csv.trim().split("\r\n")[1];
     const fields = dataLine.split(",");
     expect(fields[3]).toBe(""); // Live French column
-    expect(fields[5]).toBe(""); // Reviewer French column
-    expect(fields[7]).toBe(""); // Notes column
+    expect(fields[4]).toBe(""); // Reviewer French column
+    expect(fields[6]).toBe(""); // Notes column
   });
 
   it("applies the changed-only filter before writing rows", () => {
