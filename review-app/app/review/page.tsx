@@ -12,6 +12,13 @@ const RETRY_DELAY_MS = 1000;
 const ACCENT = "#4f46e5";
 const GRID_COLUMNS = "168px 160px 1fr 1fr 1fr 1fr 220px";
 
+const ROW_STATUS_BG: Record<RowStatus, string | undefined> = {
+  not_reviewed: undefined,
+  no_changes: "var(--no-changes-row-bg)",
+  suggestions: "var(--suggestions-row-bg)",
+  flagged: "var(--flagged-row-bg)",
+};
+
 const PAGE_STYLES = `
   :root {
     color-scheme: light;
@@ -32,7 +39,10 @@ const PAGE_STYLES = `
     --input-border: oklch(89% 0.006 90);
     --input-text: oklch(25% 0.01 260);
     --input-bg: white;
+    --field-filled-bg: oklch(96% 0.025 265);
     --progress-track: oklch(90% 0.006 90);
+    --no-changes-row-bg: oklch(98% 0.025 150);
+    --suggestions-row-bg: oklch(98% 0.025 260);
     --flagged-row-bg: oklch(99% 0.01 25);
     --export-outline-bg: white;
     --export-outline-text: oklch(35% 0.01 260);
@@ -221,6 +231,7 @@ const PAGE_STYLES = `
     box-sizing: border-box;
   }
   .notes-textarea { min-height: 34px; font-size: 13px; }
+  .field-textarea--filled { background: var(--field-filled-bg); }
   .meta-text { font-size: 0.75rem; color: var(--text-muted); }
   .status-badge--not-reviewed { background-color: oklch(92% 0.006 90); color: oklch(45% 0.01 260); }
   .status-badge--no-changes { background-color: oklch(92% 0.07 150); color: oklch(38% 0.1 150); }
@@ -498,7 +509,7 @@ export default function ReviewPage() {
                   className="grid-row grid-data-row"
                   style={{
                     gridTemplateColumns: GRID_COLUMNS,
-                    background: row.status === "flagged" ? "var(--flagged-row-bg)" : undefined,
+                    background: ROW_STATUS_BG[row.status],
                   }}
                 >
                   <div className="grid-cell">
@@ -547,7 +558,9 @@ export default function ReviewPage() {
                   </div>
                   <div className="grid-cell">
                     <textarea
-                      className="field-textarea"
+                      className={`field-textarea${
+                        (row.reviewerFrench ?? "").trim() !== "" ? " field-textarea--filled" : ""
+                      }`}
                       value={row.reviewerFrench ?? ""}
                       onChange={(e) => onFrenchChange(row.id, e.target.value, row)}
                       placeholder="Write reviewer French…"
@@ -560,7 +573,9 @@ export default function ReviewPage() {
                   </div>
                   <div className="grid-cell">
                     <textarea
-                      className="field-textarea notes-textarea"
+                      className={`field-textarea notes-textarea${
+                        (row.notes ?? "").trim() !== "" ? " field-textarea--filled" : ""
+                      }`}
                       value={row.notes ?? ""}
                       onChange={(e) => onNotesChange(row.id, e.target.value, row)}
                       placeholder="Add a note"
