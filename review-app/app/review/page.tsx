@@ -391,7 +391,7 @@ export default function ReviewPage() {
           <option value="all">All pages</option>
           {pages.map((p) => (
             <option key={p} value={p}>
-              {p}
+              {p === "index" ? "index (home page)" : p}
             </option>
           ))}
         </select>
