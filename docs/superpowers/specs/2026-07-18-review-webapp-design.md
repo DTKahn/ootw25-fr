@@ -1,7 +1,7 @@
 # Review Web App — Design Spec
 
 Date: 2026-07-18
-Status: Approved, pending implementation plan
+Status: Approved
 
 ## Purpose
 
@@ -100,8 +100,8 @@ from whether `reviewer_french` differs from `suggested_french`, since a row can 
 
 **Export**
 - `GET /api/export?scope=all` — every row, current state.
-- `GET /api/export?scope=changed` — only rows where `status != not_reviewed`
-  (or `reviewer_french` is set / `status == flagged`; see open question below).
+- `GET /api/export?scope=changed` — only rows where `status` is `changed` or
+  `flagged`.
 - Both generate CSV server-side from current DB state and stream it to the
   browser as a download.
 
@@ -126,11 +126,8 @@ Scoped to where correctness actually matters, not blanket coverage:
 - CSV export formatting — correct escaping, and correct filtering between
   `all` and `changed` scopes.
 
-## Open questions for implementation planning
+## Decisions
 
-- Exact definition of "changed" for the `scope=changed` export: any row with
-  `status` in (`changed`, `flagged`), or also including `approved` rows where
-  `reviewer_french` differs from `suggested_french`? Needs a decision when
-  writing the implementation plan.
-- Whether `review.html` (the current artifact) stays available as a fallback/
-  secondary view during the transition, or is retired once the web app ships.
+- "Changed" scope for export = rows with `status` in (`changed`, `flagged`).
+- The current Claude Artifact (`review.html`) is retired once the web app ships;
+  no need to maintain it as a fallback during/after the transition.
