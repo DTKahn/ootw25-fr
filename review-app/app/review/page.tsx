@@ -457,7 +457,6 @@ export default function ReviewPage() {
                         </option>
                       ))}
                     </select>
-                    {statusSaveState === "saving" && <div className="meta-text">saving…</div>}
                     {statusSaveState === "error" && (
                       <div className="meta-text" style={{ color: "crimson" }}>
                         save failed — edit again to retry
@@ -497,7 +496,6 @@ export default function ReviewPage() {
                       onChange={(e) => onFrenchChange(row.id, e.target.value)}
                       placeholder="Write reviewer French…"
                     />
-                    {frenchSaveState === "saving" && <div className="meta-text">saving…</div>}
                     {frenchSaveState === "error" && (
                       <div className="meta-text" style={{ color: "crimson" }}>
                         save failed — edit again to retry
@@ -511,7 +509,6 @@ export default function ReviewPage() {
                       onChange={(e) => onNotesChange(row.id, e.target.value)}
                       placeholder="Add a note"
                     />
-                    {notesSaveState === "saving" && <div className="meta-text">saving…</div>}
                     {notesSaveState === "error" && (
                       <div className="meta-text" style={{ color: "crimson" }}>
                         save failed — edit again to retry
